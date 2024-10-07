@@ -1,0 +1,777 @@
+[
+    {
+        "text": ">> You don't want to miss this episode",
+        "start": 0.0,
+        "duration": 2.67
+    },
+    {
+        "text": "of the AI show where we cover",
+        "start": 2.67,
+        "duration": 1.44
+    },
+    {
+        "text": "Azure Open AI learning path on",
+        "start": 4.11,
+        "duration": 1.82
+    },
+    {
+        "text": "Microsoft Learn and the newest generative AI module.",
+        "start": 5.93,
+        "duration": 4.26
+    },
+    {
+        "text": "Welcome everybody to another episode of the AI show.",
+        "start": 15.35,
+        "duration": 3.84
+    },
+    {
+        "text": "We will bring you the latest and greatest in the world of AI.",
+        "start": 19.19,
+        "duration": 3.125
+    },
+    {
+        "text": "It's great to be back here today and we have",
+        "start": 22.315,
+        "duration": 1.875
+    },
+    {
+        "text": "a special guest joining us, Ivor Berry,",
+        "start": 24.19,
+        "duration": 2.3
+    },
+    {
+        "text": "to share some of the updates around",
+        "start": 26.49,
+        "duration": 1.5
+    },
+    {
+        "text": "the newest learning path available",
+        "start": 27.99,
+        "duration": 1.6
+    },
+    {
+        "text": "today in Microsoft Learn and if you're not familiar with it,",
+        "start": 29.59,
+        "duration": 3.34
+    },
+    {
+        "text": "Microsoft Learn is our free and interactive learning platform",
+        "start": 32.93,
+        "duration": 3.38
+    },
+    {
+        "text": "to feed that hunger and knowledge for skiling.",
+        "start": 36.31,
+        "duration": 2.515
+    },
+    {
+        "text": "Ivor, I'll pass it over to you to",
+        "start": 38.825,
+        "duration": 1.825
+    },
+    {
+        "text": "introduce yourself before we hop into our demo.",
+        "start": 40.65,
+        "duration": 2.65
+    },
+    {
+        "text": ">> Great, thanks Rob.",
+        "start": 43.3,
+        "duration": 2.195
+    },
+    {
+        "text": "My name is Ivor Berry, I'm a Content",
+        "start": 45.495,
+        "duration": 2.235
+    },
+    {
+        "text": "Developer focusing on Azure AI.",
+        "start": 47.73,
+        "duration": 3.825
+    },
+    {
+        "text": "Azure AI has credentials, things like that,",
+        "start": 51.555,
+        "duration": 2.755
+    },
+    {
+        "text": "but it mostly is focusing on what we're talking",
+        "start": 54.31,
+        "duration": 2.24
+    },
+    {
+        "text": "about today, Azure Open AI.",
+        "start": 56.55,
+        "duration": 2.865
+    },
+    {
+        "text": ">> Absolutely. Well, with that said,",
+        "start": 59.415,
+        "duration": 2.755
+    },
+    {
+        "text": "let's actually hop into the demo so we could actually see what",
+        "start": 62.17,
+        "duration": 2.54
+    },
+    {
+        "text": "the newest module is in the Azure Open AI learning path.",
+        "start": 64.71,
+        "duration": 2.96
+    },
+    {
+        "text": ">> Great. Happy to jump in.",
+        "start": 67.67,
+        "duration": 2.16
+    },
+    {
+        "text": "The module topic that we're talking about today",
+        "start": 69.83,
+        "duration": 3.52
+    },
+    {
+        "text": "is included in this learning path that",
+        "start": 73.35,
+        "duration": 2.02
+    },
+    {
+        "text": "is available on Microsoft Learn right now.",
+        "start": 75.37,
+        "duration": 2.26
+    },
+    {
+        "text": "The topic is going to be about grounding",
+        "start": 77.63,
+        "duration": 2.87
+    },
+    {
+        "text": "your Azure Open AI Service in your data.",
+        "start": 80.5,
+        "duration": 6.295
+    },
+    {
+        "text": "We're looking at this learning path,",
+        "start": 86.795,
+        "duration": 2.595
+    },
+    {
+        "text": "you'll see all information from",
+        "start": 89.39,
+        "duration": 2.36
+    },
+    {
+        "text": "deploying models using natural language,",
+        "start": 91.75,
+        "duration": 3.135
+    },
+    {
+        "text": "prompt engineering, generating code, and images.",
+        "start": 94.885,
+        "duration": 3.155
+    },
+    {
+        "text": "Then the one that we're going to focus on is using your own data.",
+        "start": 98.04,
+        "duration": 3.01
+    },
+    {
+        "text": "The power of using your own data allows you to",
+        "start": 101.05,
+        "duration": 2.56
+    },
+    {
+        "text": "actually upload company data or anything that you",
+        "start": 103.61,
+        "duration": 2.9
+    },
+    {
+        "text": "might need and then use",
+        "start": 106.51,
+        "duration": 1.96
+    },
+    {
+        "text": "Azure Open AI to reference that data when providing answers.",
+        "start": 108.47,
+        "duration": 4.84
+    },
+    {
+        "text": "Within this module, we have units that",
+        "start": 113.31,
+        "duration": 2.7
+    },
+    {
+        "text": "explain what we're doing and how we're doing it.",
+        "start": 116.01,
+        "duration": 2.66
+    },
+    {
+        "text": "Then hands-on exercise for you to try yourself.",
+        "start": 118.67,
+        "duration": 2.98
+    },
+    {
+        "text": "Let's jump into the Azure AI Studio.",
+        "start": 121.65,
+        "duration": 3.74
+    },
+    {
+        "text": "Here you have all the options for using Azure AI.",
+        "start": 127.88,
+        "duration": 5.29
+    },
+    {
+        "text": "First, we're going to dive into creating our deployment.",
+        "start": 133.17,
+        "duration": 3.44
+    },
+    {
+        "text": "You can create deployments for any",
+        "start": 136.61,
+        "duration": 2.32
+    },
+    {
+        "text": "of the available models on Azure Open.",
+        "start": 138.93,
+        "duration": 2.64
+    },
+    {
+        "text": "Here you can see a full list of what's available.",
+        "start": 141.57,
+        "duration": 3.48
+    },
+    {
+        "text": "We have gpt-35 turbo.",
+        "start": 145.05,
+        "duration": 2.88
+    },
+    {
+        "text": "We have different generations of",
+        "start": 147.93,
+        "duration": 2.56
+    },
+    {
+        "text": "gpt-3 models and embedding and similarity models.",
+        "start": 150.49,
+        "duration": 5.14
+    },
+    {
+        "text": "Today, we're going to go ahead and use the gpt-35 turbo model,",
+        "start": 155.63,
+        "duration": 4.295
+    },
+    {
+        "text": "which if you use",
+        "start": 159.925,
+        "duration": 1.535
+    },
+    {
+        "text": "ChatGPT or any of those generally available models,",
+        "start": 161.46,
+        "duration": 3.15
+    },
+    {
+        "text": "this is likely what you've used.",
+        "start": 164.61,
+        "duration": 1.92
+    },
+    {
+        "text": "We're going to name it Azure Demo Create.",
+        "start": 166.53,
+        "duration": 9.3
+    },
+    {
+        "text": "Once created, we can jump over into",
+        "start": 175.83,
+        "duration": 2.52
+    },
+    {
+        "text": "the playground and go ahead and start using it.",
+        "start": 178.35,
+        "duration": 3.93
+    },
+    {
+        "text": "Here if you've used Azure Open AI,",
+        "start": 182.28,
+        "duration": 2.55
+    },
+    {
+        "text": "you'll see familiar panes.",
+        "start": 184.83,
+        "duration": 1.92
+    },
+    {
+        "text": "One for assistant setup,",
+        "start": 186.75,
+        "duration": 1.34
+    },
+    {
+        "text": "one is our chat session and one is our configuration.",
+        "start": 188.09,
+        "duration": 2.82
+    },
+    {
+        "text": "In addition, and what we're going to be focusing on today",
+        "start": 190.91,
+        "duration": 3.12
+    },
+    {
+        "text": "is a new tab in the assistant set up for adding your own data.",
+        "start": 194.03,
+        "duration": 3.78
+    },
+    {
+        "text": "Here you're going to be able to connect to",
+        "start": 197.81,
+        "duration": 2.7
+    },
+    {
+        "text": "an Azure search resource to use as",
+        "start": 200.51,
+        "duration": 3.5
+    },
+    {
+        "text": "grounding data for responses that",
+        "start": 204.01,
+        "duration": 1.86
+    },
+    {
+        "text": "the AI model is going to provide.",
+        "start": 205.87,
+        "duration": 2.96
+    },
+    {
+        "text": "Before we get into that, I want",
+        "start": 208.83,
+        "duration": 2.52
+    },
+    {
+        "text": "to give a quick example of what we're going to be doing.",
+        "start": 211.35,
+        "duration": 4.015
+    },
+    {
+        "text": "If we wanted to ask an AI model,",
+        "start": 215.365,
+        "duration": 2.93
+    },
+    {
+        "text": "say, where should I stay in London or in New York?",
+        "start": 218.295,
+        "duration": 5.055
+    },
+    {
+        "text": "You'll get a pretty standard answer of",
+        "start": 228.75,
+        "duration": 2.96
+    },
+    {
+        "text": "different areas of New York and places you can stay.",
+        "start": 231.71,
+        "duration": 2.42
+    },
+    {
+        "text": "This is all information that you",
+        "start": 234.13,
+        "duration": 1.3
+    },
+    {
+        "text": "could find with an Internet search,",
+        "start": 235.43,
+        "duration": 1.78
+    },
+    {
+        "text": "but an AI model is providing for you.",
+        "start": 237.21,
+        "duration": 2.96
+    },
+    {
+        "text": "But say that we are a travel agency that we want to",
+        "start": 240.17,
+        "duration": 4.88
+    },
+    {
+        "text": "provide data for the model to then",
+        "start": 245.05,
+        "duration": 2.32
+    },
+    {
+        "text": "return to users where asking where to stay.",
+        "start": 247.37,
+        "duration": 3.22
+    },
+    {
+        "text": "That's the example we're going to be walking through today.",
+        "start": 250.59,
+        "duration": 3.08
+    },
+    {
+        "text": "In our example, we are a company called Margie's Travel and",
+        "start": 253.67,
+        "duration": 3.66
+    },
+    {
+        "text": "we have these pamphlets about Margie Travel.",
+        "start": 257.33,
+        "duration": 3.35
+    },
+    {
+        "text": "There are places that we can stay,",
+        "start": 260.68,
+        "duration": 1.61
+    },
+    {
+        "text": "places that can be booked through",
+        "start": 262.29,
+        "duration": 1.44
+    },
+    {
+        "text": "Margie's travel and other information about the cities.",
+        "start": 263.73,
+        "duration": 3.46
+    },
+    {
+        "text": "The information we have is around New York,",
+        "start": 267.19,
+        "duration": 3.12
+    },
+    {
+        "text": "San Francisco, Las Vegas, and London.",
+        "start": 270.31,
+        "duration": 4.73
+    },
+    {
+        "text": "All of these with different hotels",
+        "start": 275.04,
+        "duration": 2.76
+    },
+    {
+        "text": "and information about the cities.",
+        "start": 277.8,
+        "duration": 2.56
+    },
+    {
+        "text": "Let's go ahead and connect our data.",
+        "start": 280.8,
+        "duration": 3.16
+    },
+    {
+        "text": "When going through the lab, we",
+        "start": 284.64,
+        "duration": 4.32
+    },
+    {
+        "text": "have three options for connecting our data.",
+        "start": 288.96,
+        "duration": 1.8
+    },
+    {
+        "text": "One is an existing Azure search resource with an index.",
+        "start": 290.76,
+        "duration": 4.28
+    },
+    {
+        "text": "You can connect data that lives on",
+        "start": 295.04,
+        "duration": 1.94
+    },
+    {
+        "text": "block storage or you can upload files.",
+        "start": 296.98,
+        "duration": 2.72
+    },
+    {
+        "text": "Now if going through the lab",
+        "start": 299.7,
+        "duration": 2.36
+    },
+    {
+        "text": "that is available on this learning path we're talking about today,",
+        "start": 302.06,
+        "duration": 2.68
+    },
+    {
+        "text": "it will walk you through uploading your own files,",
+        "start": 304.74,
+        "duration": 2.62
+    },
+    {
+        "text": "creating your own resources, and so on.",
+        "start": 307.36,
+        "duration": 3.24
+    },
+    {
+        "text": "For the sake of time, we're going to use",
+        "start": 310.6,
+        "duration": 1.88
+    },
+    {
+        "text": "a search resource I've already created.",
+        "start": 312.48,
+        "duration": 2.41
+    },
+    {
+        "text": "Here I have selected my search resource, my index.",
+        "start": 314.89,
+        "duration": 5.05
+    },
+    {
+        "text": "I'm going to acknowledge use defaults for the rest of my settings.",
+        "start": 319.94,
+        "duration": 6.415
+    },
+    {
+        "text": "Select keyword search type, and close.",
+        "start": 326.355,
+        "duration": 5.935
+    },
+    {
+        "text": "Here you can see now I've connected data source,",
+        "start": 332.29,
+        "duration": 4.11
+    },
+    {
+        "text": "our search resource, and our index.",
+        "start": 336.4,
+        "duration": 3.08
+    },
+    {
+        "text": "This also automatically starts a new chat session.",
+        "start": 339.48,
+        "duration": 3.6
+    },
+    {
+        "text": "We can then go ask other questions.",
+        "start": 343.08,
+        "duration": 3.92
+    },
+    {
+        "text": "If we're to asked the same question,",
+        "start": 347.0,
+        "duration": 2.18
+    },
+    {
+        "text": "where should I stay in New York?",
+        "start": 349.18,
+        "duration": 3.1
+    },
+    {
+        "text": "This time you'll get an answer that's based on",
+        "start": 358.91,
+        "duration": 3.18
+    },
+    {
+        "text": "the content that we uploaded about Margie's Travel.",
+        "start": 362.09,
+        "duration": 3.39
+    },
+    {
+        "text": "It tells you the different hotels",
+        "start": 365.48,
+        "duration": 2.03
+    },
+    {
+        "text": "that are available through Margie's Travel and",
+        "start": 367.51,
+        "duration": 1.72
+    },
+    {
+        "text": "provides a reference to that brochure that we had seen previously.",
+        "start": 369.23,
+        "duration": 4.56
+    },
+    {
+        "text": "In addition, we could say what is Las Vegas known for,",
+        "start": 373.79,
+        "duration": 9.92
+    },
+    {
+        "text": "which is included in that brochure?",
+        "start": 383.71,
+        "duration": 2.395
+    },
+    {
+        "text": "Here we'll get another answer about what Vegas is known",
+        "start": 386.105,
+        "duration": 4.245
+    },
+    {
+        "text": "for with the reference to the data that it was grafted in.",
+        "start": 390.35,
+        "duration": 4.115
+    },
+    {
+        "text": "Then say we want to ask tell me about Margie's travel,",
+        "start": 394.465,
+        "duration": 6.675
+    },
+    {
+        "text": "which gives you information about",
+        "start": 408.15,
+        "duration": 2.34
+    },
+    {
+        "text": "our fictional travel agency including leaders, things like that,",
+        "start": 410.49,
+        "duration": 5.2
+    },
+    {
+        "text": "our website with the full reference and all",
+        "start": 415.69,
+        "duration": 3.62
+    },
+    {
+        "text": "of that data can be found on the pamphlets that we uploaded.",
+        "start": 419.31,
+        "duration": 4.67
+    },
+    {
+        "text": "That Rob is the demo that you get to go",
+        "start": 430.43,
+        "duration": 4.12
+    },
+    {
+        "text": "through in this [inaudible].",
+        "start": 434.55,
+        "duration": 4.59
+    },
+    {
+        "text": ">> Absolutely fantastic.",
+        "start": 439.14,
+        "duration": 1.53
+    },
+    {
+        "text": "This is one of the things that makes",
+        "start": 440.67,
+        "duration": 2.02
+    },
+    {
+        "text": "me super excited about Microsoft Learn is",
+        "start": 442.69,
+        "duration": 2.32
+    },
+    {
+        "text": "that hands-on component that just truly",
+        "start": 445.01,
+        "duration": 2.24
+    },
+    {
+        "text": "gives you a sense of what's possible with these solutions.",
+        "start": 447.25,
+        "duration": 2.26
+    },
+    {
+        "text": "I honestly cannot wait to give this to go myself this week.",
+        "start": 449.51,
+        "duration": 2.86
+    },
+    {
+        "text": "Thank you for that incredible demo",
+        "start": 452.37,
+        "duration": 1.74
+    },
+    {
+        "text": "and showcasing it to not only myself,",
+        "start": 454.11,
+        "duration": 1.92
+    },
+    {
+        "text": "but our viewers and audience as well",
+        "start": 456.03,
+        "duration": 1.94
+    },
+    {
+        "text": "but can you just remind our viewers where they can",
+        "start": 457.97,
+        "duration": 2.18
+    },
+    {
+        "text": "go to get started with this today and",
+        "start": 460.15,
+        "duration": 2.1
+    },
+    {
+        "text": "any other additional resources that they might need as well.",
+        "start": 462.25,
+        "duration": 3.145
+    },
+    {
+        "text": ">> Absolutely. You can find this module and",
+        "start": 465.395,
+        "duration": 3.615
+    },
+    {
+        "text": "all the rest of the modules on as",
+        "start": 469.01,
+        "duration": 1.38
+    },
+    {
+        "text": "Azure Open AI on Microsoft Learn.",
+        "start": 470.39,
+        "duration": 2.54
+    },
+    {
+        "text": "You'll see the link below for a",
+        "start": 472.93,
+        "duration": 2.26
+    },
+    {
+        "text": "quick link to get to this learning path.",
+        "start": 475.19,
+        "duration": 2.16
+    },
+    {
+        "text": "There are currently seven modules in that and we are continually",
+        "start": 477.35,
+        "duration": 2.84
+    },
+    {
+        "text": "updating and adding content there. Keep checking back.",
+        "start": 480.19,
+        "duration": 3.695
+    },
+    {
+        "text": "Additionally, it is worth noting",
+        "start": 483.885,
+        "duration": 2.755
+    },
+    {
+        "text": "that the Azure AI Studio is available,",
+        "start": 486.64,
+        "duration": 3.4
+    },
+    {
+        "text": "which you saw me working in to interact,",
+        "start": 490.04,
+        "duration": 3.96
+    },
+    {
+        "text": "deploy, chat with models and do all things Azure Open AI.",
+        "start": 494.0,
+        "duration": 5.525
+    },
+    {
+        "text": ">> Awesome Berry.",
+        "start": 499.525,
+        "duration": 2.42
+    },
+    {
+        "text": "Well, thank you so much for being part of",
+        "start": 501.945,
+        "duration": 1.675
+    },
+    {
+        "text": "this episode and we can't wait to see you next week.",
+        "start": 503.62,
+        "duration": 3.495
+    },
+    {
+        "text": ">> Thanks Rob.",
+        "start": 507.115,
+        "duration": 1.76
+    },
+    {
+        "text": ">> Thank you.",
+        "start": 508.875,
+        "duration": 2.005
+    }
+]

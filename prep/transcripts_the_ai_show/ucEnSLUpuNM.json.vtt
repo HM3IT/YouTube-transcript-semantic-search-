@@ -1,0 +1,2082 @@
+[
+    {
+        "text": ">> You're not going to want to miss this episode of the AI show.",
+        "start": 0.0,
+        "duration": 2.4
+    },
+    {
+        "text": "We talk all about elevating your document management with",
+        "start": 2.4,
+        "duration": 2.36
+    },
+    {
+        "text": "Azure AI Document Intelligence",
+        "start": 4.76,
+        "duration": 1.92
+    },
+    {
+        "text": "with my friend Bema, make sure you tune in.",
+        "start": 6.68,
+        "duration": 1.68
+    },
+    {
+        "text": "[MUSIC] Hello and welcome to this episode of the AI show.",
+        "start": 8.36,
+        "duration": 8.76
+    },
+    {
+        "text": "We're talking all about elevating your document management",
+        "start": 17.12,
+        "duration": 2.38
+    },
+    {
+        "text": "with Azure AI Document Intelligence with my friend Bema,",
+        "start": 19.5,
+        "duration": 2.6
+    },
+    {
+        "text": "how you doing, my friend?",
+        "start": 22.1,
+        "duration": 1.09
+    },
+    {
+        "text": ">> I'm doing great, how are you?",
+        "start": 23.19,
+        "duration": 1.305
+    },
+    {
+        "text": ">> Great, so tell us who you are and what you do.",
+        "start": 24.495,
+        "duration": 1.785
+    },
+    {
+        "text": ">> Yes, I am a Product Manager on",
+        "start": 26.28,
+        "duration": 2.5
+    },
+    {
+        "text": "the Azure AI Document Intelligence team and I'm",
+        "start": 28.78,
+        "duration": 2.66
+    },
+    {
+        "text": "super excited to show you what we've",
+        "start": 31.44,
+        "duration": 1.36
+    },
+    {
+        "text": "brought to our new public preview.",
+        "start": 32.8,
+        "duration": 2.495
+    },
+    {
+        "text": ">> Azure AI Document Intelligence sounds new to me.",
+        "start": 35.295,
+        "duration": 4.325
+    },
+    {
+        "text": "It's not a product I've heard about, can you fill me in?",
+        "start": 39.62,
+        "duration": 2.34
+    },
+    {
+        "text": ">> Yes you are exactly correct.",
+        "start": 41.96,
+        "duration": 2.44
+    },
+    {
+        "text": "The first thing I'd actually like to discuss is the rename.",
+        "start": 44.4,
+        "duration": 3.0
+    },
+    {
+        "text": "We are now the product formerly known as, Form Recognizer.",
+        "start": 47.4,
+        "duration": 3.51
+    },
+    {
+        "text": "We now go by Azure AI Document Intelligence,",
+        "start": 50.91,
+        "duration": 3.04
+    },
+    {
+        "text": "and we didn't just change the name",
+        "start": 53.95,
+        "duration": 1.17
+    },
+    {
+        "text": "because it looks better on paper.",
+        "start": 55.12,
+        "duration": 1.42
+    },
+    {
+        "text": "We made this change because we",
+        "start": 56.54,
+        "duration": 1.22
+    },
+    {
+        "text": "believe that the new name more accurately",
+        "start": 57.76,
+        "duration": 1.64
+    },
+    {
+        "text": "represents what our product",
+        "start": 59.4,
+        "duration": 1.36
+    },
+    {
+        "text": "does now and what we plan to do in the future.",
+        "start": 60.76,
+        "duration": 2.5
+    },
+    {
+        "text": "We don't just deal with forms,",
+        "start": 63.26,
+        "duration": 2.12
+    },
+    {
+        "text": "we deal with all types of styles of documents,",
+        "start": 65.38,
+        "duration": 2.06
+    },
+    {
+        "text": "both structured and unstructured.",
+        "start": 67.44,
+        "duration": 1.51
+    },
+    {
+        "text": "Our goal is to empower customers to be able to do more with",
+        "start": 68.95,
+        "duration": 2.81
+    },
+    {
+        "text": "their documents and enable",
+        "start": 71.76,
+        "duration": 1.36
+    },
+    {
+        "text": "powerful document understanding use cases.",
+        "start": 73.12,
+        "duration": 2.72
+    },
+    {
+        "text": "With our most recent public preview,",
+        "start": 75.84,
+        "duration": 2.2
+    },
+    {
+        "text": "we have taken another big step in continuing to reach this goal.",
+        "start": 78.04,
+        "duration": 2.86
+    },
+    {
+        "text": "You will notice that in this new studio,",
+        "start": 80.9,
+        "duration": 2.96
+    },
+    {
+        "text": "this change has been already reflected,",
+        "start": 83.86,
+        "duration": 2.63
+    },
+    {
+        "text": "and that's both in the naming in the studio and also in our URL,",
+        "start": 86.49,
+        "duration": 3.45
+    },
+    {
+        "text": "which is now documentintelligence.ai.azure.com/studio.",
+        "start": 89.94,
+        "duration": 5.1
+    },
+    {
+        "text": ">> Lovely.",
+        "start": 95.04,
+        "duration": 0.6
+    },
+    {
+        "text": ">> If you're ready,",
+        "start": 95.64,
+        "duration": 1.38
+    },
+    {
+        "text": "let's just hop in and look at what's new in this new preview.",
+        "start": 97.02,
+        "duration": 2.425
+    },
+    {
+        "text": ">> Let's do it. This is cool.",
+        "start": 99.445,
+        "duration": 2.94
+    },
+    {
+        "text": "It used to be called Form Recognizer,",
+        "start": 102.385,
+        "duration": 2.975
+    },
+    {
+        "text": "but now it's Azure AI Document Intelligence Studio",
+        "start": 105.36,
+        "duration": 3.51
+    },
+    {
+        "text": "has a new URI and everything.",
+        "start": 108.87,
+        "duration": 1.925
+    },
+    {
+        "text": "What are some of the new things,",
+        "start": 110.795,
+        "duration": 1.925
+    },
+    {
+        "text": "because we've done a lot of Form Recognizer,",
+        "start": 112.72,
+        "duration": 2.0
+    },
+    {
+        "text": "but I bet there's also new stuff in here as well.",
+        "start": 114.72,
+        "duration": 2.245
+    },
+    {
+        "text": ">> There's a lot of new stuff.",
+        "start": 116.965,
+        "duration": 1.97
+    },
+    {
+        "text": "Let's start with layout, actually.",
+        "start": 118.935,
+        "duration": 2.905
+    },
+    {
+        "text": "Awesome, we have made many changes to",
+        "start": 122.09,
+        "duration": 4.23
+    },
+    {
+        "text": "the layout model to make",
+        "start": 126.32,
+        "duration": 1.72
+    },
+    {
+        "text": "working with LLMs easier for our customers.",
+        "start": 128.04,
+        "duration": 2.44
+    },
+    {
+        "text": "Layout now supports office document types such as",
+        "start": 130.48,
+        "duration": 2.74
+    },
+    {
+        "text": "PowerPoint and Word documents,",
+        "start": 133.22,
+        "duration": 2.72
+    },
+    {
+        "text": "as well as different document types it already supported,",
+        "start": 135.94,
+        "duration": 2.42
+    },
+    {
+        "text": "including digital and scanned PDFs and all types of image files.",
+        "start": 138.36,
+        "duration": 4.46
+    },
+    {
+        "text": "You now have more options than ever when uploading",
+        "start": 142.82,
+        "duration": 3.1
+    },
+    {
+        "text": "documents and can parse all this data with a single API call.",
+        "start": 145.92,
+        "duration": 3.04
+    },
+    {
+        "text": ">> That's cool.",
+        "start": 148.96,
+        "duration": 0.39
+    },
+    {
+        "text": ">> The Azure AI Document Intelligence Layout Model offers",
+        "start": 149.35,
+        "duration": 3.07
+    },
+    {
+        "text": "a comprehensive solution by providing",
+        "start": 152.42,
+        "duration": 1.98
+    },
+    {
+        "text": "advanced content extraction and",
+        "start": 154.4,
+        "duration": 1.72
+    },
+    {
+        "text": "document structure analysis capabilities.",
+        "start": 156.12,
+        "duration": 2.24
+    },
+    {
+        "text": "With this model, you can easily extract paragraphs,",
+        "start": 158.36,
+        "duration": 2.52
+    },
+    {
+        "text": "tables, titles, section headings, selection marks,",
+        "start": 160.88,
+        "duration": 3.36
+    },
+    {
+        "text": "font style, key value pairs, math formulas,",
+        "start": 164.24,
+        "duration": 3.24
+    },
+    {
+        "text": "QR codes, barcodes, reading order, so many things.",
+        "start": 167.48,
+        "duration": 3.79
+    },
+    {
+        "text": ">> That is quite the list.",
+        "start": 171.27,
+        "duration": 1.32
+    },
+    {
+        "text": ">> Quite the list indeed,",
+        "start": 172.59,
+        "duration": 1.425
+    },
+    {
+        "text": "and all of this in 309 printed languages",
+        "start": 174.015,
+        "duration": 2.865
+    },
+    {
+        "text": "and 12 handwritten languages.",
+        "start": 176.88,
+        "duration": 2.07
+    },
+    {
+        "text": ">> You could basically extract anything?",
+        "start": 178.95,
+        "duration": 6.925
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 185.875,
+        "duration": 0.99
+    },
+    {
+        "text": ">> Any language? You said 309 languages,",
+        "start": 186.865,
+        "duration": 2.495
+    },
+    {
+        "text": "you said that so fast, 309 languages.",
+        "start": 189.36,
+        "duration": 3.135
+    },
+    {
+        "text": ">> Three hundred and nine printed languages and",
+        "start": 192.495,
+        "duration": 2.165
+    },
+    {
+        "text": "12 handwritten languages and we're constantly adding to this list.",
+        "start": 194.66,
+        "duration": 3.85
+    },
+    {
+        "text": ">> That is cool, so what are you looking at?",
+        "start": 198.51,
+        "duration": 1.95
+    },
+    {
+        "text": ">> What you see here is some new analyze options for Layout.",
+        "start": 200.46,
+        "duration": 4.405
+    },
+    {
+        "text": "What you'll notice here is that",
+        "start": 204.865,
+        "duration": 1.715
+    },
+    {
+        "text": "Markdown is a new output format style.",
+        "start": 206.58,
+        "duration": 2.72
+    },
+    {
+        "text": "Markdown is extremely popular with web applications and",
+        "start": 209.3,
+        "duration": 3.94
+    },
+    {
+        "text": "LLM tooling and now if I select this and I run the analysis,",
+        "start": 213.24,
+        "duration": 6.74
+    },
+    {
+        "text": "we will see that the output is now in Markdown,",
+        "start": 220.86,
+        "duration": 4.12
+    },
+    {
+        "text": "which is extremely easy to integrate",
+        "start": 224.98,
+        "duration": 3.68
+    },
+    {
+        "text": "in other applications that use LLM technology.",
+        "start": 228.66,
+        "duration": 4.745
+    },
+    {
+        "text": ">> Not to interrupt you here,",
+        "start": 233.405,
+        "duration": 1.955
+    },
+    {
+        "text": "but this is really cool because I'm",
+        "start": 235.36,
+        "duration": 1.5
+    },
+    {
+        "text": "able to do this as an intermediate step.",
+        "start": 236.86,
+        "duration": 2.34
+    },
+    {
+        "text": "I'll put Markdown and put it directly into",
+        "start": 239.2,
+        "duration": 2.7
+    },
+    {
+        "text": "an LLM call for example, which is really cool.",
+        "start": 241.9,
+        "duration": 3.095
+    },
+    {
+        "text": ">> Exactly. This helps to enable",
+        "start": 244.995,
+        "duration": 2.945
+    },
+    {
+        "text": "really powerful scenarios with semantic chunking or rag scenarios.",
+        "start": 247.94,
+        "duration": 5.84
+    },
+    {
+        "text": "In fact, I want to jump to a little application that",
+        "start": 253.78,
+        "duration": 3.72
+    },
+    {
+        "text": "we've made to actually show some of",
+        "start": 257.5,
+        "duration": 1.44
+    },
+    {
+        "text": "the power behind what this can enable.",
+        "start": 258.94,
+        "duration": 3.2
+    },
+    {
+        "text": "What you'll see here is a little application",
+        "start": 262.14,
+        "duration": 2.84
+    },
+    {
+        "text": "that we spun up very quickly,",
+        "start": 264.98,
+        "duration": 1.6
+    },
+    {
+        "text": "but basically behind the scenes,",
+        "start": 266.58,
+        "duration": 2.54
+    },
+    {
+        "text": "we're using Layout from Azure AI Document Intelligence,",
+        "start": 269.12,
+        "duration": 4.64
+    },
+    {
+        "text": "and we've used that to create semantic chunks that",
+        "start": 273.76,
+        "duration": 3.9
+    },
+    {
+        "text": "make it easier for the model to understand what it's looking at.",
+        "start": 277.66,
+        "duration": 4.3
+    },
+    {
+        "text": "Now the model has better insights into table structure,",
+        "start": 281.96,
+        "duration": 3.28
+    },
+    {
+        "text": "it understands sections better.",
+        "start": 285.24,
+        "duration": 2.03
+    },
+    {
+        "text": "As you can see, this is a press release for the fiscal year 24.",
+        "start": 287.27,
+        "duration": 5.695
+    },
+    {
+        "text": "It understands a lot of context a lot better",
+        "start": 292.965,
+        "duration": 3.875
+    },
+    {
+        "text": "than if we were not running this with layout behind,",
+        "start": 296.84,
+        "duration": 3.89
+    },
+    {
+        "text": "so now because of this",
+        "start": 300.73,
+        "duration": 2.525
+    },
+    {
+        "text": "it enables me to ask more specific questions.",
+        "start": 303.255,
+        "duration": 2.765
+    },
+    {
+        "text": "For example, let's ask this model can you",
+        "start": 306.02,
+        "duration": 2.78
+    },
+    {
+        "text": "summarize what constant currency is?",
+        "start": 308.8,
+        "duration": 5.71
+    },
+    {
+        "text": ">> As this is executing,",
+        "start": 317.51,
+        "duration": 2.11
+    },
+    {
+        "text": "is this literally calling Azure AI Document Intelligence,",
+        "start": 319.62,
+        "duration": 4.21
+    },
+    {
+        "text": "pulling in the page,",
+        "start": 323.83,
+        "duration": 1.94
+    },
+    {
+        "text": "it's breaking it up too,",
+        "start": 325.77,
+        "duration": 1.98
+    },
+    {
+        "text": "and then it's putting that in?",
+        "start": 327.75,
+        "duration": 1.395
+    },
+    {
+        "text": "Is that what it's doing? Or maybe explain what it's doing?",
+        "start": 329.145,
+        "duration": 2.335
+    },
+    {
+        "text": "That way I can get a sense.",
+        "start": 331.48,
+        "duration": 1.91
+    },
+    {
+        "text": ">> If you look at",
+        "start": 333.39,
+        "duration": 1.77
+    },
+    {
+        "text": "the structure which has been",
+        "start": 335.16,
+        "duration": 1.74
+    },
+    {
+        "text": "pulled out from this document, for example,",
+        "start": 336.9,
+        "duration": 2.0
+    },
+    {
+        "text": "we'll see that it's able to recognize the different paragraphs,",
+        "start": 338.9,
+        "duration": 3.2
+    },
+    {
+        "text": "the different section headings,",
+        "start": 342.1,
+        "duration": 1.24
+    },
+    {
+        "text": "break them into different semantic chunks, and label them.",
+        "start": 343.34,
+        "duration": 3.62
+    },
+    {
+        "text": "What this does, when this data is given to a large language model,",
+        "start": 346.96,
+        "duration": 4.3
+    },
+    {
+        "text": "it's able to use this semantic chunking in order to",
+        "start": 351.26,
+        "duration": 3.02
+    },
+    {
+        "text": "gain better understanding of exactly what is in the document.",
+        "start": 354.28,
+        "duration": 4.32
+    },
+    {
+        "text": "This helps because it also does things",
+        "start": 358.6,
+        "duration": 1.84
+    },
+    {
+        "text": "like maintains reading order.",
+        "start": 360.44,
+        "duration": 2.72
+    },
+    {
+        "text": "All of these extra benefits allow the model to",
+        "start": 363.16,
+        "duration": 4.58
+    },
+    {
+        "text": "have a better understanding of exactly what",
+        "start": 367.74,
+        "duration": 2.38
+    },
+    {
+        "text": "it is looking at and therefore give better results.",
+        "start": 370.12,
+        "duration": 2.57
+    },
+    {
+        "text": ">> That's what we're seeing in this application here that you're",
+        "start": 372.69,
+        "duration": 2.75
+    },
+    {
+        "text": "showing where you're typing in",
+        "start": 375.44,
+        "duration": 1.16
+    },
+    {
+        "text": "questions and it's referring to the document.",
+        "start": 376.6,
+        "duration": 2.08
+    },
+    {
+        "text": ">> Exactly. Because it has",
+        "start": 378.68,
+        "duration": 1.74
+    },
+    {
+        "text": "such a deeper understanding of what is going on in the document,",
+        "start": 380.42,
+        "duration": 3.02
+    },
+    {
+        "text": "it's able to provide much better answers.",
+        "start": 383.44,
+        "duration": 2.755
+    },
+    {
+        "text": ">> It's amazing. These questions,",
+        "start": 386.195,
+        "duration": 3.085
+    },
+    {
+        "text": "like I said, this is cool stuff.",
+        "start": 389.28,
+        "duration": 4.53
+    },
+    {
+        "text": "Another question I have is can you do a little bit more?",
+        "start": 393.81,
+        "duration": 3.15
+    },
+    {
+        "text": "Because there's other LLM technologies",
+        "start": 396.96,
+        "duration": 2.2
+    },
+    {
+        "text": "that people have been using;",
+        "start": 399.16,
+        "duration": 2.18
+    },
+    {
+        "text": "can this integrate with that?",
+        "start": 401.34,
+        "duration": 1.89
+    },
+    {
+        "text": "Or is this application",
+        "start": 403.23,
+        "duration": 2.71
+    },
+    {
+        "text": "available or how can I make something like this?",
+        "start": 405.94,
+        "duration": 2.025
+    },
+    {
+        "text": ">> I'm so glad that you mentioned that.",
+        "start": 407.965,
+        "duration": 2.475
+    },
+    {
+        "text": "If you are familiar with a lot of LLM technology,",
+        "start": 410.44,
+        "duration": 3.76
+    },
+    {
+        "text": "you've probably heard of LangChain.",
+        "start": 414.2,
+        "duration": 1.85
+    },
+    {
+        "text": "LangChain is one of",
+        "start": 416.05,
+        "duration": 1.75
+    },
+    {
+        "text": "the most popular LLM orchestration tools",
+        "start": 417.8,
+        "duration": 2.74
+    },
+    {
+        "text": "used to create LLM applications.",
+        "start": 420.54,
+        "duration": 2.195
+    },
+    {
+        "text": "We are soon going to have native support for",
+        "start": 422.735,
+        "duration": 2.365
+    },
+    {
+        "text": "Azure Document Intelligence as a document loader.",
+        "start": 425.1,
+        "duration": 3.185
+    },
+    {
+        "text": "One of the really cool things I wanted to show off was,",
+        "start": 428.285,
+        "duration": 4.665
+    },
+    {
+        "text": "all of this will be available soon,",
+        "start": 432.95,
+        "duration": 1.4
+    },
+    {
+        "text": "I promise you, in the next week or so,",
+        "start": 434.35,
+        "duration": 3.27
+    },
+    {
+        "text": "but you'll be able to quickly,",
+        "start": 437.62,
+        "duration": 2.55
+    },
+    {
+        "text": "with a few lines of code, go in,",
+        "start": 440.17,
+        "duration": 1.88
+    },
+    {
+        "text": "set up the LangChain,",
+        "start": 442.05,
+        "duration": 2.76
+    },
+    {
+        "text": "and then you will be able to load and semantically split",
+        "start": 444.81,
+        "duration": 3.58
+    },
+    {
+        "text": "different chunks and ask questions using rag pattern.",
+        "start": 448.39,
+        "duration": 5.5
+    },
+    {
+        "text": "We're really excited to",
+        "start": 453.89,
+        "duration": 1.74
+    },
+    {
+        "text": "see how our customers are able to integrate",
+        "start": 455.63,
+        "duration": 3.135
+    },
+    {
+        "text": "LangChain and Azure Open AI in order to do this process.",
+        "start": 458.765,
+        "duration": 5.34
+    },
+    {
+        "text": ">> That's cool. Can we scroll up a lot because I thought I",
+        "start": 464.105,
+        "duration": 2.585
+    },
+    {
+        "text": "saw Azure AI search as well, is that true?",
+        "start": 466.69,
+        "duration": 3.655
+    },
+    {
+        "text": ">> Yes. Azure AI search is",
+        "start": 470.345,
+        "duration": 2.805
+    },
+    {
+        "text": "part of the packages that are included in this demo,",
+        "start": 473.15,
+        "duration": 2.8
+    },
+    {
+        "text": "but there are many different ways to do this.",
+        "start": 475.95,
+        "duration": 1.98
+    },
+    {
+        "text": "This is just one way to quickly get off the ground with using",
+        "start": 477.93,
+        "duration": 3.875
+    },
+    {
+        "text": "LangChain and Azure Open AI to create these powerful work flows.",
+        "start": 481.805,
+        "duration": 5.065
+    },
+    {
+        "text": ">> This is cool because if you're building LLM stuff,",
+        "start": 486.87,
+        "duration": 4.48
+    },
+    {
+        "text": "it's usually hard to figure out how to",
+        "start": 491.35,
+        "duration": 2.5
+    },
+    {
+        "text": "do the chunking window because it's like,",
+        "start": 493.85,
+        "duration": 2.58
+    },
+    {
+        "text": "do I take the first n characters or how do I overlap?",
+        "start": 496.43,
+        "duration": 3.8
+    },
+    {
+        "text": "But what Azure AI document search is doing is it's",
+        "start": 500.23,
+        "duration": 2.94
+    },
+    {
+        "text": "semantically chunking the data into,",
+        "start": 503.17,
+        "duration": 2.84
+    },
+    {
+        "text": "for example, reasonable paragraphs,",
+        "start": 506.01,
+        "duration": 2.42
+    },
+    {
+        "text": "which I think is really cool. Am I getting this right?",
+        "start": 508.43,
+        "duration": 3.28
+    },
+    {
+        "text": ">> What we're doing is we're providing",
+        "start": 511.71,
+        "duration": 2.37
+    },
+    {
+        "text": "a very good basis to be used in semantic chunking algorithms.",
+        "start": 514.08,
+        "duration": 6.36
+    },
+    {
+        "text": "The output of layout can be",
+        "start": 520.44,
+        "duration": 3.66
+    },
+    {
+        "text": "fed into these semantic chunking algorithms to provide very easy,",
+        "start": 524.1,
+        "duration": 4.28
+    },
+    {
+        "text": "basically good data to be used to create strong chunks.",
+        "start": 528.38,
+        "duration": 4.06
+    },
+    {
+        "text": "We all know in AI, if you put garbage in,",
+        "start": 532.44,
+        "duration": 2.12
+    },
+    {
+        "text": "you're going to get garbage out,",
+        "start": 534.56,
+        "duration": 1.1
+    },
+    {
+        "text": "so basically what layout does is it makes sure that we provide",
+        "start": 535.66,
+        "duration": 2.96
+    },
+    {
+        "text": "high quality data to",
+        "start": 538.62,
+        "duration": 1.32
+    },
+    {
+        "text": "these semantic chunking algorithms",
+        "start": 539.94,
+        "duration": 1.66
+    },
+    {
+        "text": "so that when you are using them,",
+        "start": 541.6,
+        "duration": 1.26
+    },
+    {
+        "text": "you're getting good quality data",
+        "start": 542.86,
+        "duration": 1.66
+    },
+    {
+        "text": "out when you're implementing these rag patterns.",
+        "start": 544.52,
+        "duration": 2.54
+    },
+    {
+        "text": "Cool, that's the layout stuff and we're super",
+        "start": 547.06,
+        "duration": 2.5
+    },
+    {
+        "text": "excited to see how people implement that into their workflows.",
+        "start": 549.56,
+        "duration": 2.795
+    },
+    {
+        "text": ">> What else you got, my friend?",
+        "start": 552.355,
+        "duration": 1.71
+    },
+    {
+        "text": ">> One of my favorite things,",
+        "start": 554.065,
+        "duration": 1.685
+    },
+    {
+        "text": "one of the features I'm really excited about,",
+        "start": 555.75,
+        "duration": 1.63
+    },
+    {
+        "text": "I really want to show off, is query fields.",
+        "start": 557.38,
+        "duration": 1.76
+    },
+    {
+        "text": "Let's jump into the studio so I can show you how that works.",
+        "start": 559.14,
+        "duration": 5.12
+    },
+    {
+        "text": "We're going to look at the invoice model here.",
+        "start": 564.26,
+        "duration": 4.215
+    },
+    {
+        "text": "One of the biggest complaints that we've",
+        "start": 568.475,
+        "duration": 2.445
+    },
+    {
+        "text": "gotten about our prebuilt models is",
+        "start": 570.92,
+        "duration": 2.16
+    },
+    {
+        "text": "that sometimes they are",
+        "start": 573.08,
+        "duration": 1.48
+    },
+    {
+        "text": "not sufficient enough for some customer use cases.",
+        "start": 574.56,
+        "duration": 2.74
+    },
+    {
+        "text": "Now, don't get me wrong, the prebuilt models are amazing,",
+        "start": 577.3,
+        "duration": 2.12
+    },
+    {
+        "text": "they require no training,",
+        "start": 579.42,
+        "duration": 1.14
+    },
+    {
+        "text": "they require no labeling,",
+        "start": 580.56,
+        "duration": 1.16
+    },
+    {
+        "text": "and customers is able to use them out of the box,",
+        "start": 581.72,
+        "duration": 1.78
+    },
+    {
+        "text": "but sometimes we have customers with",
+        "start": 583.5,
+        "duration": 2.18
+    },
+    {
+        "text": "specific use cases that need a little bit more than we offer.",
+        "start": 585.68,
+        "duration": 4.22
+    },
+    {
+        "text": "Let's take this UK invoice, for example.",
+        "start": 589.9,
+        "duration": 2.82
+    },
+    {
+        "text": "If I'm to run this, we're going to see all the fields that",
+        "start": 592.72,
+        "duration": 3.44
+    },
+    {
+        "text": "our customers are used to seeing in the invoice prebuilt model,",
+        "start": 596.16,
+        "duration": 3.555
+    },
+    {
+        "text": "we have things like customer address,",
+        "start": 599.715,
+        "duration": 1.725
+    },
+    {
+        "text": "customer address, recipient, customer ID, all that good stuff.",
+        "start": 601.44,
+        "duration": 3.5
+    },
+    {
+        "text": "But let's say for example in this specific use case,",
+        "start": 604.94,
+        "duration": 3.14
+    },
+    {
+        "text": "we have a customer that needs more.",
+        "start": 608.08,
+        "duration": 2.145
+    },
+    {
+        "text": "They need the campaign number,",
+        "start": 610.225,
+        "duration": 2.375
+    },
+    {
+        "text": "they need the sort code,",
+        "start": 612.6,
+        "duration": 1.54
+    },
+    {
+        "text": "and let's say the account number.",
+        "start": 614.14,
+        "duration": 1.78
+    },
+    {
+        "text": "These fields are not fields that we extract out of",
+        "start": 615.92,
+        "duration": 2.64
+    },
+    {
+        "text": "the box because most of",
+        "start": 618.56,
+        "duration": 1.06
+    },
+    {
+        "text": "our customers don't need this information,",
+        "start": 619.62,
+        "duration": 1.805
+    },
+    {
+        "text": "but in the case that they do,",
+        "start": 621.425,
+        "duration": 1.815
+    },
+    {
+        "text": "we now have an answer for them, and that's query fields.",
+        "start": 623.24,
+        "duration": 2.815
+    },
+    {
+        "text": ">> I see. Generally, the model is very",
+        "start": 626.055,
+        "duration": 3.865
+    },
+    {
+        "text": "good at a preset like general stuff or invoices,",
+        "start": 629.92,
+        "duration": 3.96
+    },
+    {
+        "text": "but there may be specific things for invoices,",
+        "start": 633.88,
+        "duration": 2.485
+    },
+    {
+        "text": "for your organization, for example,",
+        "start": 636.365,
+        "duration": 1.835
+    },
+    {
+        "text": "that you want to extract and this is what this does.",
+        "start": 638.2,
+        "duration": 2.085
+    },
+    {
+        "text": ">> Exactly. We're never going to be able",
+        "start": 640.285,
+        "duration": 2.475
+    },
+    {
+        "text": "to cover all of those use cases out of the box,",
+        "start": 642.76,
+        "duration": 2.42
+    },
+    {
+        "text": "but this creates a very easy way",
+        "start": 645.18,
+        "duration": 2.12
+    },
+    {
+        "text": "for customers to add this to their solution.",
+        "start": 647.3,
+        "duration": 2.6
+    },
+    {
+        "text": "You'll notice this new pretty button",
+        "start": 649.9,
+        "duration": 1.82
+    },
+    {
+        "text": "right here called query field,",
+        "start": 651.72,
+        "duration": 1.1
+    },
+    {
+        "text": "so if I select this,",
+        "start": 652.82,
+        "duration": 1.56
+    },
+    {
+        "text": "basically what we're going to do here is where you're going to use",
+        "start": 654.38,
+        "duration": 3.38
+    },
+    {
+        "text": "camel case style naming",
+        "start": 657.76,
+        "duration": 1.74
+    },
+    {
+        "text": "to name the new fields that we want to extract.",
+        "start": 659.5,
+        "duration": 2.34
+    },
+    {
+        "text": "For example, we said campaign was one that we wanted to extract.",
+        "start": 661.84,
+        "duration": 4.48
+    },
+    {
+        "text": "I'm going to select that,",
+        "start": 666.32,
+        "duration": 1.6
+    },
+    {
+        "text": "and then also sort code",
+        "start": 667.92,
+        "duration": 2.54
+    },
+    {
+        "text": "again just using very simple camel style naming.",
+        "start": 670.46,
+        "duration": 4.44
+    },
+    {
+        "text": "Then let's just add one last one.",
+        "start": 674.9,
+        "duration": 2.34
+    },
+    {
+        "text": "Let's say account number. Cool.",
+        "start": 677.24,
+        "duration": 3.05
+    },
+    {
+        "text": ">> I just have to click that.",
+        "start": 681.59,
+        "duration": 2.23
+    },
+    {
+        "text": "I acknowledge that I am using Query Fields. Save that.",
+        "start": 683.82,
+        "duration": 3.465
+    },
+    {
+        "text": "Now when I run this analysis,",
+        "start": 687.285,
+        "duration": 2.055
+    },
+    {
+        "text": "again what we should see is,",
+        "start": 689.34,
+        "duration": 4.82
+    },
+    {
+        "text": "boom, campaign is extracted.",
+        "start": 694.16,
+        "duration": 2.13
+    },
+    {
+        "text": "We have sort points, and we have account number.",
+        "start": 696.29,
+        "duration": 2.055
+    },
+    {
+        "text": "All this is beautifully integrated",
+        "start": 698.345,
+        "duration": 2.265
+    },
+    {
+        "text": "directly into the model to common names.",
+        "start": 700.61,
+        "duration": 2.845
+    },
+    {
+        "text": "Customers can now use these fields in their solution.",
+        "start": 703.455,
+        "duration": 4.725
+    },
+    {
+        "text": ">> That's cool.",
+        "start": 708.18,
+        "duration": 2.925
+    },
+    {
+        "text": "There's got to be bound to be stuff that you want to pull",
+        "start": 711.105,
+        "duration": 2.565
+    },
+    {
+        "text": "out that you can totally just put that in there.",
+        "start": 713.67,
+        "duration": 2.28
+    },
+    {
+        "text": "Is that something you can do programmatically as well?",
+        "start": 715.95,
+        "duration": 1.68
+    },
+    {
+        "text": "You have to show us.",
+        "start": 717.63,
+        "duration": 0.66
+    },
+    {
+        "text": "But is that something you can do like in the post request as well?",
+        "start": 718.29,
+        "duration": 3.345
+    },
+    {
+        "text": ">> Exactly. That is exactly the case.",
+        "start": 721.635,
+        "duration": 2.865
+    },
+    {
+        "text": ">> Those Query Field were awesome because it enables folks to",
+        "start": 724.5,
+        "duration": 3.81
+    },
+    {
+        "text": "actually pull stuff exactly the stuff out that they want.",
+        "start": 728.31,
+        "duration": 3.81
+    },
+    {
+        "text": "What else you got to show us, my friend?",
+        "start": 732.12,
+        "duration": 1.68
+    },
+    {
+        "text": ">> Yeah, so let's not jump into the custom classification model.",
+        "start": 733.8,
+        "duration": 4.215
+    },
+    {
+        "text": "Custom classification models basically allow customers to",
+        "start": 738.015,
+        "duration": 3.315
+    },
+    {
+        "text": "run a group of documents through a model",
+        "start": 741.33,
+        "duration": 3.06
+    },
+    {
+        "text": "and be able to instantly tell which documents",
+        "start": 744.39,
+        "duration": 2.58
+    },
+    {
+        "text": "are in there based off",
+        "start": 746.97,
+        "duration": 1.53
+    },
+    {
+        "text": "of classifications that they themselves have made.",
+        "start": 748.5,
+        "duration": 2.115
+    },
+    {
+        "text": ">> Oh, that's cool. Because then you can",
+        "start": 750.615,
+        "duration": 1.305
+    },
+    {
+        "text": "chain these things to pull out the right forms.",
+        "start": 751.92,
+        "duration": 3.795
+    },
+    {
+        "text": "Now right forms, and then do other things.",
+        "start": 755.715,
+        "duration": 2.58
+    },
+    {
+        "text": "For example, if one form has a custom field,",
+        "start": 758.295,
+        "duration": 2.34
+    },
+    {
+        "text": "then you would want to be able to know",
+        "start": 760.635,
+        "duration": 1.395
+    },
+    {
+        "text": "that's the right form, then you could do the other form.",
+        "start": 762.03,
+        "duration": 1.845
+    },
+    {
+        "text": "Then the other question I had about",
+        "start": 763.875,
+        "duration": 1.485
+    },
+    {
+        "text": "this because I heard about this before.",
+        "start": 765.36,
+        "duration": 2.325
+    },
+    {
+        "text": "If there's a multi page document that",
+        "start": 767.685,
+        "duration": 2.625
+    },
+    {
+        "text": "has multiple different kinds of forms in there,",
+        "start": 770.31,
+        "duration": 2.58
+    },
+    {
+        "text": "does that work as well?",
+        "start": 772.89,
+        "duration": 1.755
+    },
+    {
+        "text": ">> Yes, so you are able",
+        "start": 774.645,
+        "duration": 1.965
+    },
+    {
+        "text": "to classify whatever it is that you want to do.",
+        "start": 776.61,
+        "duration": 2.835
+    },
+    {
+        "text": "Let's say that we have a form that",
+        "start": 779.445,
+        "duration": 2.115
+    },
+    {
+        "text": "has three different types of forms in it,",
+        "start": 781.56,
+        "duration": 2.16
+    },
+    {
+        "text": "forms A, B and C, but they're all one collective.",
+        "start": 783.72,
+        "duration": 2.325
+    },
+    {
+        "text": "If you wanted to split them",
+        "start": 786.045,
+        "duration": 2.445
+    },
+    {
+        "text": "into their respective parts, you could do this as well.",
+        "start": 788.49,
+        "duration": 1.965
+    },
+    {
+        "text": "You just have to train the classification model",
+        "start": 790.455,
+        "duration": 1.755
+    },
+    {
+        "text": "to represent document A,",
+        "start": 792.21,
+        "duration": 1.545
+    },
+    {
+        "text": "B, and C and then it would work just like that.",
+        "start": 793.755,
+        "duration": 2.91
+    },
+    {
+        "text": ">> Can you show us how to do that?",
+        "start": 796.665,
+        "duration": 1.17
+    },
+    {
+        "text": ">> Yeah, so the custom classification model",
+        "start": 797.835,
+        "duration": 2.94
+    },
+    {
+        "text": "has actually been expanded to different languages,",
+        "start": 800.775,
+        "duration": 2.505
+    },
+    {
+        "text": "and one of these is French.",
+        "start": 803.28,
+        "duration": 1.38
+    },
+    {
+        "text": "I've set up a demo here just to show how this could work.",
+        "start": 804.66,
+        "duration": 6.645
+    },
+    {
+        "text": "I've actually set this up just for the sake of time,",
+        "start": 811.305,
+        "duration": 3.525
+    },
+    {
+        "text": "but it's extremely easy.",
+        "start": 814.83,
+        "duration": 1.395
+    },
+    {
+        "text": "All you have to do is upload a folder which has two different sub",
+        "start": 816.225,
+        "duration": 5.475
+    },
+    {
+        "text": "folders one holding document type A",
+        "start": 821.7,
+        "duration": 3.54
+    },
+    {
+        "text": "in this case which is medical healthcare type documents,",
+        "start": 825.24,
+        "duration": 3.075
+    },
+    {
+        "text": "and then folder B which has professional service type documents.",
+        "start": 828.315,
+        "duration": 3.87
+    },
+    {
+        "text": "Then the service will actually split these",
+        "start": 832.185,
+        "duration": 3.135
+    },
+    {
+        "text": "for you automatically and use the folders as labels,",
+        "start": 835.32,
+        "duration": 3.255
+    },
+    {
+        "text": "which is why we have this nice ratification without",
+        "start": 838.575,
+        "duration": 2.775
+    },
+    {
+        "text": "having to do this manually.",
+        "start": 841.35,
+        "duration": 2.84
+    },
+    {
+        "text": ">> That's cool.",
+        "start": 844.19,
+        "duration": 1.07
+    },
+    {
+        "text": ">> Yeah, so",
+        "start": 845.26,
+        "duration": 1.73
+    },
+    {
+        "text": "once you're done with this, you're going to hit train.",
+        "start": 846.99,
+        "duration": 1.845
+    },
+    {
+        "text": "Again, I've done this just for the sake of time,",
+        "start": 848.835,
+        "duration": 1.845
+    },
+    {
+        "text": "because it does take a little bit of time.",
+        "start": 850.68,
+        "duration": 1.425
+    },
+    {
+        "text": "What this is going to do is it's just going",
+        "start": 852.105,
+        "duration": 1.395
+    },
+    {
+        "text": "to generate labels and everything,",
+        "start": 853.5,
+        "duration": 2.055
+    },
+    {
+        "text": "so that it understands the document structure.",
+        "start": 855.555,
+        "duration": 2.61
+    },
+    {
+        "text": "Once you have a trained model, you can go ahead and test it.",
+        "start": 858.165,
+        "duration": 3.93
+    },
+    {
+        "text": "That's what we're going to do now. We're going to go to test.",
+        "start": 862.095,
+        "duration": 3.705
+    },
+    {
+        "text": "I'm going to browse for a file.",
+        "start": 865.8,
+        "duration": 3.075
+    },
+    {
+        "text": "Let's choose this sample file and run the analysis.",
+        "start": 868.875,
+        "duration": 5.76
+    },
+    {
+        "text": "What we should see here is the model being",
+        "start": 874.635,
+        "duration": 3.24
+    },
+    {
+        "text": "able to tell which bucket this belongs to and we do.",
+        "start": 877.875,
+        "duration": 4.935
+    },
+    {
+        "text": "We have this being recognized as a professional service document.",
+        "start": 882.81,
+        "duration": 5.4
+    },
+    {
+        "text": ">> That's super cool because now you're able to",
+        "start": 888.21,
+        "duration": 3.51
+    },
+    {
+        "text": "have any number of different kinds of documents.",
+        "start": 891.72,
+        "duration": 3.045
+    },
+    {
+        "text": "You're able to have",
+        "start": 894.765,
+        "duration": 1.125
+    },
+    {
+        "text": "document intelligence tell you what kind it is.",
+        "start": 895.89,
+        "duration": 2.295
+    },
+    {
+        "text": "Maybe even break apart a MultiPage document",
+        "start": 898.185,
+        "duration": 2.37
+    },
+    {
+        "text": "and then you can process",
+        "start": 900.555,
+        "duration": 1.845
+    },
+    {
+        "text": "those things with custom fields for each kind of document,",
+        "start": 902.4,
+        "duration": 4.44
+    },
+    {
+        "text": "so you really got like a really powerful end to end solution.",
+        "start": 906.84,
+        "duration": 2.82
+    },
+    {
+        "text": ">> I know I said that this was last thing,",
+        "start": 909.66,
+        "duration": 2.13
+    },
+    {
+        "text": "but we actually have one more thing that I want to go over it.",
+        "start": 911.79,
+        "duration": 2.28
+    },
+    {
+        "text": ">> one more thing.",
+        "start": 914.07,
+        "duration": 0.51
+    },
+    {
+        "text": ">> A couple of small updates that",
+        "start": 914.58,
+        "duration": 1.47
+    },
+    {
+        "text": "we've made to the service, if that's okay.",
+        "start": 916.05,
+        "duration": 2.19
+    },
+    {
+        "text": "Awesome, so the first thing that I",
+        "start": 918.24,
+        "duration": 2.97
+    },
+    {
+        "text": "want to point out is that with the read API,",
+        "start": 921.21,
+        "duration": 2.91
+    },
+    {
+        "text": "we've actually added support for",
+        "start": 924.12,
+        "duration": 3.57
+    },
+    {
+        "text": "handwritten extraction for the languages",
+        "start": 927.69,
+        "duration": 2.97
+    },
+    {
+        "text": "of Russian, Arabic, and Thai.",
+        "start": 930.66,
+        "duration": 2.01
+    },
+    {
+        "text": "We're really excited about this.",
+        "start": 932.67,
+        "duration": 1.725
+    },
+    {
+        "text": "We have customers all over the world and so",
+        "start": 934.395,
+        "duration": 2.46
+    },
+    {
+        "text": "these are some really highly requested languages.",
+        "start": 936.855,
+        "duration": 2.925
+    },
+    {
+        "text": "We're excited to announce that those are now",
+        "start": 939.78,
+        "duration": 1.47
+    },
+    {
+        "text": "available for you to try in the studio today.",
+        "start": 941.25,
+        "duration": 3.4
+    },
+    {
+        "text": "We also have new pre built models.",
+        "start": 944.65,
+        "duration": 3.83
+    },
+    {
+        "text": "US tax documents is an area that we've been",
+        "start": 948.48,
+        "duration": 2.49
+    },
+    {
+        "text": "investing a lot of resources into,",
+        "start": 950.97,
+        "duration": 2.4
+    },
+    {
+        "text": "and we're happy to announce that we now have available to",
+        "start": 953.37,
+        "duration": 3.06
+    },
+    {
+        "text": "US tax 1099 forms and all of these variations as well.",
+        "start": 956.43,
+        "duration": 4.455
+    },
+    {
+        "text": "Again, these empower very powerful scenarios.",
+        "start": 960.885,
+        "duration": 4.05
+    },
+    {
+        "text": "These 1099 forms are things that people use for taxes every year,",
+        "start": 964.935,
+        "duration": 4.215
+    },
+    {
+        "text": "so we're really excited to see how our customers can",
+        "start": 969.15,
+        "duration": 2.58
+    },
+    {
+        "text": "use to make their document intelligence processing even easier.",
+        "start": 971.73,
+        "duration": 5.835
+    },
+    {
+        "text": ">> Just in time for tax season too.",
+        "start": 977.565,
+        "duration": 2.175
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 979.74,
+        "duration": 0.9
+    },
+    {
+        "text": ">> Cool.",
+        "start": 980.64,
+        "duration": 0.48
+    },
+    {
+        "text": ">> That was not a mistake.",
+        "start": 981.12,
+        "duration": 2.16
+    },
+    {
+        "text": "Along with this in the invoice model actually,",
+        "start": 983.28,
+        "duration": 3.69
+    },
+    {
+        "text": "we've added support for KVK number,",
+        "start": 986.97,
+        "duration": 2.97
+    },
+    {
+        "text": "which is a critical field in the Dutch locale.",
+        "start": 989.94,
+        "duration": 2.73
+    },
+    {
+        "text": "We've also added support for BPAY information,",
+        "start": 992.67,
+        "duration": 3.0
+    },
+    {
+        "text": "which is critical in the Australian locale.",
+        "start": 995.67,
+        "duration": 3.165
+    },
+    {
+        "text": "With these changes now more fully",
+        "start": 998.835,
+        "duration": 2.715
+    },
+    {
+        "text": "support these locales and we hope that this will allow",
+        "start": 1001.55,
+        "duration": 3.315
+    },
+    {
+        "text": "customers in those locales to have more robust solutions",
+        "start": 1004.865,
+        "duration": 3.165
+    },
+    {
+        "text": "without having to rely on things like custom models.",
+        "start": 1008.03,
+        "duration": 3.945
+    },
+    {
+        "text": ">> That's cool.",
+        "start": 1011.975,
+        "duration": 1.125
+    },
+    {
+        "text": ">> Then the last update that we have",
+        "start": 1013.1,
+        "duration": 1.65
+    },
+    {
+        "text": "here is in health insurance cards.",
+        "start": 1014.75,
+        "duration": 1.875
+    },
+    {
+        "text": "We now have support for Medicare and",
+        "start": 1016.625,
+        "duration": 2.955
+    },
+    {
+        "text": "Medicaid numbers built into the health insurance card model.",
+        "start": 1019.58,
+        "duration": 4.47
+    },
+    {
+        "text": "Again, we just are very",
+        "start": 1024.05,
+        "duration": 1.86
+    },
+    {
+        "text": "excited to see how this empowers customers to have",
+        "start": 1025.91,
+        "duration": 2.325
+    },
+    {
+        "text": "more robust solutions that allow",
+        "start": 1028.235,
+        "duration": 2.145
+    },
+    {
+        "text": "them to do more with their document intelligence needs.",
+        "start": 1030.38,
+        "duration": 2.325
+    },
+    {
+        "text": ">> Yeah, and this is cool because it could even be a picture.",
+        "start": 1032.705,
+        "duration": 2.445
+    },
+    {
+        "text": "You could build applications where",
+        "start": 1035.15,
+        "duration": 1.98
+    },
+    {
+        "text": "like let's just say you're a medical place and it's just",
+        "start": 1037.13,
+        "duration": 2.37
+    },
+    {
+        "text": "like here just pulled your card under our camera and then",
+        "start": 1039.5,
+        "duration": 2.985
+    },
+    {
+        "text": "Azure AI Document Intelligence can make that",
+        "start": 1042.485,
+        "duration": 3.135
+    },
+    {
+        "text": "sing if I get it right, am I getting this right?",
+        "start": 1045.62,
+        "duration": 4.17
+    },
+    {
+        "text": ">> You are getting this right.",
+        "start": 1049.79,
+        "duration": 1.71
+    },
+    {
+        "text": "That is one of my favorite things about",
+        "start": 1051.5,
+        "duration": 1.8
+    },
+    {
+        "text": "the service is how robust it is.",
+        "start": 1053.3,
+        "duration": 2.25
+    },
+    {
+        "text": "I even remember when I first joined the team,",
+        "start": 1055.55,
+        "duration": 3.165
+    },
+    {
+        "text": "I drew out an invoice with my hand on",
+        "start": 1058.715,
+        "duration": 2.43
+    },
+    {
+        "text": "plain white paper and it was able to",
+        "start": 1061.145,
+        "duration": 1.185
+    },
+    {
+        "text": "extract all the information correctly.",
+        "start": 1062.33,
+        "duration": 2.265
+    },
+    {
+        "text": "It's amazing how far the technology has come.",
+        "start": 1064.595,
+        "duration": 2.7
+    },
+    {
+        "text": ">> That is amazing.",
+        "start": 1067.295,
+        "duration": 1.395
+    },
+    {
+        "text": "This has been awesome.",
+        "start": 1068.69,
+        "duration": 1.23
+    },
+    {
+        "text": "Where can people go to find out more?",
+        "start": 1069.92,
+        "duration": 1.965
+    },
+    {
+        "text": ">> Yes, so the first place to go would",
+        "start": 1071.885,
+        "duration": 2.415
+    },
+    {
+        "text": "be the Azure Document Intelligence Studio.",
+        "start": 1074.3,
+        "duration": 5.4
+    },
+    {
+        "text": "Here you can find",
+        "start": 1079.7,
+        "duration": 1.305
+    },
+    {
+        "text": "resources that will help you get up and started very quickly.",
+        "start": 1081.005,
+        "duration": 3.63
+    },
+    {
+        "text": "Allow you to test out all of",
+        "start": 1084.635,
+        "duration": 1.365
+    },
+    {
+        "text": "our services right here in the studio.",
+        "start": 1086.0,
+        "duration": 2.175
+    },
+    {
+        "text": "Another good place to go would be our documentation.",
+        "start": 1088.175,
+        "duration": 3.495
+    },
+    {
+        "text": "We keep all the information",
+        "start": 1091.67,
+        "duration": 2.28
+    },
+    {
+        "text": "up to date with what's coming, what's new,",
+        "start": 1093.95,
+        "duration": 1.785
+    },
+    {
+        "text": "and there'd be another great place for you",
+        "start": 1095.735,
+        "duration": 1.905
+    },
+    {
+        "text": "to check out what we have coming through the pipeline.",
+        "start": 1097.64,
+        "duration": 2.265
+    },
+    {
+        "text": ">> Well, this has been amazing.",
+        "start": 1099.905,
+        "duration": 1.455
+    },
+    {
+        "text": "My friend, thank you so much for spending some time with us.",
+        "start": 1101.36,
+        "duration": 2.325
+    },
+    {
+        "text": ">> Thank you so much for having me. It's been a blast.",
+        "start": 1103.685,
+        "duration": 2.64
+    },
+    {
+        "text": ">> Also thank you so much for watching and",
+        "start": 1106.325,
+        "duration": 1.935
+    },
+    {
+        "text": "learning all about elevating",
+        "start": 1108.26,
+        "duration": 2.07
+    },
+    {
+        "text": "your document management with",
+        "start": 1110.33,
+        "duration": 1.11
+    },
+    {
+        "text": "Azure AI Document Intelligence here on the AI show.",
+        "start": 1111.44,
+        "duration": 2.925
+    },
+    {
+        "text": "Thank you so much for watching and",
+        "start": 1114.365,
+        "duration": 1.365
+    },
+    {
+        "text": "hopefully we'll see you next time, take care.",
+        "start": 1115.73,
+        "duration": 5.245
+    },
+    {
+        "text": "[MUSIC]",
+        "start": 1120.975,
+        "duration": 6.83
+    }
+]

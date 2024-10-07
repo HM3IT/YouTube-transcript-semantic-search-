@@ -1,0 +1,2377 @@
+[
+    {
+        "text": ">> You're not gonna want to miss this episode of the AI show.",
+        "start": 0.0,
+        "duration": 2.08
+    },
+    {
+        "text": "We talk all about advanced AI solutions with",
+        "start": 2.08,
+        "duration": 2.69
+    },
+    {
+        "text": "TTS Avatar and Azure OpenAI with my friend Andreas.",
+        "start": 4.77,
+        "duration": 3.51
+    },
+    {
+        "text": "Make sure you tune in.",
+        "start": 8.28,
+        "duration": 1.881
+    },
+    {
+        "text": "[MUSIC]",
+        "start": 10.161,
+        "duration": 1.729
+    },
+    {
+        "text": ">> Hello and welcome to this episode of the AI Show.",
+        "start": 11.89,
+        "duration": 6.39
+    },
+    {
+        "text": "We're talking about advanced AI solutions with",
+        "start": 18.28,
+        "duration": 2.355
+    },
+    {
+        "text": "TTS Avatar and Azure OpenAI Part 2.",
+        "start": 20.635,
+        "duration": 3.44
+    },
+    {
+        "text": "If you didn't see the Cenyu episode,",
+        "start": 24.075,
+        "duration": 2.425
+    },
+    {
+        "text": "make sure you go and look at that.",
+        "start": 26.5,
+        "duration": 1.16
+    },
+    {
+        "text": "How are you doing Andreas? How are you doing my friend?",
+        "start": 27.66,
+        "duration": 2.115
+    },
+    {
+        "text": ">> I'm fine, thank you. What about you?",
+        "start": 29.775,
+        "duration": 2.145
+    },
+    {
+        "text": ">> Fantastic. For those who",
+        "start": 31.92,
+        "duration": 1.53
+    },
+    {
+        "text": "don't know you, tell us who you are, what you do.",
+        "start": 33.45,
+        "duration": 1.935
+    },
+    {
+        "text": ">> Yeah. First of all, thank you for having me.",
+        "start": 35.385,
+        "duration": 2.035
+    },
+    {
+        "text": "My name is Andreas Kopp.",
+        "start": 37.42,
+        "duration": 1.36
+    },
+    {
+        "text": "I'm a technical specialist for AI solutions.",
+        "start": 38.78,
+        "duration": 3.195
+    },
+    {
+        "text": "I'm basically working with customers every day,",
+        "start": 41.975,
+        "duration": 4.065
+    },
+    {
+        "text": "designing and implementing AI solutions based on Azure.",
+        "start": 46.04,
+        "duration": 4.405
+    },
+    {
+        "text": ">> That's amazing. What are we talking about today?",
+        "start": 50.445,
+        "duration": 3.375
+    },
+    {
+        "text": ">> In the previous session,",
+        "start": 53.84,
+        "duration": 2.47
+    },
+    {
+        "text": "you had a conversation with Cenyu",
+        "start": 56.31,
+        "duration": 2.39
+    },
+    {
+        "text": "about the new TTS Avatar capabilities.",
+        "start": 58.7,
+        "duration": 4.07
+    },
+    {
+        "text": "We have built an AI solution accelerator",
+        "start": 62.77,
+        "duration": 4.07
+    },
+    {
+        "text": "for various AI vision use cases.",
+        "start": 66.84,
+        "duration": 5.69
+    },
+    {
+        "text": "To bring this a little bit further towards, let's say,",
+        "start": 72.53,
+        "duration": 3.71
+    },
+    {
+        "text": "enterprise avatar solutions, we added",
+        "start": 76.24,
+        "duration": 2.88
+    },
+    {
+        "text": "two use cases to our vision AI solution accelerator.",
+        "start": 79.12,
+        "duration": 3.36
+    },
+    {
+        "text": "The first one lets you create",
+        "start": 82.48,
+        "duration": 2.46
+    },
+    {
+        "text": "rich avatar videos from your content.",
+        "start": 84.94,
+        "duration": 3.4
+    },
+    {
+        "text": "That's a use case Number 1.",
+        "start": 88.34,
+        "duration": 1.96
+    },
+    {
+        "text": "The second use case I would like to",
+        "start": 90.3,
+        "duration": 1.58
+    },
+    {
+        "text": "show is really how you can create",
+        "start": 91.88,
+        "duration": 2.34
+    },
+    {
+        "text": "an interactive avatar experience",
+        "start": 94.22,
+        "duration": 2.36
+    },
+    {
+        "text": "for a customer assistant, for example.",
+        "start": 96.58,
+        "duration": 2.76
+    },
+    {
+        "text": ">> That's amazing details.",
+        "start": 99.34,
+        "duration": 1.29
+    },
+    {
+        "text": "More about each of these. I put",
+        "start": 100.63,
+        "duration": 1.71
+    },
+    {
+        "text": "the slide up there so you can explain it to us.",
+        "start": 102.34,
+        "duration": 2.43
+    },
+    {
+        "text": ">> Yeah, perfect. If it's okay for you,",
+        "start": 104.77,
+        "duration": 2.95
+    },
+    {
+        "text": "you can jump right into the video generation use case.",
+        "start": 107.72,
+        "duration": 4.085
+    },
+    {
+        "text": ">> Let's do it.",
+        "start": 111.805,
+        "duration": 1.495
+    },
+    {
+        "text": ">> If you want to create an avatar video,",
+        "start": 114.77,
+        "duration": 4.91
+    },
+    {
+        "text": "it all starts with a talking script.",
+        "start": 119.68,
+        "duration": 3.2
+    },
+    {
+        "text": "You have to provide text for your avatar to speak for you.",
+        "start": 122.88,
+        "duration": 5.3
+    },
+    {
+        "text": "There are two options.",
+        "start": 128.18,
+        "duration": 2.48
+    },
+    {
+        "text": "In the simplest case,",
+        "start": 130.66,
+        "duration": 1.78
+    },
+    {
+        "text": "it could be just a text file, plain text.",
+        "start": 132.44,
+        "duration": 2.52
+    },
+    {
+        "text": "However, if you have more advanced requirements for,",
+        "start": 134.96,
+        "duration": 3.7
+    },
+    {
+        "text": "let's say, tuning the pronunciation, working with phonames,",
+        "start": 138.66,
+        "duration": 4.02
+    },
+    {
+        "text": "or adding avatar gestures,",
+        "start": 142.68,
+        "duration": 3.03
+    },
+    {
+        "text": "you can use the Speech Synthesis Markup Language, SSML.",
+        "start": 145.71,
+        "duration": 5.51
+    },
+    {
+        "text": "You have more flexibility there.",
+        "start": 151.22,
+        "duration": 2.04
+    },
+    {
+        "text": "There is actually a very nice tool in",
+        "start": 153.26,
+        "duration": 2.68
+    },
+    {
+        "text": "the speech studio which is called Audio Content Generation Tool,",
+        "start": 155.94,
+        "duration": 3.835
+    },
+    {
+        "text": "where you can just scribble",
+        "start": 159.775,
+        "duration": 3.085
+    },
+    {
+        "text": "down your script for the avatar to speak,",
+        "start": 162.86,
+        "duration": 2.88
+    },
+    {
+        "text": "then convert it to SSML,",
+        "start": 165.74,
+        "duration": 2.0
+    },
+    {
+        "text": "and that's what you feed into the API to create the avatar video,",
+        "start": 167.74,
+        "duration": 5.4
+    },
+    {
+        "text": "which is step Number 2.",
+        "start": 173.14,
+        "duration": 1.56
+    },
+    {
+        "text": "You take your input text,",
+        "start": 174.7,
+        "duration": 2.54
+    },
+    {
+        "text": "the SSML, or the plain text.",
+        "start": 177.24,
+        "duration": 1.98
+    },
+    {
+        "text": "You call the TTS avatar API to generate the video.",
+        "start": 179.22,
+        "duration": 4.86
+    },
+    {
+        "text": "There you can select the character of the avatar.",
+        "start": 184.08,
+        "duration": 3.32
+    },
+    {
+        "text": "You can specify settings",
+        "start": 187.4,
+        "duration": 2.0
+    },
+    {
+        "text": "for the video format that you want to have.",
+        "start": 189.4,
+        "duration": 2.64
+    },
+    {
+        "text": "This is basically the output that you get.",
+        "start": 192.04,
+        "duration": 3.06
+    },
+    {
+        "text": "You get a video file with",
+        "start": 195.1,
+        "duration": 2.69
+    },
+    {
+        "text": "a white or transparent background and you see the talking avatar.",
+        "start": 197.79,
+        "duration": 4.62
+    },
+    {
+        "text": "But that's for most solutions.",
+        "start": 202.41,
+        "duration": 2.2
+    },
+    {
+        "text": "Of course, not sufficient because you",
+        "start": 204.61,
+        "duration": 1.84
+    },
+    {
+        "text": "typically you want to add some content.",
+        "start": 206.45,
+        "duration": 3.94
+    },
+    {
+        "text": "You have content,",
+        "start": 210.39,
+        "duration": 1.86
+    },
+    {
+        "text": "you have maybe background music,",
+        "start": 212.25,
+        "duration": 1.99
+    },
+    {
+        "text": "and you want to combine everything into",
+        "start": 214.24,
+        "duration": 2.45
+    },
+    {
+        "text": "one final rich video experience.",
+        "start": 216.69,
+        "duration": 3.88
+    },
+    {
+        "text": "This is where our solution accelerator comes into",
+        "start": 220.57,
+        "duration": 3.24
+    },
+    {
+        "text": "place In the notebook that I'm going to show you in a minute,",
+        "start": 223.81,
+        "duration": 5.07
+    },
+    {
+        "text": "you have the ability to combine",
+        "start": 228.88,
+        "duration": 3.665
+    },
+    {
+        "text": "the content video or content image",
+        "start": 232.545,
+        "duration": 2.64
+    },
+    {
+        "text": "maybe with background music, so everything.",
+        "start": 235.185,
+        "duration": 2.065
+    },
+    {
+        "text": "What you want to have for a rich final video experience,",
+        "start": 237.25,
+        "duration": 4.28
+    },
+    {
+        "text": "there are two ways to do it.",
+        "start": 241.53,
+        "duration": 2.32
+    },
+    {
+        "text": "One is if you want to do it in a more,",
+        "start": 243.85,
+        "duration": 2.42
+    },
+    {
+        "text": "let's say, automated fashion,",
+        "start": 246.27,
+        "duration": 1.38
+    },
+    {
+        "text": "you can use the FFmpeg tool",
+        "start": 247.65,
+        "duration": 1.99
+    },
+    {
+        "text": "for automated combination of those assets.",
+        "start": 249.64,
+        "duration": 3.79
+    },
+    {
+        "text": "Or if you want to have more,",
+        "start": 253.43,
+        "duration": 1.86
+    },
+    {
+        "text": "let's say, flexibility,",
+        "start": 255.29,
+        "duration": 1.54
+    },
+    {
+        "text": "a more intuitive way to do it,",
+        "start": 256.83,
+        "duration": 1.94
+    },
+    {
+        "text": "you can use a video editor like Clipchamp, for example.",
+        "start": 258.77,
+        "duration": 4.16
+    },
+    {
+        "text": "Then you get your final result. Sorry.",
+        "start": 262.93,
+        "duration": 2.705
+    },
+    {
+        "text": ">> No, that makes perfect sense.",
+        "start": 265.635,
+        "duration": 1.56
+    },
+    {
+        "text": "Just a couple of questions.",
+        "start": 267.195,
+        "duration": 1.255
+    },
+    {
+        "text": "When you're using SSML to create speech,",
+        "start": 268.45,
+        "duration": 4.34
+    },
+    {
+        "text": "it's creating audio and it's also creating video.",
+        "start": 272.79,
+        "duration": 3.36
+    },
+    {
+        "text": "But those two things, are they separate or are they put together?",
+        "start": 276.15,
+        "duration": 3.395
+    },
+    {
+        "text": ">> That's a very good question.",
+        "start": 279.545,
+        "duration": 2.52
+    },
+    {
+        "text": "They are actually separate things that are combined by the API,",
+        "start": 282.065,
+        "duration": 7.885
+    },
+    {
+        "text": "which means you can have your avatar and select a voice,",
+        "start": 289.95,
+        "duration": 6.3
+    },
+    {
+        "text": "which can be one of the neural voices that we provide,",
+        "start": 296.25,
+        "duration": 3.66
+    },
+    {
+        "text": "but it also can be the voice of the actual person.",
+        "start": 299.91,
+        "duration": 3.32
+    },
+    {
+        "text": "If you have a custom avatar,",
+        "start": 303.23,
+        "duration": 2.12
+    },
+    {
+        "text": "for example, you could,",
+        "start": 305.35,
+        "duration": 1.22
+    },
+    {
+        "text": "for example, create a video of",
+        "start": 306.57,
+        "duration": 2.04
+    },
+    {
+        "text": "yourself and also train your own voice.",
+        "start": 308.61,
+        "duration": 2.86
+    },
+    {
+        "text": "It could be one experience.",
+        "start": 311.47,
+        "duration": 1.71
+    },
+    {
+        "text": "It would be the avatar of Seth with his voice,",
+        "start": 313.18,
+        "duration": 3.37
+    },
+    {
+        "text": "but it could also be another voice.",
+        "start": 316.55,
+        "duration": 2.07
+    },
+    {
+        "text": "It's two services, but in the API there are combined.",
+        "start": 318.62,
+        "duration": 3.9
+    },
+    {
+        "text": "The end result is your talking avatar.",
+        "start": 322.52,
+        "duration": 2.56
+    },
+    {
+        "text": "It speaks with this one of",
+        "start": 325.08,
+        "duration": 1.9
+    },
+    {
+        "text": "the neural voices and of course you have get all those gestures.",
+        "start": 326.98,
+        "duration": 4.48
+    },
+    {
+        "text": ">> It's basically you're creating speech.",
+        "start": 331.46,
+        "duration": 2.02
+    },
+    {
+        "text": "Then the speech gets created into a video,",
+        "start": 333.48,
+        "duration": 2.42
+    },
+    {
+        "text": "but that video just has a plain background and there's",
+        "start": 335.9,
+        "duration": 3.52
+    },
+    {
+        "text": "some work that we need to do to make",
+        "start": 339.42,
+        "duration": 2.1
+    },
+    {
+        "text": "that video be part of our assets.",
+        "start": 341.52,
+        "duration": 2.16
+    },
+    {
+        "text": "That's what the second two other parts are doing. Is that right?",
+        "start": 343.68,
+        "duration": 2.835
+    },
+    {
+        "text": ">> Exactly. Then let's quickly check out the notebook.",
+        "start": 346.515,
+        "duration": 6.065
+    },
+    {
+        "text": "This is, by the way, our Accelerator.",
+        "start": 352.58,
+        "duration": 2.605
+    },
+    {
+        "text": "There is one notebook end to end,",
+        "start": 355.185,
+        "duration": 2.255
+    },
+    {
+        "text": "which guides you through the process of creating such a video.",
+        "start": 357.44,
+        "duration": 3.86
+    },
+    {
+        "text": "You see it's a relatively straightforward service.",
+        "start": 361.3,
+        "duration": 4.22
+    },
+    {
+        "text": "All you need is a speech resource.",
+        "start": 365.52,
+        "duration": 3.06
+    },
+    {
+        "text": "It's the TTS speech service",
+        "start": 368.58,
+        "duration": 3.54
+    },
+    {
+        "text": "which also supports the avatar generation now.",
+        "start": 372.12,
+        "duration": 4.33
+    },
+    {
+        "text": "Here you can select a project folder for your video project.",
+        "start": 376.45,
+        "duration": 4.75
+    },
+    {
+        "text": "You can either select SSML as input or plain text.",
+        "start": 381.2,
+        "duration": 4.78
+    },
+    {
+        "text": "As I said, we typically recommend SSML because it's more flexible.",
+        "start": 385.98,
+        "duration": 5.42
+    },
+    {
+        "text": "We have a helper function which lets you",
+        "start": 391.4,
+        "duration": 2.86
+    },
+    {
+        "text": "download the actual video file that has been generated.",
+        "start": 394.26,
+        "duration": 4.6
+    },
+    {
+        "text": "Here are some examples how you can create",
+        "start": 398.86,
+        "duration": 4.8
+    },
+    {
+        "text": "this text input for the avatar",
+        "start": 403.66,
+        "duration": 2.48
+    },
+    {
+        "text": "based on the audio content generation tool.",
+        "start": 406.14,
+        "duration": 3.1
+    },
+    {
+        "text": "It's a very flexible, it's very convenient.",
+        "start": 409.24,
+        "duration": 2.6
+    },
+    {
+        "text": "Then as the result,",
+        "start": 411.84,
+        "duration": 1.98
+    },
+    {
+        "text": "you just extract the SSML as the input.",
+        "start": 413.82,
+        "duration": 3.18
+    },
+    {
+        "text": "Here also to show the flexibility of working with SSML directly,",
+        "start": 417.0,
+        "duration": 7.24
+    },
+    {
+        "text": "you can select the voice, that was your question.",
+        "start": 424.24,
+        "duration": 2.9
+    },
+    {
+        "text": "If it's different, you can select the language.",
+        "start": 427.14,
+        "duration": 3.2
+    },
+    {
+        "text": "You can select the style.",
+        "start": 430.34,
+        "duration": 3.12
+    },
+    {
+        "text": "If you want to have a shouting avatar or a whispering avatar.",
+        "start": 433.46,
+        "duration": 3.32
+    },
+    {
+        "text": "There is a lot of things you can do from the voice perspective,",
+        "start": 436.78,
+        "duration": 3.68
+    },
+    {
+        "text": "but also from the perspective of the avatar.",
+        "start": 440.46,
+        "duration": 3.06
+    },
+    {
+        "text": "There are custom gestures.",
+        "start": 443.52,
+        "duration": 1.67
+    },
+    {
+        "text": "For example, let's assume you want to highlight a product.",
+        "start": 445.19,
+        "duration": 2.9
+    },
+    {
+        "text": "You want to point the avatar to a product.",
+        "start": 448.09,
+        "duration": 4.12
+    },
+    {
+        "text": "You can do that as well.",
+        "start": 452.21,
+        "duration": 1.44
+    },
+    {
+        "text": "These avatar jesters are also configurable using SSML.",
+        "start": 453.65,
+        "duration": 7.3
+    },
+    {
+        "text": "Once we have uploaded our speaking script,",
+        "start": 460.95,
+        "duration": 4.31
+    },
+    {
+        "text": "here comes now the point where we actually",
+        "start": 465.26,
+        "duration": 3.35
+    },
+    {
+        "text": "call the API to generate the avatar.",
+        "start": 468.61,
+        "duration": 4.39
+    },
+    {
+        "text": ">> Relatively straightforward.",
+        "start": 473.0,
+        "duration": 1.885
+    },
+    {
+        "text": "Here we select which avatar we want to have.",
+        "start": 474.885,
+        "duration": 3.45
+    },
+    {
+        "text": "There are built-in avatars that come with the service.",
+        "start": 478.335,
+        "duration": 3.21
+    },
+    {
+        "text": "You also have the ability, as I mentioned,",
+        "start": 481.545,
+        "duration": 2.145
+    },
+    {
+        "text": "to train your own avatar,",
+        "start": 483.69,
+        "duration": 1.56
+    },
+    {
+        "text": "then you would switch the character name to your own avatar.",
+        "start": 485.25,
+        "duration": 3.06
+    },
+    {
+        "text": "Then you can configure things",
+        "start": 488.31,
+        "duration": 1.92
+    },
+    {
+        "text": "like which video format do you want to have.",
+        "start": 490.23,
+        "duration": 2.655
+    },
+    {
+        "text": "Here it's webm because we want to have",
+        "start": 492.885,
+        "duration": 1.785
+    },
+    {
+        "text": "a transparent background for the content that we want to add, etc.",
+        "start": 494.67,
+        "duration": 4.635
+    },
+    {
+        "text": "Here you can configure the settings.",
+        "start": 499.305,
+        "duration": 4.23
+    },
+    {
+        "text": "Then the avatar video is synthesized.",
+        "start": 503.535,
+        "duration": 3.315
+    },
+    {
+        "text": "Then here, it's finally downloaded to your local project folder.",
+        "start": 506.85,
+        "duration": 6.855
+    },
+    {
+        "text": "Here comes then the second part.",
+        "start": 513.705,
+        "duration": 1.965
+    },
+    {
+        "text": "This is the value of our solution accelerator here.",
+        "start": 515.67,
+        "duration": 2.82
+    },
+    {
+        "text": "We are assuming you have a content image or a content video.",
+        "start": 518.49,
+        "duration": 5.805
+    },
+    {
+        "text": "There are some explanations how you can turn",
+        "start": 524.295,
+        "duration": 2.37
+    },
+    {
+        "text": "a PowerPoint presentation into a high-resolution video,",
+        "start": 526.665,
+        "duration": 5.505
+    },
+    {
+        "text": "which is then combined with this video that the avatar service",
+        "start": 532.17,
+        "duration": 5.13
+    },
+    {
+        "text": "has generated with a transparent background",
+        "start": 537.3,
+        "duration": 2.67
+    },
+    {
+        "text": "so we can nicely fit everything together.",
+        "start": 539.97,
+        "duration": 2.85
+    },
+    {
+        "text": "Here are a couple of options.",
+        "start": 542.82,
+        "duration": 2.175
+    },
+    {
+        "text": "I would say, for",
+        "start": 544.995,
+        "duration": 2.235
+    },
+    {
+        "text": "more simpler use cases where you went to automate things,",
+        "start": 547.23,
+        "duration": 3.03
+    },
+    {
+        "text": "you can use a tool like FFmpeg,",
+        "start": 550.26,
+        "duration": 2.25
+    },
+    {
+        "text": "and you can get quite geeky here.",
+        "start": 552.51,
+        "duration": 3.615
+    },
+    {
+        "text": "Here are a couple of examples where you say,",
+        "start": 556.125,
+        "duration": 2.925
+    },
+    {
+        "text": "combine those two elements,",
+        "start": 559.05,
+        "duration": 2.58
+    },
+    {
+        "text": "add background music with reduced volume,",
+        "start": 561.63,
+        "duration": 3.735
+    },
+    {
+        "text": "crop the avatar and reposition it.",
+        "start": 565.365,
+        "duration": 3.21
+    },
+    {
+        "text": "It's really funny that you can do",
+        "start": 568.575,
+        "duration": 2.235
+    },
+    {
+        "text": "these kind of things with the command line tool.",
+        "start": 570.81,
+        "duration": 1.995
+    },
+    {
+        "text": "But of course, it gets more and more complicated.",
+        "start": 572.805,
+        "duration": 2.52
+    },
+    {
+        "text": "If you really want to have a very customized experience,",
+        "start": 575.325,
+        "duration": 4.665
+    },
+    {
+        "text": "probably you want to use a video editor.",
+        "start": 579.99,
+        "duration": 3.375
+    },
+    {
+        "text": "There is a very simple option to use Clipchamp, for example,",
+        "start": 583.365,
+        "duration": 3.795
+    },
+    {
+        "text": "which is a built-in Windows video editor,",
+        "start": 587.16,
+        "duration": 3.99
+    },
+    {
+        "text": "which you can also use.",
+        "start": 591.15,
+        "duration": 2.16
+    },
+    {
+        "text": ">> This is amazing. I've had to do",
+        "start": 593.31,
+        "duration": 3.33
+    },
+    {
+        "text": "a thing or two inside of FFmpeg.",
+        "start": 596.64,
+        "duration": 2.715
+    },
+    {
+        "text": "You can do a ton of stuff.",
+        "start": 599.355,
+        "duration": 2.49
+    },
+    {
+        "text": "It's cool that you're showing us the actual code,",
+        "start": 601.845,
+        "duration": 2.73
+    },
+    {
+        "text": "but you brought an end result, is that right?",
+        "start": 604.575,
+        "duration": 2.79
+    },
+    {
+        "text": ">> Yeah. In our team,",
+        "start": 607.365,
+        "duration": 2.97
+    },
+    {
+        "text": "one of our teammates,",
+        "start": 610.335,
+        "duration": 1.575
+    },
+    {
+        "text": "her name is Christina.",
+        "start": 611.91,
+        "duration": 1.89
+    },
+    {
+        "text": "We thought, wouldn't it be amazing if we train a custom avatar?",
+        "start": 613.8,
+        "duration": 5.25
+    },
+    {
+        "text": "What Christina, my colleague did,",
+        "start": 619.05,
+        "duration": 2.025
+    },
+    {
+        "text": "she recorded approximately 20 minutes of video of herself at home.",
+        "start": 621.075,
+        "duration": 7.245
+    },
+    {
+        "text": "It was not a professional setup,",
+        "start": 628.32,
+        "duration": 1.92
+    },
+    {
+        "text": "no green screen, no professional lighting.",
+        "start": 630.24,
+        "duration": 2.655
+    },
+    {
+        "text": "Usually, you would go into a studio",
+        "start": 632.895,
+        "duration": 2.295
+    },
+    {
+        "text": "to really get a professional recording.",
+        "start": 635.19,
+        "duration": 3.045
+    },
+    {
+        "text": "But anyway, you will see the result in a minute,",
+        "start": 638.235,
+        "duration": 3.345
+    },
+    {
+        "text": "and then, based on this flow here,",
+        "start": 641.58,
+        "duration": 2.715
+    },
+    {
+        "text": "we let Christina or her avatar",
+        "start": 644.295,
+        "duration": 2.61
+    },
+    {
+        "text": "explain how this flow works overall.",
+        "start": 646.905,
+        "duration": 5.115
+    },
+    {
+        "text": "Yeah, happy to show you the experience.",
+        "start": 652.02,
+        "duration": 2.895
+    },
+    {
+        "text": ">> Let's take a look.",
+        "start": 654.915,
+        "duration": 1.38
+    },
+    {
+        "text": ">> Hello, I am Christina.",
+        "start": 656.295,
+        "duration": 2.175
+    },
+    {
+        "text": "Let me show you how to create",
+        "start": 658.47,
+        "duration": 1.38
+    },
+    {
+        "text": "an engaging avatar video in four steps.",
+        "start": 659.85,
+        "duration": 3.255
+    },
+    {
+        "text": "It begins with a talking script for your avatar.",
+        "start": 663.105,
+        "duration": 3.42
+    },
+    {
+        "text": "You can get started with a text file.",
+        "start": 666.525,
+        "duration": 2.28
+    },
+    {
+        "text": "However, we recommend to use",
+        "start": 668.805,
+        "duration": 1.605
+    },
+    {
+        "text": "the Speech Synthesis Markup Language,",
+        "start": 670.41,
+        "duration": 1.98
+    },
+    {
+        "text": "SSML, for advanced requirements.",
+        "start": 672.39,
+        "duration": 2.64
+    },
+    {
+        "text": "It allows you to fine-tune the voice of your avatar,",
+        "start": 675.03,
+        "duration": 2.67
+    },
+    {
+        "text": "including pronunciation or the expression of special terms.",
+        "start": 677.7,
+        "duration": 3.48
+    },
+    {
+        "text": "Also, you can add avatar gestures,",
+        "start": 681.18,
+        "duration": 2.1
+    },
+    {
+        "text": "like pointing to an item.",
+        "start": 683.28,
+        "duration": 1.47
+    },
+    {
+        "text": "The audio content creation tool of the speech studio provides",
+        "start": 684.75,
+        "duration": 3.42
+    },
+    {
+        "text": "an intuitive user interface to",
+        "start": 688.17,
+        "duration": 1.68
+    },
+    {
+        "text": "create an input file for the process.",
+        "start": 689.85,
+        "duration": 2.835
+    },
+    {
+        "text": "With your talking script ready,",
+        "start": 692.685,
+        "duration": 2.205
+    },
+    {
+        "text": "you can use the Azure text-to-speech",
+        "start": 694.89,
+        "duration": 1.755
+    },
+    {
+        "text": "API to synthesize your avatar video.",
+        "start": 696.645,
+        "duration": 2.685
+    },
+    {
+        "text": "Besides providing the SSML input,",
+        "start": 699.33,
+        "duration": 2.37
+    },
+    {
+        "text": "you can specify the character and style of the avatar,",
+        "start": 701.7,
+        "duration": 3.03
+    },
+    {
+        "text": "such as standing or sitting,",
+        "start": 704.73,
+        "duration": 1.515
+    },
+    {
+        "text": "and the video format.",
+        "start": 706.245,
+        "duration": 1.425
+    },
+    {
+        "text": "Our Jupyter Notebook will guide you through these steps in detail.",
+        "start": 707.67,
+        "duration": 4.035
+    },
+    {
+        "text": "In many cases, you probably want",
+        "start": 711.705,
+        "duration": 2.535
+    },
+    {
+        "text": "to add a content video with text,",
+        "start": 714.24,
+        "duration": 1.875
+    },
+    {
+        "text": "illustrations, animations, etc.",
+        "start": 716.115,
+        "duration": 2.355
+    },
+    {
+        "text": "to the final avatar video.",
+        "start": 718.47,
+        "duration": 1.815
+    },
+    {
+        "text": "Our toolset guides you on exporting",
+        "start": 720.285,
+        "duration": 1.875
+    },
+    {
+        "text": "an animated PowerPoint presentation",
+        "start": 722.16,
+        "duration": 2.07
+    },
+    {
+        "text": "as a high-resolution video for this purpose.",
+        "start": 724.23,
+        "duration": 3.21
+    },
+    {
+        "text": "Finally, you combine the avatar video, content,",
+        "start": 727.44,
+        "duration": 3.765
+    },
+    {
+        "text": "and optional elements like background music",
+        "start": 731.205,
+        "duration": 2.235
+    },
+    {
+        "text": "to compose a rich video experience.",
+        "start": 733.44,
+        "duration": 2.28
+    },
+    {
+        "text": "This can either be done using",
+        "start": 735.72,
+        "duration": 1.47
+    },
+    {
+        "text": "the FFmpeg tool or video editor like Clipchamp for more control.",
+        "start": 737.19,
+        "duration": 3.99
+    },
+    {
+        "text": "Using a video editor provides",
+        "start": 741.18,
+        "duration": 1.77
+    },
+    {
+        "text": "an intuitive way to fine-tune the timings of the video,",
+        "start": 742.95,
+        "duration": 2.67
+    },
+    {
+        "text": "and adding effects, and animations.",
+        "start": 745.62,
+        "duration": 2.835
+    },
+    {
+        "text": "We can't wait to see what you will create.",
+        "start": 748.455,
+        "duration": 3.715
+    },
+    {
+        "text": ">> Well, that was really cool,",
+        "start": 757.01,
+        "duration": 2.59
+    },
+    {
+        "text": "and that's your actual colleague, right?",
+        "start": 759.6,
+        "duration": 2.475
+    },
+    {
+        "text": ">> Yeah, that's Christina.",
+        "start": 762.075,
+        "duration": 2.115
+    },
+    {
+        "text": ">> That's amazing. Here's a question because that's really cool.",
+        "start": 764.19,
+        "duration": 4.935
+    },
+    {
+        "text": "I now know how to make my own text, put it into SSML,",
+        "start": 769.125,
+        "duration": 4.485
+    },
+    {
+        "text": "generate a video, but is there a way to",
+        "start": 773.61,
+        "duration": 2.22
+    },
+    {
+        "text": "do interactive experiences as well?",
+        "start": 775.83,
+        "duration": 3.915
+    },
+    {
+        "text": ">> Yes, and that's actually,",
+        "start": 779.745,
+        "duration": 2.775
+    },
+    {
+        "text": "that brings me to the second use case,",
+        "start": 782.52,
+        "duration": 2.82
+    },
+    {
+        "text": "which is how to create an interactive avatar app experience.",
+        "start": 785.34,
+        "duration": 7.635
+    },
+    {
+        "text": "You can imagine a use case like we want to",
+        "start": 792.975,
+        "duration": 3.675
+    },
+    {
+        "text": "provide service for customers,",
+        "start": 796.65,
+        "duration": 4.215
+    },
+    {
+        "text": "or citizens, or employees.",
+        "start": 800.865,
+        "duration": 4.255
+    },
+    {
+        "text": "I, as a customer,",
+        "start": 805.46,
+        "duration": 2.515
+    },
+    {
+        "text": "am able to ask questions about product, for example,",
+        "start": 807.975,
+        "duration": 3.63
+    },
+    {
+        "text": "or maybe even trigger business processes,",
+        "start": 811.605,
+        "duration": 3.495
+    },
+    {
+        "text": "like checking my order status or even ordering a product.",
+        "start": 815.1,
+        "duration": 4.995
+    },
+    {
+        "text": "I think there is a broad range of use cases.",
+        "start": 820.095,
+        "duration": 4.14
+    },
+    {
+        "text": "We also have a first customer in Germany which is Commerzbank,",
+        "start": 824.235,
+        "duration": 6.015
+    },
+    {
+        "text": "it's one of the biggest banks in Germany.",
+        "start": 830.25,
+        "duration": 4.47
+    },
+    {
+        "text": "They were also featured at",
+        "start": 834.72,
+        "duration": 1.92
+    },
+    {
+        "text": "the Ignite conference two weeks ago",
+        "start": 836.64,
+        "duration": 1.83
+    },
+    {
+        "text": "where this feature was introduced.",
+        "start": 838.47,
+        "duration": 1.695
+    },
+    {
+        "text": "They are working on exactly this, I would say,",
+        "start": 840.165,
+        "duration": 4.395
+    },
+    {
+        "text": "application pattern for a virtual banking assistant.",
+        "start": 844.56,
+        "duration": 5.295
+    },
+    {
+        "text": "In our repo,",
+        "start": 849.855,
+        "duration": 1.785
+    },
+    {
+        "text": "you have the code.",
+        "start": 851.64,
+        "duration": 1.605
+    },
+    {
+        "text": "In our case, it's",
+        "start": 853.245,
+        "duration": 1.185
+    },
+    {
+        "text": "an outdoor gear shopping assistant which you can reuse.",
+        "start": 854.43,
+        "duration": 4.605
+    },
+    {
+        "text": "I would like to show you",
+        "start": 859.035,
+        "duration": 3.105
+    },
+    {
+        "text": "the architecture first because it's quite comprehensive.",
+        "start": 862.14,
+        "duration": 4.455
+    },
+    {
+        "text": "It's not only the avatar service.",
+        "start": 866.595,
+        "duration": 3.315
+    },
+    {
+        "text": "The idea is you can speak to the avatar.",
+        "start": 869.91,
+        "duration": 2.79
+    },
+    {
+        "text": "You have the speech-to-text service,",
+        "start": 872.7,
+        "duration": 2.625
+    },
+    {
+        "text": "so that you speak to the avatar in natural language,",
+        "start": 875.325,
+        "duration": 2.88
+    },
+    {
+        "text": "it responds to you in an interactive fashion.",
+        "start": 878.205,
+        "duration": 4.08
+    },
+    {
+        "text": "You see the avatar.",
+        "start": 882.285,
+        "duration": 1.185
+    },
+    {
+        "text": "The avatar is talking to you.",
+        "start": 883.47,
+        "duration": 2.22
+    },
+    {
+        "text": "But we also want to have this backend integration.",
+        "start": 885.69,
+        "duration": 3.9
+    },
+    {
+        "text": "We want to be able to answer questions about products.",
+        "start": 889.59,
+        "duration": 5.175
+    },
+    {
+        "text": "There is Azure AI Search which",
+        "start": 894.765,
+        "duration": 2.79
+    },
+    {
+        "text": "triggers factor search if I'm asking information about products.",
+        "start": 897.555,
+        "duration": 6.15
+    },
+    {
+        "text": "But I also want to support business transactions",
+        "start": 903.705,
+        "duration": 3.105
+    },
+    {
+        "text": "like show me my account status,",
+        "start": 906.81,
+        "duration": 3.39
+    },
+    {
+        "text": "I want to order a product,",
+        "start": 910.2,
+        "duration": 1.935
+    },
+    {
+        "text": "or how many loyalty points do I have.",
+        "start": 912.135,
+        "duration": 3.735
+    },
+    {
+        "text": "It's quite complex.",
+        "start": 915.87,
+        "duration": 3.015
+    },
+    {
+        "text": "This retrieval augmented generation pattern that we talk about",
+        "start": 918.885,
+        "duration": 4.635
+    },
+    {
+        "text": "now for months with Azure OpenAI plus the avatar service.",
+        "start": 923.52,
+        "duration": 4.305
+    },
+    {
+        "text": "The interesting thing in this context here is that we are",
+        "start": 927.825,
+        "duration": 6.585
+    },
+    {
+        "text": "using Azure OpenAI function calling to do the orchestration.",
+        "start": 934.41,
+        "duration": 7.815
+    },
+    {
+        "text": "We are using Azure OpenAI function calling to",
+        "start": 942.225,
+        "duration": 3.505
+    },
+    {
+        "text": "understand from the conversation with you what's your intent.",
+        "start": 945.73,
+        "duration": 4.73
+    },
+    {
+        "text": "What do you want to do?",
+        "start": 950.46,
+        "duration": 1.32
+    },
+    {
+        "text": "You want to have questions about the product,",
+        "start": 951.78,
+        "duration": 2.79
+    },
+    {
+        "text": "or you want to order a product,",
+        "start": 954.57,
+        "duration": 1.32
+    },
+    {
+        "text": "or you want to check your account status.",
+        "start": 955.89,
+        "duration": 2.8
+    },
+    {
+        "text": "The large language model understands your intent.",
+        "start": 958.69,
+        "duration": 5.87
+    },
+    {
+        "text": ">> It has a set of functions,",
+        "start": 964.56,
+        "duration": 3.135
+    },
+    {
+        "text": "these are actually Python functions,",
+        "start": 967.695,
+        "duration": 2.28
+    },
+    {
+        "text": "and it knows when to trigger",
+        "start": 969.975,
+        "duration": 2.355
+    },
+    {
+        "text": "those functions based on your intent,",
+        "start": 972.33,
+        "duration": 3.0
+    },
+    {
+        "text": "which makes it a very, I would say,",
+        "start": 975.33,
+        "duration": 1.92
+    },
+    {
+        "text": "flexible and scalable end-to-end",
+        "start": 977.25,
+        "duration": 2.07
+    },
+    {
+        "text": "solution with the avatar as a front end.",
+        "start": 979.32,
+        "duration": 3.855
+    },
+    {
+        "text": ">> That's really cool. Can you show us how it works?",
+        "start": 983.175,
+        "duration": 2.595
+    },
+    {
+        "text": ">> I can show you how it works.",
+        "start": 985.77,
+        "duration": 2.88
+    },
+    {
+        "text": "It's a quite complex application,",
+        "start": 988.65,
+        "duration": 1.83
+    },
+    {
+        "text": "so we have a JavaScript front end and we have",
+        "start": 990.48,
+        "duration": 2.28
+    },
+    {
+        "text": "this Python back end with those function calling capability.",
+        "start": 992.76,
+        "duration": 4.02
+    },
+    {
+        "text": "In the interest of time,",
+        "start": 996.78,
+        "duration": 1.515
+    },
+    {
+        "text": "I would suggest maybe focusing a",
+        "start": 998.295,
+        "duration": 1.695
+    },
+    {
+        "text": "little bit on the back end because it's quite",
+        "start": 999.99,
+        "duration": 1.74
+    },
+    {
+        "text": "interesting and also useful for other use cases.",
+        "start": 1001.73,
+        "duration": 4.365
+    },
+    {
+        "text": "If I go to VS Code here,",
+        "start": 1006.095,
+        "duration": 2.91
+    },
+    {
+        "text": "once again, I can show you how we are leveraging function calling.",
+        "start": 1009.005,
+        "duration": 5.205
+    },
+    {
+        "text": "As I mentioned in this context,",
+        "start": 1014.21,
+        "duration": 2.55
+    },
+    {
+        "text": "in this application we have four functions,",
+        "start": 1016.76,
+        "duration": 4.065
+    },
+    {
+        "text": "four tools if you will,",
+        "start": 1020.825,
+        "duration": 3.36
+    },
+    {
+        "text": "that the LLM is aware about and the LLM can",
+        "start": 1024.185,
+        "duration": 4.065
+    },
+    {
+        "text": "actually trigger or suggest to trigger using those functions.",
+        "start": 1028.25,
+        "duration": 4.845
+    },
+    {
+        "text": "All you need to do is, on the first hand,",
+        "start": 1033.095,
+        "duration": 3.495
+    },
+    {
+        "text": "you have to explain the LLM in natural language,",
+        "start": 1036.59,
+        "duration": 3.915
+    },
+    {
+        "text": "which functions are available and when to call them.",
+        "start": 1040.505,
+        "duration": 3.465
+    },
+    {
+        "text": "This is here on the left-hand side.",
+        "start": 1043.97,
+        "duration": 2.145
+    },
+    {
+        "text": "For example, we support a question like,",
+        "start": 1046.115,
+        "duration": 2.52
+    },
+    {
+        "text": "how many bonus points do I have?",
+        "start": 1048.635,
+        "duration": 1.89
+    },
+    {
+        "text": "Or how many loyalty points do I have?",
+        "start": 1050.525,
+        "duration": 2.655
+    },
+    {
+        "text": "Based on just this simple description here,",
+        "start": 1053.18,
+        "duration": 4.02
+    },
+    {
+        "text": "the LLM is able to figure out,",
+        "start": 1057.2,
+        "duration": 2.355
+    },
+    {
+        "text": "now I want to call this function,",
+        "start": 1059.555,
+        "duration": 3.075
+    },
+    {
+        "text": "if Seth, for example,",
+        "start": 1062.63,
+        "duration": 1.59
+    },
+    {
+        "text": "asked for his bonus points.",
+        "start": 1064.22,
+        "duration": 1.845
+    },
+    {
+        "text": "Then of course, we also want to support input parameters.",
+        "start": 1066.065,
+        "duration": 4.86
+    },
+    {
+        "text": "Here, in this use case,",
+        "start": 1070.925,
+        "duration": 1.995
+    },
+    {
+        "text": "it's important that we also provide the account ID,",
+        "start": 1072.92,
+        "duration": 3.465
+    },
+    {
+        "text": "the ID of the customer as",
+        "start": 1076.385,
+        "duration": 2.565
+    },
+    {
+        "text": "a function parameter so we have to specify this as well,",
+        "start": 1078.95,
+        "duration": 3.675
+    },
+    {
+        "text": "similar to what's the status of my order.",
+        "start": 1082.625,
+        "duration": 3.27
+    },
+    {
+        "text": "Then there are also more complex functions.",
+        "start": 1085.895,
+        "duration": 3.93
+    },
+    {
+        "text": "When you order a product,",
+        "start": 1089.825,
+        "duration": 1.305
+    },
+    {
+        "text": "you have to provide more information, more parameters.",
+        "start": 1091.13,
+        "duration": 4.185
+    },
+    {
+        "text": "We have the account ID once again,",
+        "start": 1095.315,
+        "duration": 2.595
+    },
+    {
+        "text": "but we also want to specify which product to order,",
+        "start": 1097.91,
+        "duration": 4.155
+    },
+    {
+        "text": "how many to order and then we also trigger search, for example.",
+        "start": 1102.065,
+        "duration": 6.09
+    },
+    {
+        "text": "What you see on the left-hand side,",
+        "start": 1108.155,
+        "duration": 2.355
+    },
+    {
+        "text": "this JSON structure is just to explain the model,",
+        "start": 1110.51,
+        "duration": 4.89
+    },
+    {
+        "text": "which functions are there in",
+        "start": 1115.4,
+        "duration": 3.63
+    },
+    {
+        "text": "natural language so it is able to understand when to call them.",
+        "start": 1119.03,
+        "duration": 4.065
+    },
+    {
+        "text": "On the right-hand side,",
+        "start": 1123.095,
+        "duration": 1.785
+    },
+    {
+        "text": "you see the actual Python orchestration code.",
+        "start": 1124.88,
+        "duration": 3.945
+    },
+    {
+        "text": "When we are calling the LLM,",
+        "start": 1128.825,
+        "duration": 3.285
+    },
+    {
+        "text": "that's the typical conversational flow",
+        "start": 1132.11,
+        "duration": 2.19
+    },
+    {
+        "text": "that we use with ChatGPT for example,",
+        "start": 1134.3,
+        "duration": 3.15
+    },
+    {
+        "text": "so you have the messages input,",
+        "start": 1137.45,
+        "duration": 3.36
+    },
+    {
+        "text": "the question of the user,",
+        "start": 1140.81,
+        "duration": 1.8
+    },
+    {
+        "text": "do you have a 10 for two people?",
+        "start": 1142.61,
+        "duration": 1.95
+    },
+    {
+        "text": "We specify this functions definition,",
+        "start": 1144.56,
+        "duration": 3.36
+    },
+    {
+        "text": "the LLM is aware of it and we also let the LLM",
+        "start": 1147.92,
+        "duration": 4.62
+    },
+    {
+        "text": "decide automatically if a function should be called or not.",
+        "start": 1152.54,
+        "duration": 5.445
+    },
+    {
+        "text": "Then of course, we need to have",
+        "start": 1157.985,
+        "duration": 2.445
+    },
+    {
+        "text": "a mapping between the functions that we",
+        "start": 1160.43,
+        "duration": 2.94
+    },
+    {
+        "text": "defined in natural language with the actual Python functions.",
+        "start": 1163.37,
+        "duration": 6.48
+    },
+    {
+        "text": "They are specified a little bit below.",
+        "start": 1169.85,
+        "duration": 2.16
+    },
+    {
+        "text": "We will see them in a minute.",
+        "start": 1172.01,
+        "duration": 1.215
+    },
+    {
+        "text": "But here our code know now is okay,",
+        "start": 1173.225,
+        "duration": 3.24
+    },
+    {
+        "text": "if the LLM says call this function,",
+        "start": 1176.465,
+        "duration": 2.7
+    },
+    {
+        "text": "then this Python function is actually called.",
+        "start": 1179.165,
+        "duration": 4.02
+    },
+    {
+        "text": "Here we get the name of the function,",
+        "start": 1183.185,
+        "duration": 2.625
+    },
+    {
+        "text": "we get the function arguments and this here is then the magic line",
+        "start": 1185.81,
+        "duration": 5.295
+    },
+    {
+        "text": "where the Python function is actually executed.",
+        "start": 1191.105,
+        "duration": 5.82
+    },
+    {
+        "text": "Here if I scroll down a little bit below,",
+        "start": 1196.925,
+        "duration": 3.345
+    },
+    {
+        "text": "we get a return from the Python function,",
+        "start": 1200.27,
+        "duration": 3.0
+    },
+    {
+        "text": "like you have 500 loyalty points or yes,",
+        "start": 1203.27,
+        "duration": 4.965
+    },
+    {
+        "text": "I have triggered an order for you so",
+        "start": 1208.235,
+        "duration": 3.015
+    },
+    {
+        "text": "we get a response from the function.",
+        "start": 1211.25,
+        "duration": 3.345
+    },
+    {
+        "text": "This response gets back to",
+        "start": 1214.595,
+        "duration": 2.415
+    },
+    {
+        "text": "the model so that the user gets the information,",
+        "start": 1217.01,
+        "duration": 3.09
+    },
+    {
+        "text": "I have ordered the product for you, for example.",
+        "start": 1220.1,
+        "duration": 2.625
+    },
+    {
+        "text": "Then finally, at the end,",
+        "start": 1222.725,
+        "duration": 2.16
+    },
+    {
+        "text": "you see the actual function.",
+        "start": 1224.885,
+        "duration": 2.76
+    },
+    {
+        "text": "We have a helper function to execute",
+        "start": 1227.645,
+        "duration": 3.0
+    },
+    {
+        "text": "a generic SQL query because we are using Azure SQL.",
+        "start": 1230.645,
+        "duration": 4.155
+    },
+    {
+        "text": "Then you can see them side by side.",
+        "start": 1234.8,
+        "duration": 2.175
+    },
+    {
+        "text": "Here is the definition of the get bonus points function and",
+        "start": 1236.975,
+        "duration": 4.515
+    },
+    {
+        "text": "here's the actual Python code which is then called,",
+        "start": 1241.49,
+        "duration": 4.725
+    },
+    {
+        "text": "same for get order details or finally order product.",
+        "start": 1246.215,
+        "duration": 6.03
+    },
+    {
+        "text": "That's it. From my perspective,",
+        "start": 1252.245,
+        "duration": 2.955
+    },
+    {
+        "text": "this is very flexible,",
+        "start": 1255.2,
+        "duration": 1.83
+    },
+    {
+        "text": "it's very scalable, of course,",
+        "start": 1257.03,
+        "duration": 3.51
+    },
+    {
+        "text": "also beyond avatar use cases.",
+        "start": 1260.54,
+        "duration": 3.69
+    },
+    {
+        "text": "That's a very powerful pattern.",
+        "start": 1264.23,
+        "duration": 3.05
+    },
+    {
+        "text": ">> This is using standard OpenAI function calling.",
+        "start": 1267.28,
+        "duration": 4.45
+    },
+    {
+        "text": "Then you're hooking up the",
+        "start": 1271.73,
+        "duration": 2.1
+    },
+    {
+        "text": "function calls that it thinks that you do,",
+        "start": 1273.83,
+        "duration": 2.25
+    },
+    {
+        "text": "passing in the parameters and then going to town.",
+        "start": 1276.08,
+        "duration": 3.06
+    },
+    {
+        "text": "How does this link up to the avatar though?",
+        "start": 1279.14,
+        "duration": 3.88
+    },
+    {
+        "text": ">> There is a front end application,",
+        "start": 1284.05,
+        "duration": 3.73
+    },
+    {
+        "text": "so it's a JavaScript code,",
+        "start": 1287.78,
+        "duration": 1.68
+    },
+    {
+        "text": "and here we are using the speech STK for JavaScript to connect to",
+        "start": 1289.46,
+        "duration": 5.61
+    },
+    {
+        "text": "the avatar service and let's",
+        "start": 1295.07,
+        "duration": 3.21
+    },
+    {
+        "text": "say this is back end functionality",
+        "start": 1298.28,
+        "duration": 1.89
+    },
+    {
+        "text": "that is then called when needed.",
+        "start": 1300.17,
+        "duration": 3.07
+    },
+    {
+        "text": "We also have a demo where you see one of",
+        "start": 1303.73,
+        "duration": 4.93
+    },
+    {
+        "text": "my colleagues talking to this service using the service.",
+        "start": 1308.66,
+        "duration": 5.01
+    },
+    {
+        "text": "If you look very closely,",
+        "start": 1313.67,
+        "duration": 1.74
+    },
+    {
+        "text": "you can find out from the context of",
+        "start": 1315.41,
+        "duration": 2.25
+    },
+    {
+        "text": "the conversation which function",
+        "start": 1317.66,
+        "duration": 2.13
+    },
+    {
+        "text": "is called because you've seen them here.",
+        "start": 1319.79,
+        "duration": 2.1
+    },
+    {
+        "text": "Also, maybe you pay close attention what happens when",
+        "start": 1321.89,
+        "duration": 3.75
+    },
+    {
+        "text": "my colleague switches the language from English to German,",
+        "start": 1325.64,
+        "duration": 6.615
+    },
+    {
+        "text": "how it automatically respond it,",
+        "start": 1332.255,
+        "duration": 2.7
+    },
+    {
+        "text": "translates everything even though all content is only in English.",
+        "start": 1334.955,
+        "duration": 5.535
+    },
+    {
+        "text": "There is no German content in the knowledge base, for example.",
+        "start": 1340.49,
+        "duration": 4.275
+    },
+    {
+        "text": ">> Well, that's awesome.",
+        "start": 1344.765,
+        "duration": 1.92
+    },
+    {
+        "text": "Let's see what it does. Let's play it.",
+        "start": 1346.685,
+        "duration": 3.195
+    },
+    {
+        "text": ">> Hello, my name is Lisa. How can I help you?",
+        "start": 1349.88,
+        "duration": 5.11
+    },
+    {
+        "text": ">> How many bonus points do I have?",
+        "start": 1355.12,
+        "duration": 3.89
+    },
+    {
+        "text": ">> You currently have 406 bonus points,",
+        "start": 1361.39,
+        "duration": 3.58
+    },
+    {
+        "text": "which have a cash value of $42.74.",
+        "start": 1364.97,
+        "duration": 3.19
+    },
+    {
+        "text": ">> Tell me about my order status.",
+        "start": 1369.4,
+        "duration": 3.98
+    },
+    {
+        "text": ">> You have two orders.",
+        "start": 1376.57,
+        "duration": 2.26
+    },
+    {
+        "text": "The Slumber Drifter is expected to be delivered on October 30th,",
+        "start": 1378.83,
+        "duration": 3.33
+    },
+    {
+        "text": "2023 and the ServeMaster Pro is",
+        "start": 1382.16,
+        "duration": 2.73
+    },
+    {
+        "text": "expected to be delivered on October 29th, 2023.",
+        "start": 1384.89,
+        "duration": 3.42
+    },
+    {
+        "text": "[FOREIGN]",
+        "start": 1388.31,
+        "duration": 35.88
+    },
+    {
+        "text": ">> Yes, we have the Elysian Voyager,",
+        "start": 1424.19,
+        "duration": 2.085
+    },
+    {
+        "text": "a two-person travel tent designed for",
+        "start": 1426.275,
+        "duration": 1.965
+    },
+    {
+        "text": "comfort, durability, and portability.",
+        "start": 1428.24,
+        "duration": 2.505
+    },
+    {
+        "text": "It features ample space for two adults,",
+        "start": 1430.745,
+        "duration": 2.295
+    },
+    {
+        "text": "a dual-layer ventilated design for air flow,",
+        "start": 1433.04,
+        "duration": 2.64
+    },
+    {
+        "text": "and a waterproof construction.",
+        "start": 1435.68,
+        "duration": 1.77
+    },
+    {
+        "text": "It is lightweight, easy to assemble,",
+        "start": 1437.45,
+        "duration": 2.07
+    },
+    {
+        "text": "and comes with user friendly features",
+        "start": 1439.52,
+        "duration": 1.695
+    },
+    {
+        "text": "like dual doors and vestibules.",
+        "start": 1441.215,
+        "duration": 1.935
+    },
+    {
+        "text": "The Elysian Voyager is also",
+        "start": 1443.15,
+        "duration": 1.74
+    },
+    {
+        "text": "eco-friendly and comes with a five year warranty.",
+        "start": 1444.89,
+        "duration": 3.27
+    },
+    {
+        "text": ">> Order it for me, please.",
+        "start": 1448.16,
+        "duration": 3.37
+    },
+    {
+        "text": ">> Your order for the Elysian Voyager tent has been placed.",
+        "start": 1454.66,
+        "duration": 4.0
+    },
+    {
+        "text": "The expected delivery date is October 21st, 2023.",
+        "start": 1458.66,
+        "duration": 4.62
+    },
+    {
+        "text": ">> That was amazing.",
+        "start": 1463.28,
+        "duration": 2.61
+    },
+    {
+        "text": "It was cool to see.",
+        "start": 1465.89,
+        "duration": 1.635
+    },
+    {
+        "text": "You're basically on the front end",
+        "start": 1467.525,
+        "duration": 1.905
+    },
+    {
+        "text": "converting the speech to",
+        "start": 1469.43,
+        "duration": 2.01
+    },
+    {
+        "text": "text and then sending that text to this endpoint,",
+        "start": 1471.44,
+        "duration": 2.34
+    },
+    {
+        "text": "and then it's rendering everything with",
+        "start": 1473.78,
+        "duration": 1.59
+    },
+    {
+        "text": "the avatar on the front end, is that right?",
+        "start": 1475.37,
+        "duration": 1.965
+    },
+    {
+        "text": ">> Exactly, yes.",
+        "start": 1477.335,
+        "duration": 1.23
+    },
+    {
+        "text": ">> That's amazing. Where can people go to find out more?",
+        "start": 1478.565,
+        "duration": 2.49
+    },
+    {
+        "text": ">> Two tips. The first one is take",
+        "start": 1481.055,
+        "duration": 4.425
+    },
+    {
+        "text": "a look at our repo of the Vision Solution Accelerator.",
+        "start": 1485.48,
+        "duration": 3.765
+    },
+    {
+        "text": "A couple of interesting use cases,",
+        "start": 1489.245,
+        "duration": 2.79
+    },
+    {
+        "text": "the avatar ones are two of them.",
+        "start": 1492.035,
+        "duration": 2.805
+    },
+    {
+        "text": "Then of course is the documentation and there's also",
+        "start": 1494.84,
+        "duration": 4.32
+    },
+    {
+        "text": "a block post that was just published",
+        "start": 1499.16,
+        "duration": 2.1
+    },
+    {
+        "text": "two weeks ago when the capability was introduced.",
+        "start": 1501.26,
+        "duration": 3.63
+    },
+    {
+        "text": ">> This is amazing. I'm putting the links down there",
+        "start": 1504.89,
+        "duration": 1.8
+    },
+    {
+        "text": "so folks can take a look.",
+        "start": 1506.69,
+        "duration": 1.875
+    },
+    {
+        "text": "Well, thank you so much, my friend.",
+        "start": 1508.565,
+        "duration": 1.995
+    },
+    {
+        "text": ">> Thank you.",
+        "start": 1510.56,
+        "duration": 1.14
+    },
+    {
+        "text": ">> Thank you so much for watching and learning all about",
+        "start": 1511.7,
+        "duration": 2.505
+    },
+    {
+        "text": "advanced AI solutions with TTS Avatar and Azure OpenAI.",
+        "start": 1514.205,
+        "duration": 3.915
+    },
+    {
+        "text": "Thank you so much for watching and",
+        "start": 1518.12,
+        "duration": 1.02
+    },
+    {
+        "text": "hopefully we'll see you next time. Take care.",
+        "start": 1519.14,
+        "duration": 5.49
+    },
+    {
+        "text": "[MUSIC]",
+        "start": 1524.63,
+        "duration": 6.88
+    }
+]

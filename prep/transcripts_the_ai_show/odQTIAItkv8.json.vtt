@@ -1,0 +1,1512 @@
+[
+    {
+        "text": ">> You're not gonna want to miss",
+        "start": 0.0,
+        "duration": 1.34
+    },
+    {
+        "text": "this episode of the AI show where we talk all about",
+        "start": 1.34,
+        "duration": 2.48
+    },
+    {
+        "text": "semantic search benchmarking with",
+        "start": 3.82,
+        "duration": 2.18
+    },
+    {
+        "text": "my friend Liam Cavanagh make sure you tune in.",
+        "start": 6.0,
+        "duration": 2.07
+    },
+    {
+        "text": ">> [MUSIC].",
+        "start": 8.07,
+        "duration": 0.39
+    },
+    {
+        "text": ">> Hello and welcome",
+        "start": 8.46,
+        "duration": 7.26
+    },
+    {
+        "text": "to this episode of the AI show we're",
+        "start": 15.72,
+        "duration": 1.44
+    },
+    {
+        "text": "talking all about semantic search",
+        "start": 17.16,
+        "duration": 1.725
+    },
+    {
+        "text": "benchmarking with my friend Liam Cavanagh. How you doing Liam?",
+        "start": 18.885,
+        "duration": 3.855
+    },
+    {
+        "text": ">> I'm doing great. Thanks for having me back again Seth.",
+        "start": 22.74,
+        "duration": 2.7
+    },
+    {
+        "text": ">> We love having you on.",
+        "start": 25.44,
+        "duration": 1.66
+    },
+    {
+        "text": "He is all things, Azure Cognitive Search.",
+        "start": 27.1,
+        "duration": 3.925
+    },
+    {
+        "text": "Now here's the thing, and",
+        "start": 31.025,
+        "duration": 1.735
+    },
+    {
+        "text": "I know we have a show that we're supposed to do,",
+        "start": 32.76,
+        "duration": 2.7
+    },
+    {
+        "text": "but I do retrieval augmented generation all the time.",
+        "start": 35.46,
+        "duration": 3.54
+    },
+    {
+        "text": "I do the demo with Azure data all the time and",
+        "start": 39.0,
+        "duration": 3.1
+    },
+    {
+        "text": "now that I've got you here, I'm just going to ask you.",
+        "start": 42.1,
+        "duration": 3.38
+    },
+    {
+        "text": "I always get confused with all of",
+        "start": 45.48,
+        "duration": 2.62
+    },
+    {
+        "text": "the options that I have to choose from because there's,",
+        "start": 48.1,
+        "duration": 3.46
+    },
+    {
+        "text": "there's like the keyword,",
+        "start": 51.56,
+        "duration": 1.45
+    },
+    {
+        "text": "there's the semantic,",
+        "start": 53.01,
+        "duration": 1.155
+    },
+    {
+        "text": "there's the hybrid and then I don't know if there's another one,",
+        "start": 54.165,
+        "duration": 2.895
+    },
+    {
+        "text": "but I always pick the one all the way at",
+        "start": 57.06,
+        "duration": 1.76
+    },
+    {
+        "text": "the bottom because I feel like it's the most powerful one.",
+        "start": 58.82,
+        "duration": 2.44
+    },
+    {
+        "text": "Can you help me understand those things,",
+        "start": 61.26,
+        "duration": 1.92
+    },
+    {
+        "text": "and then let's get into what you want to talk about?",
+        "start": 63.18,
+        "duration": 1.715
+    },
+    {
+        "text": ">> Yeah, absolutely and in fact,",
+        "start": 64.895,
+        "duration": 1.585
+    },
+    {
+        "text": "that's definitely one of the things that I want to",
+        "start": 66.48,
+        "duration": 1.68
+    },
+    {
+        "text": "focus on is that it's true,",
+        "start": 68.16,
+        "duration": 2.48
+    },
+    {
+        "text": "there's so many different options.",
+        "start": 70.64,
+        "duration": 1.5
+    },
+    {
+        "text": "You mentioned a couple keyword,",
+        "start": 72.14,
+        "duration": 1.82
+    },
+    {
+        "text": "vectors, hybrid, semantic.",
+        "start": 73.96,
+        "duration": 2.18
+    },
+    {
+        "text": "There's all these things how do you choose the right thing?",
+        "start": 76.14,
+        "duration": 2.4
+    },
+    {
+        "text": "And so the way that I wanted to share this is",
+        "start": 78.54,
+        "duration": 3.55
+    },
+    {
+        "text": "that you think of keyword as the traditional way.",
+        "start": 82.09,
+        "duration": 3.595
+    },
+    {
+        "text": "Where people put in words and they could get back responses.",
+        "start": 85.685,
+        "duration": 3.605
+    },
+    {
+        "text": "If I put in the Word run,",
+        "start": 89.29,
+        "duration": 1.82
+    },
+    {
+        "text": "search engines could handle,",
+        "start": 91.11,
+        "duration": 1.31
+    },
+    {
+        "text": "understand variations of words like run, runner, running,",
+        "start": 92.42,
+        "duration": 2.97
+    },
+    {
+        "text": "which was great and that was the state of the art for search.",
+        "start": 95.39,
+        "duration": 3.62
+    },
+    {
+        "text": "But then these vectors things came out and",
+        "start": 99.01,
+        "duration": 2.54
+    },
+    {
+        "text": "what vectors allowed us to do,",
+        "start": 101.55,
+        "duration": 2.86
+    },
+    {
+        "text": "was to actually represent words and phrases and sections",
+        "start": 104.41,
+        "duration": 3.88
+    },
+    {
+        "text": "of text as a set of numbers in a vector space.",
+        "start": 108.29,
+        "duration": 4.33
+    },
+    {
+        "text": "All that does is it says,",
+        "start": 112.62,
+        "duration": 1.73
+    },
+    {
+        "text": "okay, if I'm asking this question,",
+        "start": 114.35,
+        "duration": 1.92
+    },
+    {
+        "text": "putting in this query, it can vectorize it and then",
+        "start": 116.27,
+        "duration": 2.52
+    },
+    {
+        "text": "it can find things that are similar, semantically similar.",
+        "start": 118.79,
+        "duration": 2.9
+    },
+    {
+        "text": "Zurich and Switzerland are similar and this was like a leapfrog in",
+        "start": 121.69,
+        "duration": 4.37
+    },
+    {
+        "text": "us allowing us to be able to see so much more in the data.",
+        "start": 126.06,
+        "duration": 4.91
+    },
+    {
+        "text": "Then hybrid allows us to",
+        "start": 130.97,
+        "duration": 2.42
+    },
+    {
+        "text": "make use of both the great parts of keywords,",
+        "start": 133.39,
+        "duration": 3.26
+    },
+    {
+        "text": "great parts of vectors",
+        "start": 136.65,
+        "duration": 1.46
+    },
+    {
+        "text": "altogether and then semantic just adds things even more.",
+        "start": 138.11,
+        "duration": 3.56
+    },
+    {
+        "text": "In fact, I'll show you a little bit more",
+        "start": 141.67,
+        "duration": 1.56
+    },
+    {
+        "text": "about what that means in a few minutes.",
+        "start": 143.23,
+        "duration": 1.7
+    },
+    {
+        "text": ">> If I'm understanding this correctly,",
+        "start": 144.93,
+        "duration": 2.24
+    },
+    {
+        "text": "so I understand vectors,",
+        "start": 147.17,
+        "duration": 1.12
+    },
+    {
+        "text": "because I come in the world of machine learning,",
+        "start": 148.29,
+        "duration": 2.04
+    },
+    {
+        "text": "I understand keywords,",
+        "start": 150.33,
+        "duration": 2.24
+    },
+    {
+        "text": "so what you're doing is you're doing them both at the same time.",
+        "start": 152.57,
+        "duration": 4.54
+    },
+    {
+        "text": "Is that what that's doing or is it more than that?",
+        "start": 157.11,
+        "duration": 3.355
+    },
+    {
+        "text": ">> It does do them both at the same time and so there's actually",
+        "start": 160.465,
+        "duration": 3.875
+    },
+    {
+        "text": "some advantages to doing just traditional keyword search.",
+        "start": 164.34,
+        "duration": 3.76
+    },
+    {
+        "text": "Some things that keywords are just really good at, textual search,",
+        "start": 168.1,
+        "duration": 3.22
+    },
+    {
+        "text": "like e-mails, product names,",
+        "start": 171.32,
+        "duration": 2.515
+    },
+    {
+        "text": "things like that it's just really good at.",
+        "start": 173.835,
+        "duration": 1.83
+    },
+    {
+        "text": "Vector search is good for more of",
+        "start": 175.665,
+        "duration": 1.835
+    },
+    {
+        "text": "the intent or the types of questions you want to do.",
+        "start": 177.5,
+        "duration": 3.1
+    },
+    {
+        "text": "If we do them both together,",
+        "start": 180.6,
+        "duration": 1.96
+    },
+    {
+        "text": "get the score from one and",
+        "start": 182.56,
+        "duration": 2.12
+    },
+    {
+        "text": "the score from other and merge them together,",
+        "start": 184.68,
+        "duration": 2.475
+    },
+    {
+        "text": "it allow us to do the best of both,",
+        "start": 187.155,
+        "duration": 2.145
+    },
+    {
+        "text": "which gives us hybrid search.",
+        "start": 189.3,
+        "duration": 1.715
+    },
+    {
+        "text": ">> I see. Okay, that makes sense.",
+        "start": 191.015,
+        "duration": 2.255
+    },
+    {
+        "text": "Effectively, it's like you send the text and",
+        "start": 193.27,
+        "duration": 2.81
+    },
+    {
+        "text": "the vector to the search engine to Azure Cognitive Search.",
+        "start": 196.08,
+        "duration": 3.92
+    },
+    {
+        "text": "You do two searches and then you mix them back together.",
+        "start": 200.0,
+        "duration": 3.49
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 203.49,
+        "duration": 1.635
+    },
+    {
+        "text": ">> Let's talk about semantic, the other one.",
+        "start": 205.125,
+        "duration": 3.815
+    },
+    {
+        "text": "What's the other one called? Can you explain that one to me.",
+        "start": 208.94,
+        "duration": 4.02
+    },
+    {
+        "text": ">> That's the next level.",
+        "start": 212.96,
+        "duration": 1.47
+    },
+    {
+        "text": "There's something called Semantic Search",
+        "start": 214.43,
+        "duration": 2.505
+    },
+    {
+        "text": "and so the way that I think about it is just as you said,",
+        "start": 216.935,
+        "duration": 2.605
+    },
+    {
+        "text": "when you execute keyword,",
+        "start": 219.54,
+        "duration": 1.86
+    },
+    {
+        "text": "vector or hybrid, that goes in as",
+        "start": 221.4,
+        "duration": 1.94
+    },
+    {
+        "text": "one and you get some results back.",
+        "start": 223.34,
+        "duration": 2.21
+    },
+    {
+        "text": "Usually, they're quite effective in using hybrid but not always.",
+        "start": 225.55,
+        "duration": 4.895
+    },
+    {
+        "text": "What Semantic Search does is it does a second level of ranking,",
+        "start": 230.445,
+        "duration": 5.27
+    },
+    {
+        "text": "think of the first phase L1,",
+        "start": 235.715,
+        "duration": 2.315
+    },
+    {
+        "text": "sometimes they call it you get some results and",
+        "start": 238.03,
+        "duration": 2.48
+    },
+    {
+        "text": "then the semantic ranker takes that and",
+        "start": 240.51,
+        "duration": 2.68
+    },
+    {
+        "text": "uses an additional advanced model",
+        "start": 243.19,
+        "duration": 2.96
+    },
+    {
+        "text": "which we actually leverage from our partnership with Bein,",
+        "start": 246.15,
+        "duration": 3.16
+    },
+    {
+        "text": "to go through that look at the intent of what people really want.",
+        "start": 249.31,
+        "duration": 3.32
+    },
+    {
+        "text": "See, should I resort this a little bit?",
+        "start": 252.63,
+        "duration": 2.14
+    },
+    {
+        "text": "And we've seen that that provides",
+        "start": 254.77,
+        "duration": 1.62
+    },
+    {
+        "text": "a significant improvement in the overall results.",
+        "start": 256.39,
+        "duration": 3.82
+    },
+    {
+        "text": "Traditionally, hybrid with semantic",
+        "start": 260.21,
+        "duration": 3.22
+    },
+    {
+        "text": "is the most effective way to get the most relevant results.",
+        "start": 263.43,
+        "duration": 3.51
+    },
+    {
+        "text": ">> I see. Keyword and vector are similar-ish,",
+        "start": 266.94,
+        "duration": 5.15
+    },
+    {
+        "text": "they're just like find me the things that are like this thing,",
+        "start": 272.09,
+        "duration": 2.83
+    },
+    {
+        "text": "but Semantic Search that goes on afterwards,",
+        "start": 274.92,
+        "duration": 3.56
+    },
+    {
+        "text": "re-ranks them according to machine learning type models.",
+        "start": 278.48,
+        "duration": 4.43
+    },
+    {
+        "text": ">> That's exactly right. Do you want to show you an example?",
+        "start": 282.91,
+        "duration": 3.73
+    },
+    {
+        "text": ">> Let's do that. You can help me out here.",
+        "start": 286.64,
+        "duration": 2.975
+    },
+    {
+        "text": ">> Cool, so what I have here,",
+        "start": 289.615,
+        "duration": 2.785
+    },
+    {
+        "text": "is I have this example notebook that I put together",
+        "start": 292.4,
+        "duration": 3.295
+    },
+    {
+        "text": "and just imagine that I have a set of human resource documents.",
+        "start": 295.695,
+        "duration": 4.905
+    },
+    {
+        "text": "Somebody from a company wants",
+        "start": 300.6,
+        "duration": 1.98
+    },
+    {
+        "text": "to be able to ask questions about it,",
+        "start": 302.58,
+        "duration": 2.14
+    },
+    {
+        "text": "and I want to be able to get answers from it.",
+        "start": 304.72,
+        "duration": 2.24
+    },
+    {
+        "text": "That's a perfect example of using",
+        "start": 306.96,
+        "duration": 2.68
+    },
+    {
+        "text": "this type of the system hybrid with semantic.",
+        "start": 309.64,
+        "duration": 3.41
+    },
+    {
+        "text": "You can imagine why things like vectors are very good.",
+        "start": 313.05,
+        "duration": 3.72
+    },
+    {
+        "text": "Let's say I was trying to learn more about",
+        "start": 316.77,
+        "duration": 1.96
+    },
+    {
+        "text": "underwater activities that are covered by my plan.",
+        "start": 318.73,
+        "duration": 3.08
+    },
+    {
+        "text": "Well, if we look at the results here,",
+        "start": 321.81,
+        "duration": 1.6
+    },
+    {
+        "text": "I'm not going to focus too much on this but you",
+        "start": 323.41,
+        "duration": 2.22
+    },
+    {
+        "text": "can imagine why vectors are very good at that,",
+        "start": 325.63,
+        "duration": 2.44
+    },
+    {
+        "text": "because it understands underwater scuba, activity, lessons.",
+        "start": 328.07,
+        "duration": 5.24
+    },
+    {
+        "text": "You can see why a traditional keyword search would not do well,",
+        "start": 333.31,
+        "duration": 3.74
+    },
+    {
+        "text": "but factors do really well.",
+        "start": 337.05,
+        "duration": 1.7
+    },
+    {
+        "text": "It allows us to get these results.",
+        "start": 338.75,
+        "duration": 2.24
+    },
+    {
+        "text": "But let's try to do a slightly different example something",
+        "start": 340.99,
+        "duration": 3.76
+    },
+    {
+        "text": "that is a very common thing for people to want to do,",
+        "start": 344.75,
+        "duration": 3.98
+    },
+    {
+        "text": "but it's not something that's necessarily great for vectors.",
+        "start": 348.73,
+        "duration": 3.22
+    },
+    {
+        "text": "I'm going to change this query and",
+        "start": 351.95,
+        "duration": 2.64
+    },
+    {
+        "text": "I'm going to search for this e-mail.",
+        "start": 354.59,
+        "duration": 2.61
+    },
+    {
+        "text": "Somewhere in this document,",
+        "start": 357.2,
+        "duration": 1.47
+    },
+    {
+        "text": "let's say I want to follow up with the compliance officer.",
+        "start": 358.67,
+        "duration": 3.12
+    },
+    {
+        "text": "I know there's an e-mail and I wanted to look it up.",
+        "start": 361.79,
+        "duration": 2.84
+    },
+    {
+        "text": "As I mentioned, vectors are not traditionally",
+        "start": 364.63,
+        "duration": 2.66
+    },
+    {
+        "text": "very effective at things like this or keywords.",
+        "start": 367.29,
+        "duration": 3.4
+    },
+    {
+        "text": "What I'm going to do is I'm going to show you this search query.",
+        "start": 370.69,
+        "duration": 3.3
+    },
+    {
+        "text": "You remember I told you",
+        "start": 373.99,
+        "duration": 1.56
+    },
+    {
+        "text": "there's three different things that we can do.",
+        "start": 375.55,
+        "duration": 1.78
+    },
+    {
+        "text": "There's keyword, there's vectors, and then there's semantic.",
+        "start": 377.33,
+        "duration": 4.46
+    },
+    {
+        "text": "What I'm going to do is, I'm going to",
+        "start": 381.79,
+        "duration": 1.68
+    },
+    {
+        "text": "just tell Azure Cognitive Search",
+        "start": 383.47,
+        "duration": 1.58
+    },
+    {
+        "text": "to just do a traditional textual search.",
+        "start": 385.05,
+        "duration": 3.54
+    },
+    {
+        "text": "It's just going to take that e-mail and it's",
+        "start": 388.59,
+        "duration": 2.59
+    },
+    {
+        "text": "going to go and search for it.",
+        "start": 391.18,
+        "duration": 2.7
+    },
+    {
+        "text": "We can see keyword search does really well.",
+        "start": 393.88,
+        "duration": 2.93
+    },
+    {
+        "text": "It got the response in the top result.",
+        "start": 396.81,
+        "duration": 3.72
+    },
+    {
+        "text": "But let me change this now and I'm going to do",
+        "start": 400.53,
+        "duration": 2.82
+    },
+    {
+        "text": "just a vector search, and search for that.",
+        "start": 403.35,
+        "duration": 4.42
+    },
+    {
+        "text": "If you look down at the results,",
+        "start": 407.77,
+        "duration": 2.08
+    },
+    {
+        "text": "you'll notice I'm getting only the top five.",
+        "start": 409.85,
+        "duration": 2.58
+    },
+    {
+        "text": "But we don't actually get any of the results.",
+        "start": 412.43,
+        "duration": 3.12
+    },
+    {
+        "text": ">> Interesting.",
+        "start": 415.55,
+        "duration": 0.615
+    },
+    {
+        "text": ">> This is an example where one works well,",
+        "start": 416.165,
+        "duration": 2.805
+    },
+    {
+        "text": "but the other doesn't Seth?",
+        "start": 418.97,
+        "duration": 2.12
+    },
+    {
+        "text": ">> That makes sense to me because it's",
+        "start": 421.37,
+        "duration": 4.72
+    },
+    {
+        "text": "almost like the old school days of fuzzy search, where it's like,",
+        "start": 426.09,
+        "duration": 4.0
+    },
+    {
+        "text": "I know somebody said something about this specific e-mail,",
+        "start": 430.09,
+        "duration": 4.11
+    },
+    {
+        "text": "that's a keyword search or someone was talking about,",
+        "start": 434.2,
+        "duration": 4.16
+    },
+    {
+        "text": "their demo at Ignite.",
+        "start": 438.36,
+        "duration": 1.875
+    },
+    {
+        "text": "Because we're at Ignite,",
+        "start": 440.235,
+        "duration": 1.905
+    },
+    {
+        "text": "fever here right now and that",
+        "start": 442.14,
+        "duration": 2.47
+    },
+    {
+        "text": "feels more like a vector-like intent you're trying to find.",
+        "start": 444.61,
+        "duration": 2.76
+    },
+    {
+        "text": "I see the difference.",
+        "start": 447.37,
+        "duration": 2.04
+    },
+    {
+        "text": "Does it feel like I'm getting it a little bit better?",
+        "start": 449.41,
+        "duration": 2.86
+    },
+    {
+        "text": ">> You're absolutely getting it and hopefully,",
+        "start": 452.27,
+        "duration": 2.97
+    },
+    {
+        "text": "now we're seeing how sometimes keyword is great,",
+        "start": 455.24,
+        "duration": 3.77
+    },
+    {
+        "text": "sometimes vector is great.",
+        "start": 459.01,
+        "duration": 1.28
+    },
+    {
+        "text": "But wouldn't it be great if we could combine them both?",
+        "start": 460.29,
+        "duration": 3.18
+    },
+    {
+        "text": "It's like, hey, you got your peanut butter in",
+        "start": 463.47,
+        "duration": 1.74
+    },
+    {
+        "text": "my chocolate type thing,",
+        "start": 465.21,
+        "duration": 1.96
+    },
+    {
+        "text": "and that's where this hybrid search comes in.",
+        "start": 467.17,
+        "duration": 2.355
+    },
+    {
+        "text": "Let me bring back this query",
+        "start": 469.525,
+        "duration": 2.305
+    },
+    {
+        "text": "and I'm going to do both the two together,",
+        "start": 471.83,
+        "duration": 2.74
+    },
+    {
+        "text": "which gives us the hybrid.",
+        "start": 474.57,
+        "duration": 1.685
+    },
+    {
+        "text": "When search for that, we'll",
+        "start": 476.255,
+        "duration": 2.095
+    },
+    {
+        "text": "notice that it still didn't get it in the top result,",
+        "start": 478.35,
+        "duration": 2.88
+    },
+    {
+        "text": "but it did get it,",
+        "start": 481.23,
+        "duration": 1.88
+    },
+    {
+        "text": "it's actually in the fifth result here.",
+        "start": 483.11,
+        "duration": 3.005
+    },
+    {
+        "text": "This is where we're going to see that hybrid is actually",
+        "start": 486.115,
+        "duration": 3.775
+    },
+    {
+        "text": "doing better than just vectors because",
+        "start": 489.89,
+        "duration": 2.72
+    },
+    {
+        "text": "we were able to get a result.",
+        "start": 492.61,
+        "duration": 2.56
+    },
+    {
+        "text": "It wasn't perfect but it was there.",
+        "start": 495.17,
+        "duration": 2.52
+    },
+    {
+        "text": "Now wouldn't it be great if I could add another re-ranking layer",
+        "start": 497.69,
+        "duration": 4.93
+    },
+    {
+        "text": "in L2 to go through these results and see if based on the intent,",
+        "start": 502.62,
+        "duration": 4.97
+    },
+    {
+        "text": "was there anything that I could get that was more",
+        "start": 507.59,
+        "duration": 2.5
+    },
+    {
+        "text": "effective and that's where the semantic search comes in.",
+        "start": 510.09,
+        "duration": 3.02
+    },
+    {
+        "text": "Let me bring this backup,",
+        "start": 513.11,
+        "duration": 1.98
+    },
+    {
+        "text": "I'm going to add in the semantic search.",
+        "start": 515.09,
+        "duration": 2.34
+    },
+    {
+        "text": "I'm going to search for that,",
+        "start": 517.43,
+        "duration": 2.025
+    },
+    {
+        "text": "and you'll notice we got the result back and it was at the top.",
+        "start": 519.455,
+        "duration": 3.595
+    },
+    {
+        "text": "It didn't matter if I was asking",
+        "start": 523.05,
+        "duration": 2.39
+    },
+    {
+        "text": "an intent-based question that vector is a great or a keyword.",
+        "start": 525.44,
+        "duration": 4.06
+    },
+    {
+        "text": "Combining them both with the re-ranking",
+        "start": 529.5,
+        "duration": 2.435
+    },
+    {
+        "text": "provides what we're seeing to be the most effective results.",
+        "start": 531.935,
+        "duration": 4.045
+    },
+    {
+        "text": ">> That's interesting, because especially when",
+        "start": 535.98,
+        "duration": 2.49
+    },
+    {
+        "text": "you're doing retrieval augmented generation,",
+        "start": 538.47,
+        "duration": 2.765
+    },
+    {
+        "text": "there is almost never clarity about,",
+        "start": 541.235,
+        "duration": 3.34
+    },
+    {
+        "text": "are they searching for",
+        "start": 544.575,
+        "duration": 1.345
+    },
+    {
+        "text": "a specific thing or are they like I just want a tent?",
+        "start": 545.92,
+        "duration": 4.095
+    },
+    {
+        "text": "Those are very different searches and you're saying that's okay,",
+        "start": 550.015,
+        "duration": 5.18
+    },
+    {
+        "text": "we can do the laser approach or",
+        "start": 555.195,
+        "duration": 3.645
+    },
+    {
+        "text": "the wide approach by going laser with keyword,",
+        "start": 558.84,
+        "duration": 4.28
+    },
+    {
+        "text": "wide with vector and then the",
+        "start": 563.12,
+        "duration": 1.46
+    },
+    {
+        "text": "re-ranker can go ahead and fix the mess afterwards.",
+        "start": 564.58,
+        "duration": 3.52
+    },
+    {
+        "text": ">> You're right and that's another fact about",
+        "start": 568.1,
+        "duration": 3.535
+    },
+    {
+        "text": "these enterprise chat applications is that,",
+        "start": 571.635,
+        "duration": 3.385
+    },
+    {
+        "text": "you want to get the most relevant information",
+        "start": 575.02,
+        "duration": 2.14
+    },
+    {
+        "text": "in the top couple of results.",
+        "start": 577.16,
+        "duration": 1.56
+    },
+    {
+        "text": "Because you can't send",
+        "start": 578.72,
+        "duration": 1.56
+    },
+    {
+        "text": "50 results to open eye expected to get an answer.",
+        "start": 580.28,
+        "duration": 3.7
+    },
+    {
+        "text": "You need to be efficient and",
+        "start": 583.98,
+        "duration": 1.74
+    },
+    {
+        "text": "sometimes there's actually multiple answers.",
+        "start": 585.72,
+        "duration": 2.29
+    },
+    {
+        "text": "You might need to have a couple of pieces of results to get",
+        "start": 588.01,
+        "duration": 3.43
+    },
+    {
+        "text": "the full response so that's why it's",
+        "start": 591.44,
+        "duration": 2.16
+    },
+    {
+        "text": "so important to have a highly relevant system.",
+        "start": 593.6,
+        "duration": 3.02
+    },
+    {
+        "text": ">> Not only that, it's just that you can only",
+        "start": 596.62,
+        "duration": 2.32
+    },
+    {
+        "text": "fit so much in the prompt and you want to",
+        "start": 598.94,
+        "duration": 3.14
+    },
+    {
+        "text": "have just the absolute best end things",
+        "start": 602.08,
+        "duration": 3.32
+    },
+    {
+        "text": "to put in the prompt so you're not stuff and junk in there.",
+        "start": 605.4,
+        "duration": 2.88
+    },
+    {
+        "text": "Because the LM will have to reason",
+        "start": 608.28,
+        "duration": 1.46
+    },
+    {
+        "text": "over junk and it's going to have to figure it out.",
+        "start": 609.74,
+        "duration": 2.12
+    },
+    {
+        "text": "Maybe not have the LM figure",
+        "start": 611.86,
+        "duration": 2.44
+    },
+    {
+        "text": "that out and just give it exactly what it needs.",
+        "start": 614.3,
+        "duration": 2.52
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 616.82,
+        "duration": 0.84
+    },
+    {
+        "text": ">> That's awesome.",
+        "start": 617.66,
+        "duration": 1.175
+    },
+    {
+        "text": ">> Thanks, Seth and it's easy to show one example where this",
+        "start": 618.835,
+        "duration": 5.005
+    },
+    {
+        "text": "works well but one of the things that I",
+        "start": 623.84,
+        "duration": 2.12
+    },
+    {
+        "text": "wanted to share with you and listeners is,",
+        "start": 625.96,
+        "duration": 2.42
+    },
+    {
+        "text": "we actually just published this blog post here.",
+        "start": 628.38,
+        "duration": 3.645
+    },
+    {
+        "text": "This is a full benchmark that we put together",
+        "start": 632.025,
+        "duration": 4.075
+    },
+    {
+        "text": "that shows the effectiveness of doing hybrid with semantic.",
+        "start": 636.1,
+        "duration": 4.565
+    },
+    {
+        "text": "I want to highlight this particular section",
+        "start": 640.665,
+        "duration": 2.92
+    },
+    {
+        "text": "right here and one of the things that you'll see here is",
+        "start": 643.585,
+        "duration": 3.565
+    },
+    {
+        "text": "that we ran tests of hybrid",
+        "start": 647.15,
+        "duration": 3.08
+    },
+    {
+        "text": "with semantic over industry benchmarks Beir for example.",
+        "start": 650.23,
+        "duration": 3.995
+    },
+    {
+        "text": "We have real customer data sets,",
+        "start": 654.225,
+        "duration": 2.205
+    },
+    {
+        "text": "so not just like the nice,",
+        "start": 656.43,
+        "duration": 2.13
+    },
+    {
+        "text": "small chunk size content,",
+        "start": 658.56,
+        "duration": 2.15
+    },
+    {
+        "text": "but really massive documents.",
+        "start": 660.71,
+        "duration": 2.295
+    },
+    {
+        "text": "You'll see here in every single case,",
+        "start": 663.005,
+        "duration": 2.785
+    },
+    {
+        "text": "including the multilingual one,",
+        "start": 665.79,
+        "duration": 2.2
+    },
+    {
+        "text": "that hybrid with semantic search provide",
+        "start": 667.99,
+        "duration": 3.36
+    },
+    {
+        "text": "significantly better than all of the other options available.",
+        "start": 671.35,
+        "duration": 4.6
+    },
+    {
+        "text": ">> That's awesome.",
+        "start": 675.95,
+        "duration": 0.51
+    },
+    {
+        "text": ">> We highly recommend people try this.",
+        "start": 676.46,
+        "duration": 2.565
+    },
+    {
+        "text": ">> Can you control plus a couple of times because I",
+        "start": 679.025,
+        "duration": 2.025
+    },
+    {
+        "text": "want to make sure people can see that table.",
+        "start": 681.05,
+        "duration": 2.425
+    },
+    {
+        "text": ">> Thank you.",
+        "start": 683.475,
+        "duration": 0.795
+    },
+    {
+        "text": ">> Yeah, that's awesome and that logically just makes sense,",
+        "start": 684.27,
+        "duration": 4.44
+    },
+    {
+        "text": "that if you combine keyword and vector",
+        "start": 688.71,
+        "duration": 2.9
+    },
+    {
+        "text": "and then intelligently re-rank them,",
+        "start": 691.61,
+        "duration": 3.16
+    },
+    {
+        "text": "that you're going to get the best of everything.",
+        "start": 694.77,
+        "duration": 2.905
+    },
+    {
+        "text": ">> Yeah, we've definitely seen this so we've had",
+        "start": 697.675,
+        "duration": 3.235
+    },
+    {
+        "text": "this updated semantic search model for a little bit of time now,",
+        "start": 700.91,
+        "duration": 5.44
+    },
+    {
+        "text": "and we've heard some really positive feedback from our customers.",
+        "start": 706.35,
+        "duration": 2.96
+    },
+    {
+        "text": "I'm really hopeful that yourself",
+        "start": 709.31,
+        "duration": 2.14
+    },
+    {
+        "text": "and your viewers will give us a try.",
+        "start": 711.45,
+        "duration": 2.32
+    },
+    {
+        "text": ">> I don't know if you have anything for this,",
+        "start": 713.77,
+        "duration": 1.62
+    },
+    {
+        "text": "but my last question,",
+        "start": 715.39,
+        "duration": 1.58
+    },
+    {
+        "text": "if that's okay is,",
+        "start": 716.97,
+        "duration": 1.4
+    },
+    {
+        "text": "if someone wants to get started like making a thing,",
+        "start": 718.37,
+        "duration": 3.32
+    },
+    {
+        "text": "I'm a developer at R, you are too.",
+        "start": 721.69,
+        "duration": 2.78
+    },
+    {
+        "text": "Do you have any suggestions for something they could",
+        "start": 724.47,
+        "duration": 2.24
+    },
+    {
+        "text": "do to use this information together with maybe an LM?",
+        "start": 726.71,
+        "duration": 4.37
+    },
+    {
+        "text": ">> Thanks for asking. In fact,",
+        "start": 731.08,
+        "duration": 2.17
+    },
+    {
+        "text": "we actually just release a solution accelerator.",
+        "start": 733.25,
+        "duration": 3.44
+    },
+    {
+        "text": "I'm going to go to this link,",
+        "start": 736.69,
+        "duration": 1.68
+    },
+    {
+        "text": "this page right here.",
+        "start": 738.37,
+        "duration": 1.685
+    },
+    {
+        "text": "Right from here, you can learn very deeply all",
+        "start": 740.055,
+        "duration": 5.155
+    },
+    {
+        "text": "of the things that you need to build out one of",
+        "start": 745.21,
+        "duration": 1.98
+    },
+    {
+        "text": "these advanced enterprise chat, these reg-based applications.",
+        "start": 747.19,
+        "duration": 3.1
+    },
+    {
+        "text": "It talks a lot more about hybrid and semantics best practices.",
+        "start": 750.29,
+        "duration": 4.725
+    },
+    {
+        "text": "It's a great place to learn as well",
+        "start": 755.015,
+        "duration": 2.475
+    },
+    {
+        "text": "as to start building out one of these production applications.",
+        "start": 757.49,
+        "duration": 2.575
+    },
+    {
+        "text": ">> Well, that's amazing, I'm going to put the link",
+        "start": 760.065,
+        "duration": 1.925
+    },
+    {
+        "text": "right here so folks can go to it.",
+        "start": 761.99,
+        "duration": 1.945
+    },
+    {
+        "text": "As always this was super informative my friend.",
+        "start": 763.935,
+        "duration": 4.375
+    },
+    {
+        "text": "This isn't a joke, right before we started this episode,",
+        "start": 768.38,
+        "duration": 3.59
+    },
+    {
+        "text": "I was like, don't tell me anything I",
+        "start": 771.97,
+        "duration": 1.58
+    },
+    {
+        "text": "have questions and he's like okay good.",
+        "start": 773.55,
+        "duration": 2.19
+    },
+    {
+        "text": "Just a couple of things make sure you take a look at",
+        "start": 775.74,
+        "duration": 2.39
+    },
+    {
+        "text": "the blog here with the benchmarks.",
+        "start": 778.13,
+        "duration": 2.06
+    },
+    {
+        "text": "I think that's awesome and then the solution accelerator,",
+        "start": 780.19,
+        "duration": 2.22
+    },
+    {
+        "text": "if you want to get started.",
+        "start": 782.41,
+        "duration": 1.02
+    },
+    {
+        "text": "Any final words, Liam?",
+        "start": 783.43,
+        "duration": 1.49
+    },
+    {
+        "text": ">> No, I just hope that people will give us a try.",
+        "start": 784.92,
+        "duration": 3.73
+    },
+    {
+        "text": "Come watch the Ignite conference.",
+        "start": 788.65,
+        "duration": 2.32
+    },
+    {
+        "text": "We have some really cool things,",
+        "start": 790.97,
+        "duration": 1.54
+    },
+    {
+        "text": "including some ease-of-use tools to make this even easier.",
+        "start": 792.51,
+        "duration": 3.48
+    },
+    {
+        "text": "I hope people will check this out at Ignite.",
+        "start": 795.99,
+        "duration": 2.415
+    },
+    {
+        "text": ">> I'm going to hold you to coming back so that we can do,",
+        "start": 798.405,
+        "duration": 2.565
+    },
+    {
+        "text": "there's probably some stuff you are",
+        "start": 800.97,
+        "duration": 1.36
+    },
+    {
+        "text": "holding back for the show at Ignite.",
+        "start": 802.33,
+        "duration": 2.04
+    },
+    {
+        "text": "Will you come back and show me those things?",
+        "start": 804.37,
+        "duration": 1.97
+    },
+    {
+        "text": ">> I would be happy to. I'd love to.",
+        "start": 806.34,
+        "duration": 1.83
+    },
+    {
+        "text": ">> Awesome. Well, thank you so",
+        "start": 808.17,
+        "duration": 1.18
+    },
+    {
+        "text": "much and thank you so much for watching.",
+        "start": 809.35,
+        "duration": 1.86
+    },
+    {
+        "text": "We learning all about semantic search,",
+        "start": 811.21,
+        "duration": 2.62
+    },
+    {
+        "text": "benchmarking with Liam Cavanagh.",
+        "start": 813.83,
+        "duration": 1.82
+    },
+    {
+        "text": "This has been another episode of the AI show.",
+        "start": 815.65,
+        "duration": 1.66
+    },
+    {
+        "text": "Thank you so much for watching and hopefully,",
+        "start": 817.31,
+        "duration": 1.38
+    },
+    {
+        "text": "we'll see you next time take care.",
+        "start": 818.69,
+        "duration": 1.605
+    },
+    {
+        "text": ">> [MUSIC]",
+        "start": 820.295,
+        "duration": 10.475
+    }
+]

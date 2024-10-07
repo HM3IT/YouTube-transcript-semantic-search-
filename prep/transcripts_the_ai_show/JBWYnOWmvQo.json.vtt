@@ -1,0 +1,1637 @@
+[
+    {
+        "text": ">> You're not going to want to miss this episode of the AI Show.",
+        "start": 0.0,
+        "duration": 2.72
+    },
+    {
+        "text": "We talk all about model monitoring for LLMs with Will Buchanan.",
+        "start": 2.72,
+        "duration": 4.4
+    },
+    {
+        "text": "Make sure you tune in.",
+        "start": 7.12,
+        "duration": 1.636
+    },
+    {
+        "text": "[MUSIC]",
+        "start": 8.756,
+        "duration": 2.764
+    },
+    {
+        "text": ">> Hello and welcome to this episode of the AI Show.",
+        "start": 14.27,
+        "duration": 2.85
+    },
+    {
+        "text": "We're talking all about model monitoring",
+        "start": 17.12,
+        "duration": 2.14
+    },
+    {
+        "text": "for LLMs with my friend Will Buchanan.",
+        "start": 19.26,
+        "duration": 2.1
+    },
+    {
+        "text": "Will, how are you doing my friend?",
+        "start": 21.36,
+        "duration": 1.44
+    },
+    {
+        "text": ">> I'm doing well. How are you Seth?",
+        "start": 22.8,
+        "duration": 1.53
+    },
+    {
+        "text": ">> Fantastic. Tell us who you are and what you do.",
+        "start": 24.33,
+        "duration": 2.3
+    },
+    {
+        "text": ">> I'm a Product Manager on the Azure AI responsible AI team,",
+        "start": 26.63,
+        "duration": 3.39
+    },
+    {
+        "text": "and I specifically focus in",
+        "start": 30.02,
+        "duration": 1.64
+    },
+    {
+        "text": "deployment scenarios such as",
+        "start": 31.66,
+        "duration": 1.84
+    },
+    {
+        "text": "deployments and monitoring and production.",
+        "start": 33.5,
+        "duration": 2.935
+    },
+    {
+        "text": ">> Here's a question that I have because I've",
+        "start": 36.435,
+        "duration": 3.555
+    },
+    {
+        "text": "heard the LLM model monitoring before.",
+        "start": 39.99,
+        "duration": 3.56
+    },
+    {
+        "text": "My understanding is that the model is fixed.",
+        "start": 43.55,
+        "duration": 3.375
+    },
+    {
+        "text": "OpenAI's chat GPT is fixed.",
+        "start": 46.925,
+        "duration": 3.925
+    },
+    {
+        "text": "Are we monitoring the model or",
+        "start": 50.85,
+        "duration": 2.16
+    },
+    {
+        "text": "what's the situation here? What problem are we solving?",
+        "start": 53.01,
+        "duration": 2.4
+    },
+    {
+        "text": ">> Great question. As you said,",
+        "start": 55.41,
+        "duration": 2.04
+    },
+    {
+        "text": "the model itself is fixed.",
+        "start": 57.45,
+        "duration": 1.34
+    },
+    {
+        "text": "But what changes is the production data?",
+        "start": 58.79,
+        "duration": 2.16
+    },
+    {
+        "text": "Your consumer behavior might change or someone's trying to say,",
+        "start": 60.95,
+        "duration": 3.28
+    },
+    {
+        "text": "make your model go off the rails in",
+        "start": 64.23,
+        "duration": 1.94
+    },
+    {
+        "text": "a production scenario and you want to be able to ensure that it",
+        "start": 66.17,
+        "duration": 2.8
+    },
+    {
+        "text": "is acting in accordance with",
+        "start": 68.97,
+        "duration": 1.6
+    },
+    {
+        "text": "the evaluations that you deemed good to go in the first place.",
+        "start": 70.57,
+        "duration": 3.23
+    },
+    {
+        "text": ">> That's cool. Why don't you",
+        "start": 73.8,
+        "duration": 2.15
+    },
+    {
+        "text": "take me through the process because obviously",
+        "start": 75.95,
+        "duration": 2.14
+    },
+    {
+        "text": "my understanding is we're building like",
+        "start": 78.09,
+        "duration": 1.6
+    },
+    {
+        "text": "chaC GPT style applications.",
+        "start": 79.69,
+        "duration": 3.65
+    },
+    {
+        "text": "Because you said you want to make",
+        "start": 83.39,
+        "duration": 2.46
+    },
+    {
+        "text": "sure the evaluations are working,",
+        "start": 85.85,
+        "duration": 1.62
+    },
+    {
+        "text": "can you walk us through the process of how one would get",
+        "start": 87.47,
+        "duration": 2.5
+    },
+    {
+        "text": "started doing this real quick and then take us through the end.",
+        "start": 89.97,
+        "duration": 2.7
+    },
+    {
+        "text": "Because everyone always talks about prompt engineering,",
+        "start": 92.67,
+        "duration": 2.32
+    },
+    {
+        "text": "but they never talked about what this stuff looks",
+        "start": 94.99,
+        "duration": 2.14
+    },
+    {
+        "text": "like once you've deployed it.",
+        "start": 97.13,
+        "duration": 2.29
+    },
+    {
+        "text": ">> Great. Happy to. Let me pull something up.",
+        "start": 99.42,
+        "duration": 2.58
+    },
+    {
+        "text": ">> Let me get your screen here bud.",
+        "start": 102.0,
+        "duration": 2.56
+    },
+    {
+        "text": ">> Here you see Azure ML prompt flow and what this is is this is",
+        "start": 105.86,
+        "duration": 4.71
+    },
+    {
+        "text": "a cloned template that we have in the library",
+        "start": 110.57,
+        "duration": 2.31
+    },
+    {
+        "text": "and it's where you ask Wikipedia something.",
+        "start": 112.88,
+        "duration": 2.15
+    },
+    {
+        "text": "It provides that augmented question",
+        "start": 115.03,
+        "duration": 2.3
+    },
+    {
+        "text": "and answering as trained on Wikipedia.",
+        "start": 117.33,
+        "duration": 2.03
+    },
+    {
+        "text": "You can see your inputs,",
+        "start": 119.36,
+        "duration": 1.76
+    },
+    {
+        "text": "your outputs, your URL,",
+        "start": 121.12,
+        "duration": 1.88
+    },
+    {
+        "text": "and specifically you can see at the bottom",
+        "start": 123.0,
+        "duration": 3.12
+    },
+    {
+        "text": "the prompt that you're giving this generative AI model.",
+        "start": 126.12,
+        "duration": 4.44
+    },
+    {
+        "text": "This is a GPT-4 deployment.",
+        "start": 130.56,
+        "duration": 2.02
+    },
+    {
+        "text": "What you want to do is you want to be able to create a deployment.",
+        "start": 132.58,
+        "duration": 3.63
+    },
+    {
+        "text": "Here we have a button where you can",
+        "start": 136.21,
+        "duration": 1.57
+    },
+    {
+        "text": "deploy and I'll walk you through the process.",
+        "start": 137.78,
+        "duration": 3.315
+    },
+    {
+        "text": ">> As you're going there, can I ask a question?",
+        "start": 141.095,
+        "duration": 2.325
+    },
+    {
+        "text": "You're basically in prompt flow because we've done",
+        "start": 143.42,
+        "duration": 2.02
+    },
+    {
+        "text": "a lot of prompt flow on the AI Show you.",
+        "start": 145.44,
+        "duration": 2.205
+    },
+    {
+        "text": "This is like you've already built",
+        "start": 147.645,
+        "duration": 1.455
+    },
+    {
+        "text": "the thing, you're comfortable with it.",
+        "start": 149.1,
+        "duration": 1.54
+    },
+    {
+        "text": "The prompt seem to be working.",
+        "start": 150.64,
+        "duration": 2.095
+    },
+    {
+        "text": "Now we go to this step. Is that right?",
+        "start": 152.735,
+        "duration": 1.97
+    },
+    {
+        "text": ">> Yes. This is when you're ready to bring it into production.",
+        "start": 154.705,
+        "duration": 2.945
+    },
+    {
+        "text": ">> Got it.",
+        "start": 157.65,
+        "duration": 1.4
+    },
+    {
+        "text": ">> In production, you're creating a deployment",
+        "start": 159.24,
+        "duration": 2.86
+    },
+    {
+        "text": "and what you need to do is you need to enable inferencing,",
+        "start": 162.1,
+        "duration": 2.82
+    },
+    {
+        "text": "data collection, and app insights here.",
+        "start": 164.92,
+        "duration": 2.42
+    },
+    {
+        "text": "As you navigate through, you'll see the outputs,",
+        "start": 167.34,
+        "duration": 2.45
+    },
+    {
+        "text": "so let's say you return the answer or",
+        "start": 169.79,
+        "duration": 2.23
+    },
+    {
+        "text": "the context which is user provided to",
+        "start": 172.02,
+        "duration": 2.58
+    },
+    {
+        "text": "determine that your model",
+        "start": 174.6,
+        "duration": 2.44
+    },
+    {
+        "text": "is responding with the factual information",
+        "start": 177.04,
+        "duration": 2.18
+    },
+    {
+        "text": "that you might want in your applications?",
+        "start": 179.22,
+        "duration": 1.04
+    },
+    {
+        "text": ">> Can you go back one step just out of curiosity.",
+        "start": 180.26,
+        "duration": 2.785
+    },
+    {
+        "text": "When you're looking at inferencing data collection,",
+        "start": 183.045,
+        "duration": 3.235
+    },
+    {
+        "text": "what is it that's collecting,",
+        "start": 186.28,
+        "duration": 1.62
+    },
+    {
+        "text": "and then on the application insight what",
+        "start": 187.9,
+        "duration": 2.33
+    },
+    {
+        "text": "is it sending there just out of curiosity?",
+        "start": 190.23,
+        "duration": 2.75
+    },
+    {
+        "text": ">> Great question. Inferencing data collection is",
+        "start": 192.98,
+        "duration": 3.34
+    },
+    {
+        "text": "specifically the request and response to your endpoint,",
+        "start": 196.32,
+        "duration": 4.0
+    },
+    {
+        "text": "and so that's the inputs and outputs to",
+        "start": 200.32,
+        "duration": 1.84
+    },
+    {
+        "text": "your model so it all comes as part of the payload.",
+        "start": 202.16,
+        "duration": 2.195
+    },
+    {
+        "text": "What we do is we collect that to your Blob store",
+        "start": 204.355,
+        "duration": 2.875
+    },
+    {
+        "text": "and then we perform analysis on that data.",
+        "start": 207.23,
+        "duration": 3.255
+    },
+    {
+        "text": "The App Insights is specifically for your operational metrics,",
+        "start": 210.485,
+        "duration": 4.2
+    },
+    {
+        "text": "let's say CPU utilization.",
+        "start": 214.685,
+        "duration": 3.745
+    },
+    {
+        "text": ">> That makes sense.",
+        "start": 218.43,
+        "duration": 1.38
+    },
+    {
+        "text": ">> To determining.",
+        "start": 219.81,
+        "duration": 1.155
+    },
+    {
+        "text": ">> What's coming into the request",
+        "start": 220.965,
+        "duration": 2.25
+    },
+    {
+        "text": "it's going through the whole prompt flow.",
+        "start": 223.215,
+        "duration": 1.995
+    },
+    {
+        "text": "An output comes out from the LM.",
+        "start": 225.21,
+        "duration": 1.68
+    },
+    {
+        "text": "You're keeping track of those things",
+        "start": 226.89,
+        "duration": 1.66
+    },
+    {
+        "text": "and then you're also keeping track of",
+        "start": 228.55,
+        "duration": 1.875
+    },
+    {
+        "text": "hardware utilization to make sure the CPU isn't",
+        "start": 230.425,
+        "duration": 2.565
+    },
+    {
+        "text": "spiking and you don't need to create a new deployment thing.",
+        "start": 232.99,
+        "duration": 2.59
+    },
+    {
+        "text": "I'm I getting that right?",
+        "start": 235.58,
+        "duration": 1.295
+    },
+    {
+        "text": ">> Exactly. It's monitoring a place",
+        "start": 236.875,
+        "duration": 3.015
+    },
+    {
+        "text": "to look at different signals that are coming into your model.",
+        "start": 239.89,
+        "duration": 3.305
+    },
+    {
+        "text": ">> Got it. Cool. Let's keep going.",
+        "start": 243.195,
+        "duration": 1.65
+    },
+    {
+        "text": ">> Great. Once you've created it,",
+        "start": 244.845,
+        "duration": 3.585
+    },
+    {
+        "text": "you have a connection for your endpoint self,",
+        "start": 248.43,
+        "duration": 2.205
+    },
+    {
+        "text": "and then you specify your compute and you hit \"Deploy\".",
+        "start": 250.635,
+        "duration": 6.135
+    },
+    {
+        "text": "Fast forward about 10 minutes.",
+        "start": 256.77,
+        "duration": 2.885
+    },
+    {
+        "text": "You now have a working deployment.",
+        "start": 259.655,
+        "duration": 2.49
+    },
+    {
+        "text": "In this, I have my endpoint.",
+        "start": 262.145,
+        "duration": 2.945
+    },
+    {
+        "text": "In the Test tab, you can enter",
+        "start": 265.09,
+        "duration": 1.42
+    },
+    {
+        "text": "into something like this and let's say I wanted",
+        "start": 266.51,
+        "duration": 1.68
+    },
+    {
+        "text": "to know about Alexander von Humboldt's cyionometer work.",
+        "start": 268.19,
+        "duration": 3.84
+    },
+    {
+        "text": "You can test your endpoint, and once it",
+        "start": 272.03,
+        "duration": 3.13
+    },
+    {
+        "text": "responds you can then see the collected data.",
+        "start": 275.16,
+        "duration": 3.59
+    },
+    {
+        "text": "This model given the prompts it was given,",
+        "start": 278.75,
+        "duration": 3.925
+    },
+    {
+        "text": "it doesn't actually hallucinate and answer here.",
+        "start": 282.675,
+        "duration": 2.945
+    },
+    {
+        "text": "It says, I don't know which I really like.",
+        "start": 285.62,
+        "duration": 1.89
+    },
+    {
+        "text": ">> That's cool.",
+        "start": 287.51,
+        "duration": 0.855
+    },
+    {
+        "text": ">> You've just done that, now you",
+        "start": 288.365,
+        "duration": 1.945
+    },
+    {
+        "text": "actually want to be able to look at your data.",
+        "start": 290.31,
+        "duration": 2.75
+    },
+    {
+        "text": "Within the data asset which",
+        "start": 293.06,
+        "duration": 1.85
+    },
+    {
+        "text": "automatically shows up you can see your data.",
+        "start": 294.91,
+        "duration": 2.6
+    },
+    {
+        "text": "This is the model inputs in here.",
+        "start": 297.51,
+        "duration": 1.78
+    },
+    {
+        "text": "It's a JSONL lines format and you can see it sets it up.",
+        "start": 299.29,
+        "duration": 4.47
+    },
+    {
+        "text": ">> Just a quick question and then you'll probably",
+        "start": 306.23,
+        "duration": 4.68
+    },
+    {
+        "text": "have to zoom into that so we can see that is a",
+        "start": 310.91,
+        "duration": 1.7
+    },
+    {
+        "text": "little fuzzy for us.",
+        "start": 312.61,
+        "duration": 2.2
+    },
+    {
+        "text": "What you're showing is;",
+        "start": 314.81,
+        "duration": 1.84
+    },
+    {
+        "text": "and if I understood this right,",
+        "start": 316.65,
+        "duration": 1.79
+    },
+    {
+        "text": "basically when you asked it the Alexander question,",
+        "start": 318.44,
+        "duration": 4.67
+    },
+    {
+        "text": "it captured the input request",
+        "start": 323.11,
+        "duration": 7.895
+    },
+    {
+        "text": "and then it went through whatever internal things",
+        "start": 331.005,
+        "duration": 2.365
+    },
+    {
+        "text": "it did and it captured",
+        "start": 333.37,
+        "duration": 1.12
+    },
+    {
+        "text": "the output repress and it's putting it into",
+        "start": 334.49,
+        "duration": 2.06
+    },
+    {
+        "text": "an Azure ML Data asset right now. Is that what I'm looking at?",
+        "start": 336.55,
+        "duration": 3.19
+    },
+    {
+        "text": ">> Correct. Azure Data asset so you",
+        "start": 339.74,
+        "duration": 2.09
+    },
+    {
+        "text": "have your model inputs and your model outputs.",
+        "start": 341.83,
+        "duration": 2.5
+    },
+    {
+        "text": ">> Got it.",
+        "start": 344.33,
+        "duration": 0.78
+    },
+    {
+        "text": ">> One thing we do behind the scenes with this data collectors,",
+        "start": 345.11,
+        "duration": 2.78
+    },
+    {
+        "text": "we generated a correlation ID which joins",
+        "start": 347.89,
+        "duration": 1.96
+    },
+    {
+        "text": "your inputs and outputs and so",
+        "start": 349.85,
+        "duration": 1.24
+    },
+    {
+        "text": "our system handles that automatically.",
+        "start": 351.09,
+        "duration": 1.85
+    },
+    {
+        "text": ">> That's cool. Because otherwise you'd have a set",
+        "start": 352.94,
+        "duration": 2.97
+    },
+    {
+        "text": "of questions and a set of",
+        "start": 355.91,
+        "duration": 1.42
+    },
+    {
+        "text": "answers and you'd have to somehow map them,",
+        "start": 357.33,
+        "duration": 1.8
+    },
+    {
+        "text": "but that correlates them together.",
+        "start": 359.13,
+        "duration": 1.3
+    },
+    {
+        "text": "Okay, cool. Keep going. Sorry about that.",
+        "start": 360.43,
+        "duration": 2.12
+    },
+    {
+        "text": ">> Of course. Now that you've verified,",
+        "start": 362.55,
+        "duration": 2.7
+    },
+    {
+        "text": "you have your data collected.",
+        "start": 365.25,
+        "duration": 1.235
+    },
+    {
+        "text": "You want to monitor it.",
+        "start": 366.485,
+        "duration": 1.77
+    },
+    {
+        "text": "Let's go to a monitor here,",
+        "start": 368.255,
+        "duration": 2.715
+    },
+    {
+        "text": "so I'll switch over.",
+        "start": 370.97,
+        "duration": 1.78
+    },
+    {
+        "text": "In the Monitoring tab on the left side,",
+        "start": 372.75,
+        "duration": 2.775
+    },
+    {
+        "text": "you can then create a monitor.",
+        "start": 375.525,
+        "duration": 2.74
+    },
+    {
+        "text": "In this, you choose your deployment,",
+        "start": 378.265,
+        "duration": 2.905
+    },
+    {
+        "text": "let's say this one and you choose your task type.",
+        "start": 381.17,
+        "duration": 3.36
+    },
+    {
+        "text": "Specifically it's prompt and completion;",
+        "start": 384.53,
+        "duration": 1.875
+    },
+    {
+        "text": "AKA; question and answer.",
+        "start": 386.405,
+        "duration": 1.845
+    },
+    {
+        "text": ">> Got it?",
+        "start": 388.25,
+        "duration": 1.21
+    },
+    {
+        "text": ">> Walk through the wizard, and here you can see the data assets.",
+        "start": 389.46,
+        "duration": 3.32
+    },
+    {
+        "text": "It's automatically scraping that the inputs and the outputs,",
+        "start": 392.78,
+        "duration": 2.61
+    },
+    {
+        "text": "and as I said it joins on that correlation ID.",
+        "start": 395.39,
+        "duration": 3.265
+    },
+    {
+        "text": "Then you can define your workspace connection and this would be",
+        "start": 398.655,
+        "duration": 2.945
+    },
+    {
+        "text": "your default Azure OpenAI connection for",
+        "start": 401.6,
+        "duration": 2.91
+    },
+    {
+        "text": "your workspace and so then you can choose your deployment name",
+        "start": 404.51,
+        "duration": 3.01
+    },
+    {
+        "text": "and this is actually the same one that you use for",
+        "start": 407.52,
+        "duration": 1.5
+    },
+    {
+        "text": "prompt flow, so it's quite simple.",
+        "start": 409.02,
+        "duration": 2.105
+    },
+    {
+        "text": "Then you can choose your production data asset window,",
+        "start": 411.125,
+        "duration": 2.735
+    },
+    {
+        "text": "let's keep it at seven days.",
+        "start": 413.86,
+        "duration": 2.04
+    },
+    {
+        "text": "Here's where it gets really interesting.",
+        "start": 415.9,
+        "duration": 2.52
+    },
+    {
+        "text": ">> If you only give",
+        "start": 418.42,
+        "duration": 1.86
+    },
+    {
+        "text": "your model inputs and collect only the outputs,",
+        "start": 420.28,
+        "duration": 2.865
+    },
+    {
+        "text": "then you can monitor for two metrics.",
+        "start": 423.145,
+        "duration": 1.935
+    },
+    {
+        "text": "They are coherence and fluency.",
+        "start": 425.08,
+        "duration": 1.995
+    },
+    {
+        "text": "But if you provide additional context which is user defined,",
+        "start": 427.075,
+        "duration": 5.07
+    },
+    {
+        "text": "you can ensure that your model is",
+        "start": 432.145,
+        "duration": 1.695
+    },
+    {
+        "text": "not hallucinating or providing answers",
+        "start": 433.84,
+        "duration": 2.16
+    },
+    {
+        "text": "that are irrelevant to that user provided",
+        "start": 436.0,
+        "duration": 1.89
+    },
+    {
+        "text": "context. Does that makes sense?",
+        "start": 437.89,
+        "duration": 2.07
+    },
+    {
+        "text": ">> Last part there. Because this is a question",
+        "start": 439.96,
+        "duration": 2.16
+    },
+    {
+        "text": "that maybe I've struggled",
+        "start": 442.12,
+        "duration": 1.5
+    },
+    {
+        "text": "with or other people might struggle with.",
+        "start": 443.62,
+        "duration": 1.755
+    },
+    {
+        "text": "We don't have the right answer when it comes to like,",
+        "start": 445.375,
+        "duration": 4.62
+    },
+    {
+        "text": "I don't know, I know there's like",
+        "start": 449.995,
+        "duration": 2.475
+    },
+    {
+        "text": "the question, let me show my face.",
+        "start": 452.47,
+        "duration": 1.935
+    },
+    {
+        "text": "People get, here's the question comes in and the answer comes out,",
+        "start": 454.405,
+        "duration": 4.455
+    },
+    {
+        "text": "What are we actually testing?",
+        "start": 458.86,
+        "duration": 1.74
+    },
+    {
+        "text": "Because we don't know what",
+        "start": 460.6,
+        "duration": 1.05
+    },
+    {
+        "text": "the right answer is or if it is the right answer.",
+        "start": 461.65,
+        "duration": 3.03
+    },
+    {
+        "text": "You mentioned something about context.",
+        "start": 464.68,
+        "duration": 1.89
+    },
+    {
+        "text": "Can you walk us through what",
+        "start": 466.57,
+        "duration": 1.8
+    },
+    {
+        "text": "these things are testing in production?",
+        "start": 468.37,
+        "duration": 1.62
+    },
+    {
+        "text": "Because like in general,",
+        "start": 469.99,
+        "duration": 1.17
+    },
+    {
+        "text": "machine learning you have like the answer and",
+        "start": 471.16,
+        "duration": 2.04
+    },
+    {
+        "text": "you can see is the answer the right answer,",
+        "start": 473.2,
+        "duration": 2.07
+    },
+    {
+        "text": "and then that's how you score.",
+        "start": 475.27,
+        "duration": 1.455
+    },
+    {
+        "text": "What are we actually scoring here?",
+        "start": 476.725,
+        "duration": 2.695
+    },
+    {
+        "text": ">> Great question. Some of the metrics that we're doing,",
+        "start": 479.82,
+        "duration": 4.0
+    },
+    {
+        "text": "our GPT assisted metrics,",
+        "start": 483.82,
+        "duration": 1.77
+    },
+    {
+        "text": "so you have a very powerful model like GPT-4",
+        "start": 485.59,
+        "duration": 3.165
+    },
+    {
+        "text": "that is given specific prompts and then it provides evaluations.",
+        "start": 488.755,
+        "duration": 4.17
+    },
+    {
+        "text": "It scores the outputs.",
+        "start": 492.925,
+        "duration": 2.37
+    },
+    {
+        "text": "We have a suite of metrics which are used in the evaluation stage.",
+        "start": 495.295,
+        "duration": 4.68
+    },
+    {
+        "text": "The first one is groundedness.",
+        "start": 499.975,
+        "duration": 2.235
+    },
+    {
+        "text": "It's a really really important one",
+        "start": 502.21,
+        "duration": 1.845
+    },
+    {
+        "text": "to make sure your model is not hallucinating.",
+        "start": 504.055,
+        "duration": 1.77
+    },
+    {
+        "text": "It can come from a scale of 1-5.",
+        "start": 505.825,
+        "duration": 2.145
+    },
+    {
+        "text": "You use it when you're worried that you",
+        "start": 507.97,
+        "duration": 1.995
+    },
+    {
+        "text": "generates information that's not part of the train knowledge.",
+        "start": 509.965,
+        "duration": 3.27
+    },
+    {
+        "text": "Let's say you have a retail chat bot and you don't want it",
+        "start": 513.235,
+        "duration": 2.775
+    },
+    {
+        "text": "to pull information or fabricate something,",
+        "start": 516.01,
+        "duration": 3.675
+    },
+    {
+        "text": "similar to relevance as well.",
+        "start": 519.685,
+        "duration": 2.58
+    },
+    {
+        "text": "This would be if you expect high utility for",
+        "start": 522.265,
+        "duration": 3.225
+    },
+    {
+        "text": "your generative AI system",
+        "start": 525.49,
+        "duration": 1.71
+    },
+    {
+        "text": "and you want the answers to really enhance user experience.",
+        "start": 527.2,
+        "duration": 3.225
+    },
+    {
+        "text": "As I said, if you provide only the inputs and the outputs,",
+        "start": 530.425,
+        "duration": 4.785
+    },
+    {
+        "text": "then you can measure the coherence and fluency and",
+        "start": 535.21,
+        "duration": 2.55
+    },
+    {
+        "text": "it is exactly what it sounds like. Is your model coherent?",
+        "start": 537.76,
+        "duration": 2.76
+    },
+    {
+        "text": "Or is it babbling on incomprehensibly, like I might be now?",
+        "start": 540.52,
+        "duration": 4.935
+    },
+    {
+        "text": "Or fluency is speaking in halting",
+        "start": 545.455,
+        "duration": 3.0
+    },
+    {
+        "text": "language that is not really valuable for a user.",
+        "start": 548.455,
+        "duration": 3.105
+    },
+    {
+        "text": "There are five metrics that you get out of the box.",
+        "start": 551.56,
+        "duration": 2.505
+    },
+    {
+        "text": "What I just showed in the monitoring wizard,",
+        "start": 554.065,
+        "duration": 3.375
+    },
+    {
+        "text": "wherever it is a configuration.",
+        "start": 557.44,
+        "duration": 3.57
+    },
+    {
+        "text": "When you add an additional set of metrics,",
+        "start": 561.01,
+        "duration": 2.31
+    },
+    {
+        "text": "then you type in your context.",
+        "start": 563.32,
+        "duration": 1.59
+    },
+    {
+        "text": "You would know this in your flow stage.",
+        "start": 564.91,
+        "duration": 3.28
+    },
+    {
+        "text": ">> I see. If as you're building these prompts,",
+        "start": 568.26,
+        "duration": 5.185
+    },
+    {
+        "text": "you're cognizant of what these metrics might be,",
+        "start": 573.445,
+        "duration": 3.21
+    },
+    {
+        "text": "we'll obviously hopefully put",
+        "start": 576.655,
+        "duration": 1.365
+    },
+    {
+        "text": "documentation up so people can get to that somehow.",
+        "start": 578.02,
+        "duration": 2.4
+    },
+    {
+        "text": "If you build your prompts a certain way,",
+        "start": 580.42,
+        "duration": 1.785
+    },
+    {
+        "text": "you'll not only be able to test",
+        "start": 582.205,
+        "duration": 1.965
+    },
+    {
+        "text": "for these things when you're developing them,",
+        "start": 584.17,
+        "duration": 2.16
+    },
+    {
+        "text": "but you'll be able to test for them in production.",
+        "start": 586.33,
+        "duration": 2.73
+    },
+    {
+        "text": "Because what we're doing is we're setting up",
+        "start": 589.06,
+        "duration": 1.29
+    },
+    {
+        "text": "a model monitor on the data",
+        "start": 590.35,
+        "duration": 1.5
+    },
+    {
+        "text": "collected from the in and the outs at inference time or,",
+        "start": 591.85,
+        "duration": 3.57
+    },
+    {
+        "text": "with the wind deployment time. I'm getting this right?",
+        "start": 595.42,
+        "duration": 2.985
+    },
+    {
+        "text": ">> Well said. Exactly.",
+        "start": 598.405,
+        "duration": 1.245
+    },
+    {
+        "text": ">> Cool. Let's keep going.",
+        "start": 599.65,
+        "duration": 1.96
+    },
+    {
+        "text": ">> Great, so this is important.",
+        "start": 602.01,
+        "duration": 2.905
+    },
+    {
+        "text": "You can set up notifications for",
+        "start": 604.915,
+        "duration": 1.275
+    },
+    {
+        "text": "whoever wants to receive any alerts,",
+        "start": 606.19,
+        "duration": 2.22
+    },
+    {
+        "text": "and then you can review your parameters.",
+        "start": 608.41,
+        "duration": 2.73
+    },
+    {
+        "text": "Once you've created your monitor,",
+        "start": 611.14,
+        "duration": 2.595
+    },
+    {
+        "text": "then you can see your monitoring list.",
+        "start": 613.735,
+        "duration": 2.775
+    },
+    {
+        "text": "Let's fast forward, let's say a week in production.",
+        "start": 616.51,
+        "duration": 3.54
+    },
+    {
+        "text": "At this point, you now have a monitor that's been running.",
+        "start": 620.05,
+        "duration": 5.505
+    },
+    {
+        "text": "Here's the dashboard that we've built and so in it,",
+        "start": 625.555,
+        "duration": 2.445
+    },
+    {
+        "text": "you see the details of what",
+        "start": 628.0,
+        "duration": 1.35
+    },
+    {
+        "text": "you've been monitoring and your schedule.",
+        "start": 629.35,
+        "duration": 1.905
+    },
+    {
+        "text": "What it is under the hood is a pipeline.",
+        "start": 631.255,
+        "duration": 1.695
+    },
+    {
+        "text": "It runs on a user defined cadence and it'll tell",
+        "start": 632.95,
+        "duration": 2.94
+    },
+    {
+        "text": "you when your next run",
+        "start": 635.89,
+        "duration": 1.65
+    },
+    {
+        "text": "is as well as what signals you've configured.",
+        "start": 637.54,
+        "duration": 2.4
+    },
+    {
+        "text": "In here we have an overview which is for GSQ,",
+        "start": 639.94,
+        "duration": 3.93
+    },
+    {
+        "text": "means generation, safety, and quality.",
+        "start": 643.87,
+        "duration": 1.515
+    },
+    {
+        "text": "This is the grouping of these metrics that we provide.",
+        "start": 645.385,
+        "duration": 3.145
+    },
+    {
+        "text": "In it you can then zoom into your signals and you",
+        "start": 648.96,
+        "duration": 4.18
+    },
+    {
+        "text": "can view the histogram of these metrics over time.",
+        "start": 653.14,
+        "duration": 4.125
+    },
+    {
+        "text": "This hasn't been operating in production for very long.",
+        "start": 657.265,
+        "duration": 2.67
+    },
+    {
+        "text": "But you can see you're passing and you're",
+        "start": 659.935,
+        "duration": 1.395
+    },
+    {
+        "text": "failing according to that threshold.",
+        "start": 661.33,
+        "duration": 1.98
+    },
+    {
+        "text": "What you have is a pass rate which is passing or failing.",
+        "start": 663.31,
+        "duration": 3.48
+    },
+    {
+        "text": "What's the percentage of total rows that",
+        "start": 666.79,
+        "duration": 2.1
+    },
+    {
+        "text": "have come in that will provide that to you?",
+        "start": 668.89,
+        "duration": 2.895
+    },
+    {
+        "text": ">> This is cool.",
+        "start": 671.785,
+        "duration": 2.01
+    },
+    {
+        "text": "Basically what you've done is",
+        "start": 673.795,
+        "duration": 2.685
+    },
+    {
+        "text": "you've taken the measurements that you've used,",
+        "start": 676.48,
+        "duration": 3.09
+    },
+    {
+        "text": "ostensibly during development time, at least we hope.",
+        "start": 679.57,
+        "duration": 3.42
+    },
+    {
+        "text": "But you've moved them into production",
+        "start": 682.99,
+        "duration": 2.505
+    },
+    {
+        "text": "so that you can monitor these things ongoing on.",
+        "start": 685.495,
+        "duration": 2.58
+    },
+    {
+        "text": "Because we might have assumed in",
+        "start": 688.075,
+        "duration": 1.515
+    },
+    {
+        "text": "our test set that users were going to be nice,",
+        "start": 689.59,
+        "duration": 2.385
+    },
+    {
+        "text": "and if they're not going to be nice,",
+        "start": 691.975,
+        "duration": 1.455
+    },
+    {
+        "text": "we want to know right away this will alert you on",
+        "start": 693.43,
+        "duration": 2.19
+    },
+    {
+        "text": "a daily basis or how often does well,",
+        "start": 695.62,
+        "duration": 2.505
+    },
+    {
+        "text": "whatever trigger setting you have for the monitor is that right?",
+        "start": 698.125,
+        "duration": 4.26
+    },
+    {
+        "text": ">> Correct. You can define it to run as frequently as you want.",
+        "start": 702.385,
+        "duration": 4.5
+    },
+    {
+        "text": "This could be running continuously.",
+        "start": 706.885,
+        "duration": 1.8
+    },
+    {
+        "text": "It would be asynchronously run.",
+        "start": 708.685,
+        "duration": 1.545
+    },
+    {
+        "text": "It uses batch behind the scenes.",
+        "start": 710.23,
+        "duration": 2.95
+    },
+    {
+        "text": "Actually what I'm showing right now on my screen",
+        "start": 713.4,
+        "duration": 2.65
+    },
+    {
+        "text": "is the pipeline that powers all of this.",
+        "start": 716.05,
+        "duration": 2.61
+    },
+    {
+        "text": "This is the monitoring back end.",
+        "start": 718.66,
+        "duration": 1.56
+    },
+    {
+        "text": "You'll see a list of jobs associated with your monitor,",
+        "start": 720.22,
+        "duration": 2.19
+    },
+    {
+        "text": "let's say, let's dive into this one.",
+        "start": 722.41,
+        "duration": 2.64
+    },
+    {
+        "text": "It's your job history and I'll show you what a successful one is.",
+        "start": 725.05,
+        "duration": 4.92
+    },
+    {
+        "text": "You have your model inputs and your outputs.",
+        "start": 729.97,
+        "duration": 3.09
+    },
+    {
+        "text": "As I said, we join the data and then you calculate metrics.",
+        "start": 733.06,
+        "duration": 3.45
+    },
+    {
+        "text": "These metrics are the same evaluation metrics",
+        "start": 736.51,
+        "duration": 2.25
+    },
+    {
+        "text": "and the components that have been used earlier in the life cycle.",
+        "start": 738.76,
+        "duration": 3.495
+    },
+    {
+        "text": "Then we push the metrics to the UI where you can consume it.",
+        "start": 742.255,
+        "duration": 3.99
+    },
+    {
+        "text": ">> That's cool, so under the hood,",
+        "start": 746.245,
+        "duration": 2.055
+    },
+    {
+        "text": "this is all running like Azure ML",
+        "start": 748.3,
+        "duration": 2.55
+    },
+    {
+        "text": "standard monitoring that we do for regular models.",
+        "start": 750.85,
+        "duration": 3.24
+    },
+    {
+        "text": "But now for prompt engineered models.",
+        "start": 754.09,
+        "duration": 3.225
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 757.315,
+        "duration": 1.38
+    },
+    {
+        "text": ">> That's amazing. That's cool.",
+        "start": 758.695,
+        "duration": 2.46
+    },
+    {
+        "text": "Like I said, I think the cool bit about this",
+        "start": 761.155,
+        "duration": 2.31
+    },
+    {
+        "text": "is like we build these things with the best of intentions.",
+        "start": 763.465,
+        "duration": 5.355
+    },
+    {
+        "text": "We build all this tests.",
+        "start": 768.82,
+        "duration": 1.38
+    },
+    {
+        "text": "But if it goes off the rails,",
+        "start": 770.2,
+        "duration": 1.5
+    },
+    {
+        "text": "it's nice to have that security blanket of",
+        "start": 771.7,
+        "duration": 1.92
+    },
+    {
+        "text": "knowing that it will alert you if something is incorrect.",
+        "start": 773.62,
+        "duration": 3.51
+    },
+    {
+        "text": ">> Exactly. That gives you the peace of mind to",
+        "start": 777.13,
+        "duration": 3.285
+    },
+    {
+        "text": "deploy your application and let it run in production environments.",
+        "start": 780.415,
+        "duration": 3.81
+    },
+    {
+        "text": ">> This is really cool stuff.",
+        "start": 784.225,
+        "duration": 2.4
+    },
+    {
+        "text": "Where can people go to find out more about this?",
+        "start": 786.625,
+        "duration": 4.005
+    },
+    {
+        "text": ">> We have a pretty great set",
+        "start": 790.63,
+        "duration": 2.37
+    },
+    {
+        "text": "of documentation that we just published.",
+        "start": 793.0,
+        "duration": 1.425
+    },
+    {
+        "text": "I would encourage you to visit",
+        "start": 794.425,
+        "duration": 1.485
+    },
+    {
+        "text": "that and I think the link is in the screen.",
+        "start": 795.91,
+        "duration": 2.775
+    },
+    {
+        "text": ">> There you go.",
+        "start": 798.685,
+        "duration": 0.87
+    },
+    {
+        "text": ">> We'd love to have you try this out.",
+        "start": 799.555,
+        "duration": 2.235
+    },
+    {
+        "text": "It's a really rich and robust offering",
+        "start": 801.79,
+        "duration": 2.85
+    },
+    {
+        "text": "and we're looking to get collect more feedback.",
+        "start": 804.64,
+        "duration": 3.12
+    },
+    {
+        "text": "Amazing party announcements coming up too at Microsoft Ignite.",
+        "start": 807.76,
+        "duration": 3.585
+    },
+    {
+        "text": ">> Oh, this is cool,",
+        "start": 811.345,
+        "duration": 1.605
+    },
+    {
+        "text": "and so go try it out,",
+        "start": 812.95,
+        "duration": 2.04
+    },
+    {
+        "text": "take a look at this,",
+        "start": 814.99,
+        "duration": 1.11
+    },
+    {
+        "text": "make sure it works for you.",
+        "start": 816.1,
+        "duration": 1.365
+    },
+    {
+        "text": "Well, thank you so much for spending some time with my friend.",
+        "start": 817.465,
+        "duration": 2.355
+    },
+    {
+        "text": ">> Thanks for having me. Good to see you.",
+        "start": 819.82,
+        "duration": 1.89
+    },
+    {
+        "text": ">> Awesome, thank you so much for watching and learning all",
+        "start": 821.71,
+        "duration": 1.86
+    },
+    {
+        "text": "about model monitoring for",
+        "start": 823.57,
+        "duration": 2.34
+    },
+    {
+        "text": "LLMs peace of mind when",
+        "start": 825.91,
+        "duration": 2.1
+    },
+    {
+        "text": "putting out your own Copilots, make sure you use it.",
+        "start": 828.01,
+        "duration": 2.28
+    },
+    {
+        "text": "Thank you so much for watching",
+        "start": 830.29,
+        "duration": 0.96
+    },
+    {
+        "text": "and hopefully we'll see you next time.",
+        "start": 831.25,
+        "duration": 1.05
+    },
+    {
+        "text": "Take care. [MUSIC]",
+        "start": 832.3,
+        "duration": 11.281
+    }
+]

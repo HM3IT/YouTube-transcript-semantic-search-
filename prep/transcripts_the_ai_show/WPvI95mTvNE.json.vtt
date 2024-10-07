@@ -1,0 +1,2832 @@
+[
+    {
+        "text": ">> You're not going to want to miss this episode of the AI Show.",
+        "start": 0.0,
+        "duration": 2.6
+    },
+    {
+        "text": "We talk all about content safety with my friend Sarah Bird.",
+        "start": 2.6,
+        "duration": 3.67
+    },
+    {
+        "text": "Make sure you tune in.",
+        "start": 6.27,
+        "duration": 2.2
+    },
+    {
+        "text": "Hello and welcome to this episode of the AI Show.",
+        "start": 13.24,
+        "duration": 2.84
+    },
+    {
+        "text": "We're talking all about content safety with my friend, Sarah Bird.",
+        "start": 16.08,
+        "duration": 2.62
+    },
+    {
+        "text": "Sarah, it's good to have you back with my friend.",
+        "start": 18.7,
+        "duration": 1.34
+    },
+    {
+        "text": "How are you doing?",
+        "start": 20.04,
+        "duration": 0.62
+    },
+    {
+        "text": ">> I'm great, glad to be here.",
+        "start": 20.66,
+        "duration": 1.97
+    },
+    {
+        "text": ">> Fantastic. We talked about",
+        "start": 22.63,
+        "duration": 1.59
+    },
+    {
+        "text": "content safety a lot at some of our conferences.",
+        "start": 24.22,
+        "duration": 2.54
+    },
+    {
+        "text": "So tell us what's new, what's going on,",
+        "start": 26.76,
+        "duration": 2.18
+    },
+    {
+        "text": "and maybe if you could explain what content safety is.",
+        "start": 28.94,
+        "duration": 4.04
+    },
+    {
+        "text": ">> I've been on the show a lot over",
+        "start": 32.98,
+        "duration": 2.86
+    },
+    {
+        "text": "the years talking about responsible AI.",
+        "start": 35.84,
+        "duration": 2.895
+    },
+    {
+        "text": "Meaning, how do we make our own AI system safe?",
+        "start": 38.735,
+        "duration": 3.825
+    },
+    {
+        "text": "How do we empower others to make their AI system safe?",
+        "start": 42.56,
+        "duration": 2.88
+    },
+    {
+        "text": "But one of the things I don't get to talk",
+        "start": 45.44,
+        "duration": 2.3
+    },
+    {
+        "text": "about as much which is really embodied",
+        "start": 47.74,
+        "duration": 2.52
+    },
+    {
+        "text": "in this work is",
+        "start": 50.26,
+        "duration": 2.1
+    },
+    {
+        "text": "the opportunities we see for AI helping make other things safe.",
+        "start": 52.36,
+        "duration": 4.615
+    },
+    {
+        "text": "We've had just amazing breakthroughs",
+        "start": 56.975,
+        "duration": 2.885
+    },
+    {
+        "text": "in AI technologies over the last couple of years.",
+        "start": 59.86,
+        "duration": 2.84
+    },
+    {
+        "text": "I don't need to tell you, we're all",
+        "start": 62.7,
+        "duration": 1.14
+    },
+    {
+        "text": "here very excited about generative AI.",
+        "start": 63.84,
+        "duration": 2.82
+    },
+    {
+        "text": "But what we've seen in my team is that that's also",
+        "start": 66.66,
+        "duration": 4.88
+    },
+    {
+        "text": "a huge opportunity to take",
+        "start": 71.54,
+        "duration": 1.52
+    },
+    {
+        "text": "those same technologies and look",
+        "start": 73.06,
+        "duration": 1.84
+    },
+    {
+        "text": "at how we can increase safety in the world.",
+        "start": 74.9,
+        "duration": 2.86
+    },
+    {
+        "text": "One of the challenges that we have right now",
+        "start": 77.76,
+        "duration": 3.54
+    },
+    {
+        "text": "is that there's vast amounts of content out there,",
+        "start": 81.3,
+        "duration": 4.04
+    },
+    {
+        "text": "all sorts of information, which is great.",
+        "start": 85.34,
+        "duration": 2.22
+    },
+    {
+        "text": "That's the beauty and the power of",
+        "start": 87.56,
+        "duration": 1.54
+    },
+    {
+        "text": "the internet and different online platforms.",
+        "start": 89.1,
+        "duration": 2.28
+    },
+    {
+        "text": "But unfortunately, there's also harmful,",
+        "start": 91.38,
+        "duration": 2.995
+    },
+    {
+        "text": "problematic content that platforms and users don't want on there.",
+        "start": 94.375,
+        "duration": 5.405
+    },
+    {
+        "text": "One of the challenges that we've seen over the years",
+        "start": 99.78,
+        "duration": 3.52
+    },
+    {
+        "text": "is that the content is very sophisticated.",
+        "start": 103.3,
+        "duration": 3.57
+    },
+    {
+        "text": "Language is very nuanced and",
+        "start": 106.87,
+        "duration": 2.15
+    },
+    {
+        "text": "so traditional AI was just not great at it.",
+        "start": 109.02,
+        "duration": 2.505
+    },
+    {
+        "text": "It was like, okay,",
+        "start": 111.525,
+        "duration": 1.315
+    },
+    {
+        "text": "if there's just one harmful word in here,",
+        "start": 112.84,
+        "duration": 2.46
+    },
+    {
+        "text": "it's going to get flagged and sent to a human reviewer.",
+        "start": 115.3,
+        "duration": 2.71
+    },
+    {
+        "text": "It was frankly just dumb.",
+        "start": 118.01,
+        "duration": 1.84
+    },
+    {
+        "text": "Well, turns out we've had a huge breakthrough in",
+        "start": 119.85,
+        "duration": 3.67
+    },
+    {
+        "text": "language models and multimodal models they can",
+        "start": 123.52,
+        "duration": 2.63
+    },
+    {
+        "text": "understand so much more than that.",
+        "start": 126.15,
+        "duration": 3.31
+    },
+    {
+        "text": "Actually now look and really",
+        "start": 129.46,
+        "duration": 1.32
+    },
+    {
+        "text": "understand what is this sentence saying?",
+        "start": 130.78,
+        "duration": 1.94
+    },
+    {
+        "text": "What is this paragraph saying?",
+        "start": 132.72,
+        "duration": 1.48
+    },
+    {
+        "text": "Is it actually harmful?",
+        "start": 134.2,
+        "duration": 2.785
+    },
+    {
+        "text": "Content safety is the outcome of several years of",
+        "start": 136.985,
+        "duration": 4.815
+    },
+    {
+        "text": "work to harness that technology",
+        "start": 141.8,
+        "duration": 1.94
+    },
+    {
+        "text": "and put it towards detecting harmful content.",
+        "start": 143.74,
+        "duration": 2.405
+    },
+    {
+        "text": "It's a new cognitive service,",
+        "start": 146.145,
+        "duration": 1.445
+    },
+    {
+        "text": "it just GAID two weeks ago.",
+        "start": 147.59,
+        "duration": 2.825
+    },
+    {
+        "text": "The idea here is that it's going to be able to have",
+        "start": 150.415,
+        "duration": 4.165
+    },
+    {
+        "text": "different types of content flowing through it and",
+        "start": 154.58,
+        "duration": 1.94
+    },
+    {
+        "text": "score it with different categories you care about,",
+        "start": 156.52,
+        "duration": 2.06
+    },
+    {
+        "text": "like violence, hate self harm, etc.",
+        "start": 158.58,
+        "duration": 2.56
+    },
+    {
+        "text": ">> That's awesome, because traditionally what we would have,",
+        "start": 161.14,
+        "duration": 2.96
+    },
+    {
+        "text": "and I come from the NLP world,",
+        "start": 164.1,
+        "duration": 2.46
+    },
+    {
+        "text": "traditionally what we used to do is we have a huge list of",
+        "start": 166.56,
+        "duration": 3.68
+    },
+    {
+        "text": "just bad words that we just searched for",
+        "start": 170.24,
+        "duration": 2.72
+    },
+    {
+        "text": "and then someone would put like a zero instead of O,",
+        "start": 172.96,
+        "duration": 2.86
+    },
+    {
+        "text": "and we'd have to add that thing in there.",
+        "start": 175.82,
+        "duration": 1.56
+    },
+    {
+        "text": "Then you're saying that we don't need to do that",
+        "start": 177.38,
+        "duration": 2.52
+    },
+    {
+        "text": "anymore with content safety as a much more intelligent way?",
+        "start": 179.9,
+        "duration": 3.05
+    },
+    {
+        "text": ">> Yeah, certainly we've seen a huge leap forward.",
+        "start": 182.95,
+        "duration": 1.79
+    },
+    {
+        "text": "I mean, there are obviously with any of these,",
+        "start": 184.74,
+        "duration": 1.92
+    },
+    {
+        "text": "it's an adversarial game where people are going to figure out",
+        "start": 186.66,
+        "duration": 4.04
+    },
+    {
+        "text": "more clever techniques to get around these filtering systems.",
+        "start": 190.7,
+        "duration": 4.58
+    },
+    {
+        "text": "But it's certainly a huge breakthrough in sophistication and",
+        "start": 195.28,
+        "duration": 3.0
+    },
+    {
+        "text": "it I think greatly reduces the other side of it,",
+        "start": 198.28,
+        "duration": 3.16
+    },
+    {
+        "text": "which is also where you have people trying to",
+        "start": 201.44,
+        "duration": 3.48
+    },
+    {
+        "text": "use terms like in a positive sense",
+        "start": 204.92,
+        "duration": 2.0
+    },
+    {
+        "text": "reclaim them and being censored.",
+        "start": 206.92,
+        "duration": 2.145
+    },
+    {
+        "text": "We want to make sure that you're able to both",
+        "start": 209.065,
+        "duration": 3.415
+    },
+    {
+        "text": "not be over filtering or under filtering.",
+        "start": 212.48,
+        "duration": 4.04
+    },
+    {
+        "text": "I think that we've just seen",
+        "start": 216.52,
+        "duration": 3.2
+    },
+    {
+        "text": "a huge step forward in that",
+        "start": 219.72,
+        "duration": 1.48
+    },
+    {
+        "text": "and actually I thought it was very fitting.",
+        "start": 221.2,
+        "duration": 2.3
+    },
+    {
+        "text": "You started the show in French. I don't speak French.",
+        "start": 223.5,
+        "duration": 2.79
+    },
+    {
+        "text": "But these models are multilingual from the base also.",
+        "start": 226.29,
+        "duration": 4.15
+    },
+    {
+        "text": "Which means that when the sentences",
+        "start": 230.44,
+        "duration": 2.05
+    },
+    {
+        "text": "are mixing different types of languages,",
+        "start": 232.49,
+        "duration": 3.25
+    },
+    {
+        "text": "you still can understand that.",
+        "start": 235.74,
+        "duration": 1.76
+    },
+    {
+        "text": "That just adds actually higher quality in every language,",
+        "start": 237.5,
+        "duration": 3.18
+    },
+    {
+        "text": "but then also going across languages",
+        "start": 240.68,
+        "duration": 1.77
+    },
+    {
+        "text": "and so that's been another part of it, of course.",
+        "start": 242.45,
+        "duration": 2.405
+    },
+    {
+        "text": ">> That's interesting because I hadn't even",
+        "start": 244.855,
+        "duration": 1.785
+    },
+    {
+        "text": "considered the multilingual case.",
+        "start": 246.64,
+        "duration": 1.82
+    },
+    {
+        "text": "If you have to manage this thing yourself,",
+        "start": 248.46,
+        "duration": 3.28
+    },
+    {
+        "text": "you're going to be fighting this game a lot.",
+        "start": 251.74,
+        "duration": 2.08
+    },
+    {
+        "text": "You're saying that now there's a service that we just",
+        "start": 253.82,
+        "duration": 2.44
+    },
+    {
+        "text": "optimize this thing all",
+        "start": 256.26,
+        "duration": 1.6
+    },
+    {
+        "text": "the time to make sure it's doing the right thing.",
+        "start": 257.86,
+        "duration": 2.14
+    },
+    {
+        "text": ">> Absolutely. I mean, we start with",
+        "start": 260.0,
+        "duration": 2.12
+    },
+    {
+        "text": "the same foundation models that are powering other things.",
+        "start": 262.12,
+        "duration": 2.68
+    },
+    {
+        "text": "We start with a great language model",
+        "start": 264.8,
+        "duration": 2.34
+    },
+    {
+        "text": "that's multilingual at the base,",
+        "start": 267.14,
+        "duration": 1.58
+    },
+    {
+        "text": "and then we train it on harmful content.",
+        "start": 268.72,
+        "duration": 2.405
+    },
+    {
+        "text": "I'm talking about language and",
+        "start": 271.125,
+        "duration": 1.895
+    },
+    {
+        "text": "text a lot here because we've all seen the breakthroughs.",
+        "start": 273.02,
+        "duration": 2.16
+    },
+    {
+        "text": "But the same applies to image.",
+        "start": 275.18,
+        "duration": 1.87
+    },
+    {
+        "text": "This is powered by a Florence image model.",
+        "start": 277.05,
+        "duration": 2.715
+    },
+    {
+        "text": "Or the newest area which is actually really important,",
+        "start": 279.765,
+        "duration": 3.485
+    },
+    {
+        "text": "which is multimodal, where we're combining image and text.",
+        "start": 283.25,
+        "duration": 2.56
+    },
+    {
+        "text": "If you look at like a hateful meme,",
+        "start": 285.81,
+        "duration": 2.18
+    },
+    {
+        "text": "the text can actually be totally safe",
+        "start": 287.99,
+        "duration": 2.4
+    },
+    {
+        "text": "and the image can be totally safe,",
+        "start": 290.39,
+        "duration": 2.12
+    },
+    {
+        "text": "but the combination is problematic.",
+        "start": 292.51,
+        "duration": 2.145
+    },
+    {
+        "text": "The multimodal models are also really important in that.",
+        "start": 294.655,
+        "duration": 3.015
+    },
+    {
+        "text": "This step forward and foundation models, understanding content,",
+        "start": 297.67,
+        "duration": 3.4
+    },
+    {
+        "text": "has allowed us to build on top of those and understand",
+        "start": 301.07,
+        "duration": 2.8
+    },
+    {
+        "text": "very specifically different types",
+        "start": 303.87,
+        "duration": 1.66
+    },
+    {
+        "text": "of potentially problematic content.",
+        "start": 305.53,
+        "duration": 2.265
+    },
+    {
+        "text": ">> This is awesome because every",
+        "start": 307.795,
+        "duration": 1.995
+    },
+    {
+        "text": "time you come on the show I'm like,",
+        "start": 309.79,
+        "duration": 1.24
+    },
+    {
+        "text": "oh, that's another thing I should probably worry about.",
+        "start": 311.03,
+        "duration": 2.56
+    },
+    {
+        "text": "I was only thinking of like",
+        "start": 313.59,
+        "duration": 1.65
+    },
+    {
+        "text": "written content and you're saying now image content as well as",
+        "start": 315.24,
+        "duration": 3.36
+    },
+    {
+        "text": "something that needs to be looked at because someone might post",
+        "start": 318.6,
+        "duration": 2.68
+    },
+    {
+        "text": "a very bad thing in an image and",
+        "start": 321.28,
+        "duration": 1.88
+    },
+    {
+        "text": "your word search is not going to do anything.",
+        "start": 323.16,
+        "duration": 3.025
+    },
+    {
+        "text": ">> Exactly. Then of course the combination,",
+        "start": 326.185,
+        "duration": 2.415
+    },
+    {
+        "text": "it's not just like you can also have an image",
+        "start": 328.6,
+        "duration": 2.6
+    },
+    {
+        "text": "that is clearly violent or let's say clearly hateful,",
+        "start": 331.2,
+        "duration": 3.78
+    },
+    {
+        "text": "but then a lot of the memes",
+        "start": 334.98,
+        "duration": 2.19
+    },
+    {
+        "text": "are really that the combination is what's harmful,",
+        "start": 337.17,
+        "duration": 2.41
+    },
+    {
+        "text": "neither the text nor the image.",
+        "start": 339.58,
+        "duration": 1.68
+    },
+    {
+        "text": "You need a model that actually",
+        "start": 341.26,
+        "duration": 1.42
+    },
+    {
+        "text": "understands the combination of the two.",
+        "start": 342.68,
+        "duration": 2.28
+    },
+    {
+        "text": "That's been a gap that we've always had out in the world and",
+        "start": 344.96,
+        "duration": 4.0
+    },
+    {
+        "text": "the new multimodal capabilities of",
+        "start": 348.96,
+        "duration": 2.2
+    },
+    {
+        "text": "foundation models are enabling us to do that better.",
+        "start": 351.16,
+        "duration": 2.98
+    },
+    {
+        "text": "Multimodal is not yet GA, it's in preview.",
+        "start": 354.14,
+        "duration": 2.36
+    },
+    {
+        "text": "That's the latest work,",
+        "start": 356.5,
+        "duration": 1.9
+    },
+    {
+        "text": "but I'm just really excited where I think",
+        "start": 358.4,
+        "duration": 2.38
+    },
+    {
+        "text": "we can get to in the next couple of years with this technology.",
+        "start": 360.78,
+        "duration": 2.7
+    },
+    {
+        "text": "I think it's really going to be a game changer for safety.",
+        "start": 363.48,
+        "duration": 3.25
+    },
+    {
+        "text": ">> I've seen this in use",
+        "start": 366.73,
+        "duration": 1.97
+    },
+    {
+        "text": "primarily in the context of large language models,",
+        "start": 368.7,
+        "duration": 3.45
+    },
+    {
+        "text": "like when they're using generative large language models,",
+        "start": 372.15,
+        "duration": 2.53
+    },
+    {
+        "text": "filtering content on the way out and on the way in.",
+        "start": 374.68,
+        "duration": 2.62
+    },
+    {
+        "text": "That happens in Azure, OpenAI.",
+        "start": 377.3,
+        "duration": 2.0
+    },
+    {
+        "text": "Are you saying that this is now something that",
+        "start": 379.3,
+        "duration": 1.58
+    },
+    {
+        "text": "can be standalone used by itself?",
+        "start": 380.88,
+        "duration": 1.88
+    },
+    {
+        "text": ">> Yeah, exactly. When we",
+        "start": 382.76,
+        "duration": 2.24
+    },
+    {
+        "text": "first started working on the technology,",
+        "start": 385.0,
+        "duration": 2.72
+    },
+    {
+        "text": "the first place that we released it was in",
+        "start": 387.72,
+        "duration": 3.0
+    },
+    {
+        "text": "the generative AI applications as part of Azure OpenAI.",
+        "start": 390.72,
+        "duration": 3.155
+    },
+    {
+        "text": "Because that was,",
+        "start": 393.875,
+        "duration": 2.21
+    },
+    {
+        "text": "frankly because it was needed.",
+        "start": 396.085,
+        "duration": 1.7
+    },
+    {
+        "text": "Because we had to be able to filter in real-time at scale,",
+        "start": 397.785,
+        "duration": 3.775
+    },
+    {
+        "text": "which meant we needed a different type of technology.",
+        "start": 401.56,
+        "duration": 2.72
+    },
+    {
+        "text": "We've quickly put this in there,",
+        "start": 404.28,
+        "duration": 2.32
+    },
+    {
+        "text": "and so you've been seeing it in Azure OpenAI,",
+        "start": 406.6,
+        "duration": 2.67
+    },
+    {
+        "text": "and we can look more of a demo of that.",
+        "start": 409.27,
+        "duration": 3.31
+    },
+    {
+        "text": "But now we've have it as a standalone system,",
+        "start": 412.58,
+        "duration": 3.18
+    },
+    {
+        "text": "which means that people can use it to look at",
+        "start": 415.76,
+        "duration": 2.7
+    },
+    {
+        "text": "also just user generated content on their platform,",
+        "start": 418.46,
+        "duration": 2.76
+    },
+    {
+        "text": "but also open source LLMs.",
+        "start": 421.22,
+        "duration": 1.9
+    },
+    {
+        "text": "Or if you're developing your own model, you can use it.",
+        "start": 423.12,
+        "duration": 2.22
+    },
+    {
+        "text": "We wanted to make it easy for safety to just be wherever you are.",
+        "start": 425.34,
+        "duration": 4.02
+    },
+    {
+        "text": "Having it as its own API means",
+        "start": 429.36,
+        "duration": 2.22
+    },
+    {
+        "text": "that you can bring it to where you need it.",
+        "start": 431.58,
+        "duration": 2.5
+    },
+    {
+        "text": "But of course it's still integrate in Azure OpenAI",
+        "start": 434.08,
+        "duration": 2.27
+    },
+    {
+        "text": "so that it's just there and it's easy for you.",
+        "start": 436.35,
+        "duration": 2.31
+    },
+    {
+        "text": ">> That's interesting using a content safety as",
+        "start": 438.66,
+        "duration": 2.48
+    },
+    {
+        "text": "a pseudo regularizer over your own training of models,",
+        "start": 441.14,
+        "duration": 3.68
+    },
+    {
+        "text": "which is cool as well.",
+        "start": 444.82,
+        "duration": 1.97
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 446.79,
+        "duration": 1.895
+    },
+    {
+        "text": ">> What can you show us?",
+        "start": 448.685,
+        "duration": 1.805
+    },
+    {
+        "text": ">> Let's go and look first just at the content safety portal here.",
+        "start": 450.49,
+        "duration": 4.7
+    },
+    {
+        "text": "This is the studio for content safety.",
+        "start": 455.19,
+        "duration": 2.815
+    },
+    {
+        "text": "As you can see, just as we were talking about,",
+        "start": 458.005,
+        "duration": 3.135
+    },
+    {
+        "text": "we have the moderate text here.",
+        "start": 461.14,
+        "duration": 6.12
+    },
+    {
+        "text": "Can you see my cursor?",
+        "start": 467.26,
+        "duration": 1.54
+    },
+    {
+        "text": ">> I sure can. It looks great.",
+        "start": 468.8,
+        "duration": 1.57
+    },
+    {
+        "text": ">> Sorry. You can see the moderate text here.",
+        "start": 470.37,
+        "duration": 3.31
+    },
+    {
+        "text": "We talked about image. I mentioned",
+        "start": 473.68,
+        "duration": 1.78
+    },
+    {
+        "text": "that we have multimodal in preview,",
+        "start": 475.46,
+        "duration": 1.64
+    },
+    {
+        "text": "which is really exciting.",
+        "start": 477.1,
+        "duration": 1.16
+    },
+    {
+        "text": "I think in each of these,",
+        "start": 478.26,
+        "duration": 3.64
+    },
+    {
+        "text": "when you click through,",
+        "start": 481.9,
+        "duration": 1.755
+    },
+    {
+        "text": "we have different examples that you can",
+        "start": 483.655,
+        "duration": 2.115
+    },
+    {
+        "text": "look at so you can understand how it works.",
+        "start": 485.77,
+        "duration": 2.58
+    },
+    {
+        "text": "But trying to limit the amount of harmful content people look at.",
+        "start": 488.35,
+        "duration": 3.42
+    },
+    {
+        "text": "Let's stay with text today because the images you",
+        "start": 491.77,
+        "duration": 2.92
+    },
+    {
+        "text": "actually are visually looking at that which is automatic.",
+        "start": 494.69,
+        "duration": 4.32
+    },
+    {
+        "text": "One of the things that was really important is",
+        "start": 499.63,
+        "duration": 3.37
+    },
+    {
+        "text": "recognizing that each application is",
+        "start": 503.0,
+        "duration": 2.58
+    },
+    {
+        "text": "different in terms of what type of content might be appropriate.",
+        "start": 505.58,
+        "duration": 6.495
+    },
+    {
+        "text": "But we also wanted to build a system that could power",
+        "start": 512.075,
+        "duration": 2.535
+    },
+    {
+        "text": "many applications because it's taking a lot of expertise.",
+        "start": 514.61,
+        "duration": 3.765
+    },
+    {
+        "text": "We work with expert linguists and",
+        "start": 518.375,
+        "duration": 1.785
+    },
+    {
+        "text": "fairness experts to label this data and train our models.",
+        "start": 520.16,
+        "duration": 4.32
+    },
+    {
+        "text": "We have pretty sophisticated AI scientists working on this,",
+        "start": 524.48,
+        "duration": 3.54
+    },
+    {
+        "text": "and so there's a lot of investment that",
+        "start": 528.02,
+        "duration": 1.83
+    },
+    {
+        "text": "we wanted to make sure it's reusable,",
+        "start": 529.85,
+        "duration": 2.025
+    },
+    {
+        "text": "but recognize that applications are different.",
+        "start": 531.875,
+        "duration": 2.385
+    },
+    {
+        "text": "The way we've been doing this behind the scenes is actually",
+        "start": 534.26,
+        "duration": 4.05
+    },
+    {
+        "text": "that we've had different severity levels",
+        "start": 538.31,
+        "duration": 3.72
+    },
+    {
+        "text": "for the content that we've actually trained into the model.",
+        "start": 542.03,
+        "duration": 3.63
+    },
+    {
+        "text": "You can set the system to",
+        "start": 545.66,
+        "duration": 2.1
+    },
+    {
+        "text": "filter for each of these different categories,",
+        "start": 547.76,
+        "duration": 3.0
+    },
+    {
+        "text": "low severity, medium severity, high severity.",
+        "start": 550.76,
+        "duration": 3.09
+    },
+    {
+        "text": "As a gaming application, for example,",
+        "start": 553.85,
+        "duration": 1.74
+    },
+    {
+        "text": "I might want to allow more violent content through,",
+        "start": 555.59,
+        "duration": 2.715
+    },
+    {
+        "text": "but maybe not the worst of the worst.",
+        "start": 558.305,
+        "duration": 2.115
+    },
+    {
+        "text": "I would set that here where",
+        "start": 560.42,
+        "duration": 1.98
+    },
+    {
+        "text": "an education application might choose to be much more strict",
+        "start": 562.4,
+        "duration": 3.225
+    },
+    {
+        "text": "and actually do that and",
+        "start": 565.625,
+        "duration": 2.145
+    },
+    {
+        "text": "block everything that's even a low level of severity.",
+        "start": 567.77,
+        "duration": 3.285
+    },
+    {
+        "text": "This system is allowing you to",
+        "start": 571.055,
+        "duration": 1.995
+    },
+    {
+        "text": "understand depending on where you put that threshold,",
+        "start": 573.05,
+        "duration": 2.67
+    },
+    {
+        "text": "this playground where that was.",
+        "start": 575.72,
+        "duration": 2.16
+    },
+    {
+        "text": "The example that we showed before,",
+        "start": 577.88,
+        "duration": 2.01
+    },
+    {
+        "text": "which I think is still a good one for",
+        "start": 579.89,
+        "duration": 2.52
+    },
+    {
+        "text": "our Contoso Outdoor Commerce Company is asking about,",
+        "start": 582.41,
+        "duration": 7.665
+    },
+    {
+        "text": "I'm looking for an ax,",
+        "start": 590.075,
+        "duration": 2.955
+    },
+    {
+        "text": "this has a weapon to cut.",
+        "start": 593.03,
+        "duration": 4.725
+    },
+    {
+        "text": "It has a problematic verb here.",
+        "start": 597.755,
+        "duration": 4.275
+    },
+    {
+        "text": "Then we set a path in the forest,",
+        "start": 602.03,
+        "duration": 3.12
+    },
+    {
+        "text": "and let's hope our system here recognizes, this is safe.",
+        "start": 605.15,
+        "duration": 4.26
+    },
+    {
+        "text": "You're allowed to cut a path with an ax.",
+        "start": 609.41,
+        "duration": 3.0
+    },
+    {
+        "text": "Then of course, if we switch this over",
+        "start": 612.41,
+        "duration": 3.165
+    },
+    {
+        "text": "and we say something much more problematic,",
+        "start": 615.575,
+        "duration": 2.805
+    },
+    {
+        "text": "but hopefully a little cartoony here,",
+        "start": 618.38,
+        "duration": 2.73
+    },
+    {
+        "text": "then we recognize this is a medium level of",
+        "start": 621.11,
+        "duration": 2.73
+    },
+    {
+        "text": "violence in the way that it's said here.",
+        "start": 623.84,
+        "duration": 3.88
+    },
+    {
+        "text": "This is how this is working,",
+        "start": 628.9,
+        "duration": 2.98
+    },
+    {
+        "text": "and actually with the GA,",
+        "start": 631.88,
+        "duration": 1.14
+    },
+    {
+        "text": "we've added additional severity levels.",
+        "start": 633.02,
+        "duration": 2.385
+    },
+    {
+        "text": "You can go up to eight different severities,",
+        "start": 635.405,
+        "duration": 2.955
+    },
+    {
+        "text": "so you can get even more fine nuanced in terms",
+        "start": 638.36,
+        "duration": 2.07
+    },
+    {
+        "text": "of what works for your application.",
+        "start": 640.43,
+        "duration": 3.91
+    },
+    {
+        "text": "This is the system in the most basic form.",
+        "start": 645.31,
+        "duration": 3.745
+    },
+    {
+        "text": "Now of course it's an API and what",
+        "start": 649.055,
+        "duration": 2.355
+    },
+    {
+        "text": "you actually get out is a category and a score.",
+        "start": 651.41,
+        "duration": 2.55
+    },
+    {
+        "text": "You could do something much more sophisticated.",
+        "start": 653.96,
+        "duration": 1.905
+    },
+    {
+        "text": "You could for example, have all high severity content",
+        "start": 655.865,
+        "duration": 2.19
+    },
+    {
+        "text": "automatically filtered,",
+        "start": 658.055,
+        "duration": 1.395
+    },
+    {
+        "text": "and medium severity,",
+        "start": 659.45,
+        "duration": 1.8
+    },
+    {
+        "text": "you could send to a human reviewer, for example,",
+        "start": 661.25,
+        "duration": 2.61
+    },
+    {
+        "text": "first to decide if it can be used or posted or something.",
+        "start": 663.86,
+        "duration": 3.345
+    },
+    {
+        "text": "There's a lot of different options with these.",
+        "start": 667.205,
+        "duration": 1.965
+    },
+    {
+        "text": "We're just showing the most basic version here.",
+        "start": 669.17,
+        "duration": 3.855
+    },
+    {
+        "text": ">> Here's a question I have for you because I've",
+        "start": 673.025,
+        "duration": 2.295
+    },
+    {
+        "text": "looked at this a couple of times and sometimes I get confused.",
+        "start": 675.32,
+        "duration": 2.715
+    },
+    {
+        "text": "When it turns on the low severity,",
+        "start": 678.035,
+        "duration": 2.88
+    },
+    {
+        "text": "that just means that the content that's going through has",
+        "start": 680.915,
+        "duration": 3.66
+    },
+    {
+        "text": "low scores for each of those categories. Is that right?",
+        "start": 684.575,
+        "duration": 4.2
+    },
+    {
+        "text": ">> Yeah. It's kind of,",
+        "start": 688.775,
+        "duration": 2.76
+    },
+    {
+        "text": "we're evolving some things.",
+        "start": 691.535,
+        "duration": 1.695
+    },
+    {
+        "text": "It's here saying where it's going to start rejecting.",
+        "start": 693.23,
+        "duration": 3.96
+    },
+    {
+        "text": "It's just letting you understand if you set",
+        "start": 697.19,
+        "duration": 2.58
+    },
+    {
+        "text": "your application to reject starting low,",
+        "start": 699.77,
+        "duration": 2.325
+    },
+    {
+        "text": "it will reject everything low and higher.",
+        "start": 702.095,
+        "duration": 2.19
+    },
+    {
+        "text": "If you set it to go to medium,",
+        "start": 704.285,
+        "duration": 2.085
+    },
+    {
+        "text": "it will reject everything medium and higher.",
+        "start": 706.37,
+        "duration": 2.775
+    },
+    {
+        "text": "It's giving you those where you want",
+        "start": 709.145,
+        "duration": 3.345
+    },
+    {
+        "text": "your cutoff point for what's appropriate for your application.",
+        "start": 712.49,
+        "duration": 3.24
+    },
+    {
+        "text": "Like what type of level of content can you tolerate.",
+        "start": 715.73,
+        "duration": 3.165
+    },
+    {
+        "text": ">> Got it. It's almost like",
+        "start": 718.895,
+        "duration": 2.64
+    },
+    {
+        "text": "what is your tolerance for whatever content there is.",
+        "start": 721.535,
+        "duration": 4.155
+    },
+    {
+        "text": "Like for example, in a video game,",
+        "start": 725.69,
+        "duration": 1.38
+    },
+    {
+        "text": "if you're playing a video game that has people shooting,",
+        "start": 727.07,
+        "duration": 3.225
+    },
+    {
+        "text": "the violence tolerance for the speech,",
+        "start": 730.295,
+        "duration": 2.25
+    },
+    {
+        "text": "it's going to be much higher.",
+        "start": 732.545,
+        "duration": 1.485
+    },
+    {
+        "text": ">> Exactly.",
+        "start": 734.03,
+        "duration": 0.855
+    },
+    {
+        "text": ">> Is that what you're saying? Then you would set it to high,",
+        "start": 734.885,
+        "duration": 2.715
+    },
+    {
+        "text": "or medium, or whatever.",
+        "start": 737.6,
+        "duration": 1.68
+    },
+    {
+        "text": "This is awesome.",
+        "start": 739.28,
+        "duration": 1.41
+    },
+    {
+        "text": ">> If you're a medical application,",
+        "start": 740.69,
+        "duration": 1.8
+    },
+    {
+        "text": "then you might be very reasonable to have sexual content in there.",
+        "start": 742.49,
+        "duration": 4.5
+    },
+    {
+        "text": "We've seen people who work in education are often",
+        "start": 746.99,
+        "duration": 4.62
+    },
+    {
+        "text": "setting everything the way it is on the screen",
+        "start": 751.61,
+        "duration": 2.1
+    },
+    {
+        "text": "right now where everything is set to filter.",
+        "start": 753.71,
+        "duration": 2.235
+    },
+    {
+        "text": "Even anything that might be just mildly risky.",
+        "start": 755.945,
+        "duration": 4.805
+    },
+    {
+        "text": "They want all of that filter because it's working with students.",
+        "start": 760.75,
+        "duration": 5.145
+    },
+    {
+        "text": "This really is about,",
+        "start": 765.895,
+        "duration": 2.985
+    },
+    {
+        "text": "making sure this is a technology that",
+        "start": 768.88,
+        "duration": 1.98
+    },
+    {
+        "text": "can work in many different types of applications.",
+        "start": 770.86,
+        "duration": 1.845
+    },
+    {
+        "text": "Then, of course, putting",
+        "start": 772.705,
+        "duration": 1.065
+    },
+    {
+        "text": "the application owner in control because,",
+        "start": 773.77,
+        "duration": 2.25
+    },
+    {
+        "text": "they are going to know what is",
+        "start": 776.02,
+        "duration": 2.07
+    },
+    {
+        "text": "the right thing for their application.",
+        "start": 778.09,
+        "duration": 2.48
+    },
+    {
+        "text": ">> I see. When we're thinking about this,",
+        "start": 780.57,
+        "duration": 3.275
+    },
+    {
+        "text": "my sense is that this is like one piece of",
+        "start": 783.845,
+        "duration": 3.525
+    },
+    {
+        "text": "doing things correctly with AI.",
+        "start": 787.37,
+        "duration": 3.27
+    },
+    {
+        "text": "Is that a good sense?",
+        "start": 790.64,
+        "duration": 2.265
+    },
+    {
+        "text": ">> I think this is one part of even,",
+        "start": 792.905,
+        "duration": 2.73
+    },
+    {
+        "text": "let's say in the digital safety or user generated content.",
+        "start": 795.635,
+        "duration": 3.75
+    },
+    {
+        "text": "This is one part of the story where as I was mentioning,",
+        "start": 799.385,
+        "duration": 2.865
+    },
+    {
+        "text": "that how you take an action,",
+        "start": 802.25,
+        "duration": 2.445
+    },
+    {
+        "text": "for example, are you going to send it to a human reviewer?",
+        "start": 804.695,
+        "duration": 2.895
+    },
+    {
+        "text": "Are you going to automatically filter?",
+        "start": 807.59,
+        "duration": 1.995
+    },
+    {
+        "text": "Are you going to potentially",
+        "start": 809.585,
+        "duration": 2.115
+    },
+    {
+        "text": "take action and kick a user off the platform?",
+        "start": 811.7,
+        "duration": 2.535
+    },
+    {
+        "text": "This is just one piece which is giving",
+        "start": 814.235,
+        "duration": 1.995
+    },
+    {
+        "text": "you more information about the content.",
+        "start": 816.23,
+        "duration": 2.265
+    },
+    {
+        "text": "You still have to have that whole story,",
+        "start": 818.495,
+        "duration": 2.415
+    },
+    {
+        "text": "and then as you're alluding to here for Generative AI,",
+        "start": 820.91,
+        "duration": 5.07
+    },
+    {
+        "text": "this is a super key piece",
+        "start": 825.98,
+        "duration": 2.82
+    },
+    {
+        "text": "which is why it's integrating Azure OpenAI,",
+        "start": 828.8,
+        "duration": 2.19
+    },
+    {
+        "text": "something we use in our copilots.",
+        "start": 830.99,
+        "duration": 1.89
+    },
+    {
+        "text": "But this is a really key piece to our story,",
+        "start": 832.88,
+        "duration": 1.98
+    },
+    {
+        "text": "but it's just one part of that.",
+        "start": 834.86,
+        "duration": 1.62
+    },
+    {
+        "text": "If we can bring up that slide,",
+        "start": 836.48,
+        "duration": 3.75
+    },
+    {
+        "text": "you can probably animate it here.",
+        "start": 840.23,
+        "duration": 3.855
+    },
+    {
+        "text": "Basically what we have found",
+        "start": 844.085,
+        "duration": 3.705
+    },
+    {
+        "text": "is that everything with this is a defense in depth.",
+        "start": 847.79,
+        "duration": 3.915
+    },
+    {
+        "text": "You need a layered system.",
+        "start": 851.705,
+        "duration": 1.635
+    },
+    {
+        "text": "The first two layers here in blue are platform layers,",
+        "start": 853.34,
+        "duration": 4.44
+    },
+    {
+        "text": "and these we've just built right into Azure AI.",
+        "start": 857.78,
+        "duration": 3.69
+    },
+    {
+        "text": "We've built into the Azure OpenAI system",
+        "start": 861.47,
+        "duration": 2.265
+    },
+    {
+        "text": "which is first having safety built into the model.",
+        "start": 863.735,
+        "duration": 3.03
+    },
+    {
+        "text": "Safety built into the model,",
+        "start": 866.765,
+        "duration": 2.325
+    },
+    {
+        "text": "these are the most powerful models available,",
+        "start": 869.09,
+        "duration": 3.465
+    },
+    {
+        "text": "allows the model to look at that content",
+        "start": 872.555,
+        "duration": 2.535
+    },
+    {
+        "text": "and decide how to respond appropriately,",
+        "start": 875.09,
+        "duration": 2.595
+    },
+    {
+        "text": "whether that's actually responding",
+        "start": 877.685,
+        "duration": 1.8
+    },
+    {
+        "text": "or for example, refusing to respond.",
+        "start": 879.485,
+        "duration": 1.95
+    },
+    {
+        "text": "But the model makes mistakes.",
+        "start": 881.435,
+        "duration": 2.04
+    },
+    {
+        "text": "Sometimes it just gets it wrong,",
+        "start": 883.475,
+        "duration": 1.995
+    },
+    {
+        "text": "but also it's open to jail breaks or things.",
+        "start": 885.47,
+        "duration": 3.09
+    },
+    {
+        "text": "This is the second piece.",
+        "start": 888.56,
+        "duration": 2.13
+    },
+    {
+        "text": "The safety system, which is",
+        "start": 890.69,
+        "duration": 1.47
+    },
+    {
+        "text": "this independent AI system that's looking and saying,",
+        "start": 892.16,
+        "duration": 2.805
+    },
+    {
+        "text": "whoa, whoa, I don't know",
+        "start": 894.965,
+        "duration": 1.515
+    },
+    {
+        "text": "why but you seem to be producing harmful content.",
+        "start": 896.48,
+        "duration": 2.55
+    },
+    {
+        "text": "Let's block that in real time.",
+        "start": 899.03,
+        "duration": 1.44
+    },
+    {
+        "text": "Or of course, if the user is trying to",
+        "start": 900.47,
+        "duration": 2.58
+    },
+    {
+        "text": "actually engage in the AI system in a way we don't want it to do.",
+        "start": 903.05,
+        "duration": 3.405
+    },
+    {
+        "text": "I found that it's a pretty complex stack.",
+        "start": 906.455,
+        "duration": 6.555
+    },
+    {
+        "text": "People are sometimes confused",
+        "start": 913.01,
+        "duration": 2.49
+    },
+    {
+        "text": "about these different pieces and how they work together.",
+        "start": 915.5,
+        "duration": 2.325
+    },
+    {
+        "text": "I wanted to maybe jump over and look",
+        "start": 917.825,
+        "duration": 2.985
+    },
+    {
+        "text": "at the Azure OpenAI Studio and show the two pieces working.",
+        "start": 920.81,
+        "duration": 3.705
+    },
+    {
+        "text": ">> Lets do it.",
+        "start": 924.515,
+        "duration": 1.485
+    },
+    {
+        "text": ">> Let me switch over here.",
+        "start": 926.0,
+        "duration": 3.195
+    },
+    {
+        "text": "Here's our great playground.",
+        "start": 929.195,
+        "duration": 4.375
+    },
+    {
+        "text": ">> If I say, How do I hide a bomb in a school?",
+        "start": 934.96,
+        "duration": 7.78
+    },
+    {
+        "text": "Then this, certainly as you see,",
+        "start": 942.74,
+        "duration": 4.845
+    },
+    {
+        "text": "the safety system recognizes.",
+        "start": 947.585,
+        "duration": 2.34
+    },
+    {
+        "text": "We're talking about bomb in a school.",
+        "start": 949.925,
+        "duration": 3.735
+    },
+    {
+        "text": "If I say how do I bomb a school it will actually come out high on",
+        "start": 953.66,
+        "duration": 3.24
+    },
+    {
+        "text": "violence because it's a more violent action.",
+        "start": 956.9,
+        "duration": 4.74
+    },
+    {
+        "text": "This is easy. This is violence.",
+        "start": 961.64,
+        "duration": 1.89
+    },
+    {
+        "text": "External safety system understands that.",
+        "start": 963.53,
+        "duration": 3.43
+    },
+    {
+        "text": "It's we don't even let the model respond,",
+        "start": 968.14,
+        "duration": 2.95
+    },
+    {
+        "text": "it's just like no we don't need to do this.",
+        "start": 971.09,
+        "duration": 2.91
+    },
+    {
+        "text": "The model itself would probably also know how to",
+        "start": 974.0,
+        "duration": 2.4
+    },
+    {
+        "text": "refuse this particular example.",
+        "start": 976.4,
+        "duration": 2.22
+    },
+    {
+        "text": "But it's easier to just also have",
+        "start": 978.62,
+        "duration": 3.075
+    },
+    {
+        "text": "the safety system not",
+        "start": 981.695,
+        "duration": 2.925
+    },
+    {
+        "text": "even allowing these things to get to the model.",
+        "start": 984.62,
+        "duration": 2.295
+    },
+    {
+        "text": "But then here we have, how do I.",
+        "start": 986.915,
+        "duration": 5.365
+    },
+    {
+        "text": "No one is looking, but if",
+        "start": 994.15,
+        "duration": 2.29
+    },
+    {
+        "text": "people are looking at the playground here,",
+        "start": 996.44,
+        "duration": 1.56
+    },
+    {
+        "text": "they're like what is Sarah doing all the time?",
+        "start": 998.0,
+        "duration": 2.295
+    },
+    {
+        "text": ">> We're testing the safety system everybody,",
+        "start": 1000.295,
+        "duration": 2.055
+    },
+    {
+        "text": "just a clear warning,",
+        "start": 1002.35,
+        "duration": 1.41
+    },
+    {
+        "text": "we're testing the safety system.",
+        "start": 1003.76,
+        "duration": 1.88
+    },
+    {
+        "text": ">> If I ask how to commit tax fraud,",
+        "start": 1005.64,
+        "duration": 2.4
+    },
+    {
+        "text": "that is a crime.",
+        "start": 1008.04,
+        "duration": 3.33
+    },
+    {
+        "text": "I'm not going to ask you how to commit fraud specifically.",
+        "start": 1011.37,
+        "duration": 3.27
+    },
+    {
+        "text": "But it's not violence or one of these content categories.",
+        "start": 1014.64,
+        "duration": 5.955
+    },
+    {
+        "text": "But we have used our LHF with OpenAI",
+        "start": 1020.595,
+        "duration": 4.815
+    },
+    {
+        "text": "to ensure that the model doesn't help people commit crimes.",
+        "start": 1025.41,
+        "duration": 4.6
+    },
+    {
+        "text": "When you see this response,",
+        "start": 1030.01,
+        "duration": 1.38
+    },
+    {
+        "text": "I'm sorry, I can't assist with that request,",
+        "start": 1031.39,
+        "duration": 2.01
+    },
+    {
+        "text": "that's actually the model",
+        "start": 1033.4,
+        "duration": 1.575
+    },
+    {
+        "text": "knowing that it doesn't want to respond to this even though",
+        "start": 1034.975,
+        "duration": 2.745
+    },
+    {
+        "text": "the content itself wasn't",
+        "start": 1037.72,
+        "duration": 2.49
+    },
+    {
+        "text": "necessarily harmful but it's aiding in a harmful activity.",
+        "start": 1040.21,
+        "duration": 3.42
+    },
+    {
+        "text": "The different systems are better at different things,",
+        "start": 1043.63,
+        "duration": 2.73
+    },
+    {
+        "text": "and so we can use them in tandem so that we",
+        "start": 1046.36,
+        "duration": 2.43
+    },
+    {
+        "text": "get the most robust safety there.",
+        "start": 1048.79,
+        "duration": 2.94
+    },
+    {
+        "text": ">> I see, and so that's where we go back to the layers.",
+        "start": 1051.73,
+        "duration": 3.345
+    },
+    {
+        "text": "The model itself is awesome",
+        "start": 1055.075,
+        "duration": 2.115
+    },
+    {
+        "text": "at detecting some things, but the nuance,",
+        "start": 1057.19,
+        "duration": 3.06
+    },
+    {
+        "text": "we have other models around protecting",
+        "start": 1060.25,
+        "duration": 2.97
+    },
+    {
+        "text": "the safety system for example, to help with that.",
+        "start": 1063.22,
+        "duration": 4.935
+    },
+    {
+        "text": "Is that what you're going at?",
+        "start": 1068.155,
+        "duration": 1.51
+    },
+    {
+        "text": ">> Yeah. For example,",
+        "start": 1069.665,
+        "duration": 1.825
+    },
+    {
+        "text": "the model is looking at",
+        "start": 1071.49,
+        "duration": 3.285
+    },
+    {
+        "text": "the user history and things and",
+        "start": 1074.775,
+        "duration": 1.995
+    },
+    {
+        "text": "saying what's an appropriate response there,",
+        "start": 1076.77,
+        "duration": 2.415
+    },
+    {
+        "text": "and so that's sometimes where it might think in context,",
+        "start": 1079.185,
+        "duration": 3.585
+    },
+    {
+        "text": "what it's saying is appropriate",
+        "start": 1082.77,
+        "duration": 1.935
+    },
+    {
+        "text": "where the safety system will just look and say,",
+        "start": 1084.705,
+        "duration": 2.025
+    },
+    {
+        "text": "whoa, that's a violent statement,",
+        "start": 1086.73,
+        "duration": 2.265
+    },
+    {
+        "text": "we don't ever want that regardless of the context.",
+        "start": 1088.995,
+        "duration": 3.075
+    },
+    {
+        "text": "It's giving you a check and balance with this.",
+        "start": 1092.07,
+        "duration": 4.405
+    },
+    {
+        "text": "But again the model is obviously,",
+        "start": 1096.475,
+        "duration": 3.375
+    },
+    {
+        "text": "I think I'm using 3.5 turbo here,",
+        "start": 1099.85,
+        "duration": 2.67
+    },
+    {
+        "text": "if I was using four it's incredibly powerful.",
+        "start": 1102.52,
+        "duration": 2.985
+    },
+    {
+        "text": "We want to use the model for safety because it does",
+        "start": 1105.505,
+        "duration": 2.265
+    },
+    {
+        "text": "understand so much and it can take that history into account,",
+        "start": 1107.77,
+        "duration": 2.79
+    },
+    {
+        "text": "and so there's lots of things where we'll",
+        "start": 1110.56,
+        "duration": 1.35
+    },
+    {
+        "text": "see the model will either",
+        "start": 1111.91,
+        "duration": 1.65
+    },
+    {
+        "text": "know to refuse or better yet know how to respond appropriately.",
+        "start": 1113.56,
+        "duration": 2.94
+    },
+    {
+        "text": "Because it's even better if it doesn't have to",
+        "start": 1116.5,
+        "duration": 1.38
+    },
+    {
+        "text": "refuse or it doesn't get blocked.",
+        "start": 1117.88,
+        "duration": 1.905
+    },
+    {
+        "text": "But in the cases where it slips up,",
+        "start": 1119.785,
+        "duration": 2.295
+    },
+    {
+        "text": "that's where the safety system can",
+        "start": 1122.08,
+        "duration": 2.22
+    },
+    {
+        "text": "come into place so that you know that",
+        "start": 1124.3,
+        "duration": 2.49
+    },
+    {
+        "text": "you're going to have safety",
+        "start": 1126.79,
+        "duration": 2.37
+    },
+    {
+        "text": "even if the model doesn't quite do the right thing.",
+        "start": 1129.16,
+        "duration": 3.0
+    },
+    {
+        "text": ">> I love the safety system,",
+        "start": 1132.16,
+        "duration": 1.98
+    },
+    {
+        "text": "but when it comes to your application,",
+        "start": 1134.14,
+        "duration": 2.355
+    },
+    {
+        "text": "there's still safety that's just beyond those five categories,",
+        "start": 1136.495,
+        "duration": 3.345
+    },
+    {
+        "text": "for example, that relate to the applications you're building,",
+        "start": 1139.84,
+        "duration": 3.6
+    },
+    {
+        "text": "and so that's where we get to meta-prompt and",
+        "start": 1143.44,
+        "duration": 1.86
+    },
+    {
+        "text": "grounding and then user experience as well.",
+        "start": 1145.3,
+        "duration": 2.325
+    },
+    {
+        "text": "Could you say a word or two about those things?",
+        "start": 1147.625,
+        "duration": 2.085
+    },
+    {
+        "text": ">> Exactly. These two layers",
+        "start": 1149.71,
+        "duration": 3.0
+    },
+    {
+        "text": "that I was just showing you are the platform layers.",
+        "start": 1152.71,
+        "duration": 2.835
+    },
+    {
+        "text": "We've built them to work with a variety of applications.",
+        "start": 1155.545,
+        "duration": 4.32
+    },
+    {
+        "text": "Then the two layers on top,",
+        "start": 1159.865,
+        "duration": 2.445
+    },
+    {
+        "text": "the meta-prompt and the grounding and the user experience,",
+        "start": 1162.31,
+        "duration": 2.94
+    },
+    {
+        "text": "that's what the application developer is developing.",
+        "start": 1165.25,
+        "duration": 3.495
+    },
+    {
+        "text": "The meta-prompt, I think people still",
+        "start": 1168.745,
+        "duration": 3.48
+    },
+    {
+        "text": "underestimate how important and how valuable",
+        "start": 1172.225,
+        "duration": 3.045
+    },
+    {
+        "text": "this is for safety where we see",
+        "start": 1175.27,
+        "duration": 2.49
+    },
+    {
+        "text": "so many meta-prompts that people are showing us that are like,",
+        "start": 1177.76,
+        "duration": 4.26
+    },
+    {
+        "text": "hey, can you give us some feedback?",
+        "start": 1182.02,
+        "duration": 1.665
+    },
+    {
+        "text": "The safety section or",
+        "start": 1183.685,
+        "duration": 1.665
+    },
+    {
+        "text": "the response wise section is just very small.",
+        "start": 1185.35,
+        "duration": 3.69
+    },
+    {
+        "text": "These systems can take pretty large prompts,",
+        "start": 1189.04,
+        "duration": 3.06
+    },
+    {
+        "text": "this is your chance to get detailed instructions",
+        "start": 1192.1,
+        "duration": 3.48
+    },
+    {
+        "text": "on how you want the system to",
+        "start": 1195.58,
+        "duration": 1.74
+    },
+    {
+        "text": "behave in different circumstances and thing",
+        "start": 1197.32,
+        "duration": 2.22
+    },
+    {
+        "text": "and it makes a huge difference in how",
+        "start": 1199.54,
+        "duration": 1.62
+    },
+    {
+        "text": "it actually behaves in practice.",
+        "start": 1201.16,
+        "duration": 2.07
+    },
+    {
+        "text": "This is the first thing you want to do",
+        "start": 1203.23,
+        "duration": 2.61
+    },
+    {
+        "text": "if you don't the way the system is behaving,",
+        "start": 1205.84,
+        "duration": 2.34
+    },
+    {
+        "text": "adjust the meta-prompt,",
+        "start": 1208.18,
+        "duration": 1.29
+    },
+    {
+        "text": "and that's actually where our tools prompt flow are so great now",
+        "start": 1209.47,
+        "duration": 4.44
+    },
+    {
+        "text": "because you can go and evaluate",
+        "start": 1213.91,
+        "duration": 1.71
+    },
+    {
+        "text": "these meta-prompts side by side and actually see if I change this,",
+        "start": 1215.62,
+        "duration": 3.36
+    },
+    {
+        "text": "am I getting the outcome I want?",
+        "start": 1218.98,
+        "duration": 1.95
+    },
+    {
+        "text": "But that's just a hugely important part",
+        "start": 1220.93,
+        "duration": 3.15
+    },
+    {
+        "text": "of the story and that's where you really tailor",
+        "start": 1224.08,
+        "duration": 1.23
+    },
+    {
+        "text": "to your application.",
+        "start": 1225.31,
+        "duration": 1.29
+    },
+    {
+        "text": "You're going to want to be here very differently",
+        "start": 1226.6,
+        "duration": 1.65
+    },
+    {
+        "text": "in each of these contexts.",
+        "start": 1228.25,
+        "duration": 1.755
+    },
+    {
+        "text": "The meta-prompt is what's really trying to get it to",
+        "start": 1230.005,
+        "duration": 2.565
+    },
+    {
+        "text": "work well in each of those cases,",
+        "start": 1232.57,
+        "duration": 3.06
+    },
+    {
+        "text": "and then those built in safety in the model and",
+        "start": 1235.63,
+        "duration": 2.34
+    },
+    {
+        "text": "the safety system are for when things don't go quite as planned.",
+        "start": 1237.97,
+        "duration": 4.17
+    },
+    {
+        "text": ">> Then the last part, and this is the part that I",
+        "start": 1242.14,
+        "duration": 2.37
+    },
+    {
+        "text": "think a lot of us forget because we're like",
+        "start": 1244.51,
+        "duration": 2.175
+    },
+    {
+        "text": "I'm going to prompt engineer this and then I have",
+        "start": 1246.685,
+        "duration": 1.755
+    },
+    {
+        "text": "my safety system and",
+        "start": 1248.44,
+        "duration": 1.41
+    },
+    {
+        "text": "the model is going to be awesome, so everything's perfect.",
+        "start": 1249.85,
+        "duration": 2.085
+    },
+    {
+        "text": "I think people sometimes forget about the user experience.",
+        "start": 1251.935,
+        "duration": 4.29
+    },
+    {
+        "text": "We've got to do some stuff about like maybe",
+        "start": 1256.225,
+        "duration": 2.415
+    },
+    {
+        "text": "disclosing that this is AI generated minimally.",
+        "start": 1258.64,
+        "duration": 2.775
+    },
+    {
+        "text": "Or what other things should we be doing.",
+        "start": 1261.415,
+        "duration": 2.07
+    },
+    {
+        "text": ">> I think we've got some examples in our Hacktoolkit,",
+        "start": 1263.485,
+        "duration": 4.635
+    },
+    {
+        "text": "which is where we've our user experience best practices.",
+        "start": 1268.12,
+        "duration": 3.555
+    },
+    {
+        "text": "But absolutely one of",
+        "start": 1271.675,
+        "duration": 2.745
+    },
+    {
+        "text": "the things is what we call our systems Copilot for a reason.",
+        "start": 1274.42,
+        "duration": 3.345
+    },
+    {
+        "text": "They're supposed to be designed to work with a human.",
+        "start": 1277.765,
+        "duration": 2.325
+    },
+    {
+        "text": "Humans are great at certain things and",
+        "start": 1280.09,
+        "duration": 1.71
+    },
+    {
+        "text": "these systems are great at other things and so if you can",
+        "start": 1281.8,
+        "duration": 3.09
+    },
+    {
+        "text": "co design with the user in mind",
+        "start": 1284.89,
+        "duration": 2.085
+    },
+    {
+        "text": "then it can be so much more powerful.",
+        "start": 1286.975,
+        "duration": 3.57
+    },
+    {
+        "text": "The best example of this is like get how Copilot the original.",
+        "start": 1290.545,
+        "duration": 4.665
+    },
+    {
+        "text": "Now I guess the classic version.",
+        "start": 1295.21,
+        "duration": 1.83
+    },
+    {
+        "text": "But even though it's made some mistakes,",
+        "start": 1297.04,
+        "duration": 2.7
+    },
+    {
+        "text": "the users could accept a suggestion or not,",
+        "start": 1299.74,
+        "duration": 3.09
+    },
+    {
+        "text": "they can edit the suggestion and so",
+        "start": 1302.83,
+        "duration": 1.56
+    },
+    {
+        "text": "the developer will still very much be in control",
+        "start": 1304.39,
+        "duration": 1.98
+    },
+    {
+        "text": "and it could send that still through",
+        "start": 1306.37,
+        "duration": 2.01
+    },
+    {
+        "text": "all their normal testing and security processes and things.",
+        "start": 1308.38,
+        "duration": 2.94
+    },
+    {
+        "text": "Just to help developers go faster like, oh,",
+        "start": 1311.32,
+        "duration": 1.89
+    },
+    {
+        "text": "I don't want to type all that, or if you give me",
+        "start": 1313.21,
+        "duration": 1.47
+    },
+    {
+        "text": "an idea to start, it's a lot easier.",
+        "start": 1314.68,
+        "duration": 1.74
+    },
+    {
+        "text": "We see, obviously developers just love it,",
+        "start": 1316.42,
+        "duration": 1.89
+    },
+    {
+        "text": "even though it's not perfect.",
+        "start": 1318.31,
+        "duration": 1.665
+    },
+    {
+        "text": "It does make some mistakes.",
+        "start": 1319.975,
+        "duration": 1.95
+    },
+    {
+        "text": "That's a case where it's just like very nicely designed to",
+        "start": 1321.925,
+        "duration": 2.805
+    },
+    {
+        "text": "work well with how those users work.",
+        "start": 1324.73,
+        "duration": 3.88
+    },
+    {
+        "text": "Basically one of the magical things about",
+        "start": 1330.0,
+        "duration": 4.21
+    },
+    {
+        "text": "this technology is it enables",
+        "start": 1334.21,
+        "duration": 1.53
+    },
+    {
+        "text": "users to do things they couldn't do before.",
+        "start": 1335.74,
+        "duration": 2.295
+    },
+    {
+        "text": "You can generate code even though you don't code,",
+        "start": 1338.035,
+        "duration": 4.165
+    },
+    {
+        "text": "but the system still make mistakes,",
+        "start": 1342.96,
+        "duration": 2.56
+    },
+    {
+        "text": "and so one of the things we're very much looking for is how do",
+        "start": 1345.52,
+        "duration": 2.52
+    },
+    {
+        "text": "we avoid this risk of over reliance,",
+        "start": 1348.04,
+        "duration": 3.81
+    },
+    {
+        "text": "where you're relying on the system to do something that it",
+        "start": 1351.85,
+        "duration": 3.12
+    },
+    {
+        "text": "doesn't do perfectly and you're not really able to compensate.",
+        "start": 1354.97,
+        "duration": 3.12
+    },
+    {
+        "text": "Because human in a loop is a great pattern if",
+        "start": 1358.09,
+        "duration": 2.265
+    },
+    {
+        "text": "the user is actually able to fix the mistakes.",
+        "start": 1360.355,
+        "duration": 3.21
+    },
+    {
+        "text": "But if the user can't even tell it's making a mistake,",
+        "start": 1363.565,
+        "duration": 2.25
+    },
+    {
+        "text": "then that's a big problem.",
+        "start": 1365.815,
+        "duration": 2.655
+    },
+    {
+        "text": "Each application is a little bit different with that.",
+        "start": 1368.47,
+        "duration": 2.55
+    },
+    {
+        "text": "But that's definitely one of the things we're seeing,",
+        "start": 1371.02,
+        "duration": 2.145
+    },
+    {
+        "text": "people really need to watch out for is that",
+        "start": 1373.165,
+        "duration": 2.64
+    },
+    {
+        "text": "now you can have this tool that",
+        "start": 1375.805,
+        "duration": 2.175
+    },
+    {
+        "text": "allows you to do something you never could do.",
+        "start": 1377.98,
+        "duration": 1.845
+    },
+    {
+        "text": "Then how do you have oversight over that?",
+        "start": 1379.825,
+        "duration": 2.985
+    },
+    {
+        "text": "That's where really making sure we're",
+        "start": 1382.81,
+        "duration": 2.49
+    },
+    {
+        "text": "developing it with the user",
+        "start": 1385.3,
+        "duration": 1.74
+    },
+    {
+        "text": "in mind is so important to understand,",
+        "start": 1387.04,
+        "duration": 1.5
+    },
+    {
+        "text": "is the user going to have",
+        "start": 1388.54,
+        "duration": 1.56
+    },
+    {
+        "text": "oversight or do we need to make sure it doesn't make mistakes?",
+        "start": 1390.1,
+        "duration": 2.76
+    },
+    {
+        "text": "Do we need another system having oversight",
+        "start": 1392.86,
+        "duration": 1.86
+    },
+    {
+        "text": "because the user isn't going to be equipped to do it.",
+        "start": 1394.72,
+        "duration": 2.94
+    },
+    {
+        "text": "There's a lot there and it's a really important part of the story.",
+        "start": 1397.66,
+        "duration": 3.285
+    },
+    {
+        "text": ">> Well, all of this is amazing.",
+        "start": 1400.945,
+        "duration": 1.62
+    },
+    {
+        "text": "I love what AI is doing in",
+        "start": 1402.565,
+        "duration": 1.935
+    },
+    {
+        "text": "transforming how we're doing work and I love that we're doing it.",
+        "start": 1404.5,
+        "duration": 2.79
+    },
+    {
+        "text": "We're trying to do it at least at Microsoft in a safe way,",
+        "start": 1407.29,
+        "duration": 3.135
+    },
+    {
+        "text": "giving people the tools to do that.",
+        "start": 1410.425,
+        "duration": 2.25
+    },
+    {
+        "text": "Where can people go to find out more, Sarah?",
+        "start": 1412.675,
+        "duration": 2.355
+    },
+    {
+        "text": ">> Well, you can go play around in the playground.",
+        "start": 1415.03,
+        "duration": 3.495
+    },
+    {
+        "text": "Honestly, I think any of this technology,",
+        "start": 1418.525,
+        "duration": 1.935
+    },
+    {
+        "text": "just like actually using",
+        "start": 1420.46,
+        "duration": 2.49
+    },
+    {
+        "text": "it is the most important thing that you get a feel for it.",
+        "start": 1422.95,
+        "duration": 2.43
+    },
+    {
+        "text": "As I said, I only demo the text",
+        "start": 1425.38,
+        "duration": 1.755
+    },
+    {
+        "text": "because it's a little easier taught.",
+        "start": 1427.135,
+        "duration": 2.7
+    },
+    {
+        "text": "Harmful content, but I really recommend checking out images and",
+        "start": 1429.835,
+        "duration": 3.345
+    },
+    {
+        "text": "multimodal and understanding what it can do there.",
+        "start": 1433.18,
+        "duration": 3.375
+    },
+    {
+        "text": "So you can go just check out in",
+        "start": 1436.555,
+        "duration": 1.725
+    },
+    {
+        "text": "the studio so you can get a feel for it.",
+        "start": 1438.28,
+        "duration": 1.545
+    },
+    {
+        "text": "Obviously, you're already",
+        "start": 1439.825,
+        "duration": 1.875
+    },
+    {
+        "text": "using it if you're using Azure OpenAI,",
+        "start": 1441.7,
+        "duration": 2.355
+    },
+    {
+        "text": "and you'll start seeing more of those features and",
+        "start": 1444.055,
+        "duration": 1.905
+    },
+    {
+        "text": "controls coming through there.",
+        "start": 1445.96,
+        "duration": 2.22
+    },
+    {
+        "text": "We also have a great ebook that I think",
+        "start": 1448.18,
+        "duration": 2.64
+    },
+    {
+        "text": "talks more about some of the things I was talking about.",
+        "start": 1450.82,
+        "duration": 2.685
+    },
+    {
+        "text": "How this can change digital safety and enable",
+        "start": 1453.505,
+        "duration": 3.54
+    },
+    {
+        "text": "a new tool in the toolkit which",
+        "start": 1457.045,
+        "duration": 2.085
+    },
+    {
+        "text": "is something we're always looking for for safety.",
+        "start": 1459.13,
+        "duration": 3.63
+    },
+    {
+        "text": "I would recommend getting started there and then",
+        "start": 1462.76,
+        "duration": 3.48
+    },
+    {
+        "text": "if you want to hear more about the responsible",
+        "start": 1466.24,
+        "duration": 1.56
+    },
+    {
+        "text": "AI layers and rings,",
+        "start": 1467.8,
+        "duration": 1.755
+    },
+    {
+        "text": "we have all of that in the Azure OpenAI documentation and so",
+        "start": 1469.555,
+        "duration": 3.195
+    },
+    {
+        "text": "you can see there and we'll",
+        "start": 1472.75,
+        "duration": 1.32
+    },
+    {
+        "text": "keep bringing out more as we're learning.",
+        "start": 1474.07,
+        "duration": 2.025
+    },
+    {
+        "text": ">> Fantastic. There's a blog too,",
+        "start": 1476.095,
+        "duration": 1.665
+    },
+    {
+        "text": "from what I understand, a safety blog that talks about the GA.",
+        "start": 1477.76,
+        "duration": 3.34
+    },
+    {
+        "text": ">> It's been a labor of love for me",
+        "start": 1481.95,
+        "duration": 2.89
+    },
+    {
+        "text": "and a long journey to getting to",
+        "start": 1484.84,
+        "duration": 2.49
+    },
+    {
+        "text": "this GA in terms of before we first had",
+        "start": 1487.33,
+        "duration": 3.3
+    },
+    {
+        "text": "the idea that we can do better with",
+        "start": 1490.63,
+        "duration": 1.29
+    },
+    {
+        "text": "these models to where we are now in the GA.",
+        "start": 1491.92,
+        "duration": 2.49
+    },
+    {
+        "text": "I'm so excited about that,",
+        "start": 1494.41,
+        "duration": 1.74
+    },
+    {
+        "text": "definitely check out the blog.",
+        "start": 1496.15,
+        "duration": 1.02
+    },
+    {
+        "text": "It's such an important milestone",
+        "start": 1497.17,
+        "duration": 1.11
+    },
+    {
+        "text": "because now you can go use it in production,.",
+        "start": 1498.28,
+        "duration": 2.19
+    },
+    {
+        "text": "And so you have no excuse to",
+        "start": 1500.47,
+        "duration": 1.86
+    },
+    {
+        "text": "not have safety everywhere at this point.",
+        "start": 1502.33,
+        "duration": 2.12
+    },
+    {
+        "text": ">> That's right.",
+        "start": 1504.45,
+        "duration": 0.63
+    },
+    {
+        "text": ">> Making it easy. It's an API, you just plug it in.",
+        "start": 1505.08,
+        "duration": 2.64
+    },
+    {
+        "text": ">> Well, thank you so much for being with us, Sarah.",
+        "start": 1507.72,
+        "duration": 2.62
+    },
+    {
+        "text": "Thank you, my friend so much for watching.",
+        "start": 1510.9,
+        "duration": 2.59
+    },
+    {
+        "text": "We've been learning all about content safety with Sarah Bird.",
+        "start": 1513.49,
+        "duration": 3.42
+    },
+    {
+        "text": "Thank you so much for watching,",
+        "start": 1516.91,
+        "duration": 1.02
+    },
+    {
+        "text": "and hopefully we'll see you next time.",
+        "start": 1517.93,
+        "duration": 1.44
+    },
+    {
+        "text": "Take care. [MUSIC]",
+        "start": 1519.37,
+        "duration": 11.22
+    }
+]

@@ -1,0 +1,3 @@
+.embeddings_venv
+vector_service.cpython-*.pyc
+.env

@@ -1,0 +1,1927 @@
+[
+    {
+        "text": ">> You're not going to norm this episode of the AI show.",
+        "start": 0.0,
+        "duration": 2.44
+    },
+    {
+        "text": "We talk all about AI solutions with",
+        "start": 2.44,
+        "duration": 1.94
+    },
+    {
+        "text": "TTS Avatar and Azure OpenAI with my friend Cenyu.",
+        "start": 4.38,
+        "duration": 2.75
+    },
+    {
+        "text": "Make sure you tune in.",
+        "start": 7.13,
+        "duration": 1.02
+    },
+    {
+        "text": "[MUSIC].",
+        "start": 8.15,
+        "duration": 6.64
+    },
+    {
+        "text": "Hello. Welcome to this episode of the AI show.",
+        "start": 14.79,
+        "duration": 2.71
+    },
+    {
+        "text": "We're talking all about AI solutions with TTS Avatar and",
+        "start": 17.5,
+        "duration": 3.12
+    },
+    {
+        "text": "Azure OpenAI to partner with my friend Cenyu. How you doing Cenyu?",
+        "start": 20.62,
+        "duration": 3.44
+    },
+    {
+        "text": ">> Yeah, very good. How are you, Seth?",
+        "start": 24.06,
+        "duration": 2.085
+    },
+    {
+        "text": ">> I'm great. Why don't you tell us who you are and what you do.",
+        "start": 26.145,
+        "duration": 2.18
+    },
+    {
+        "text": ">> Yeah, You should see my name is Cenyu.",
+        "start": 28.325,
+        "duration": 2.725
+    },
+    {
+        "text": "It's very nice to meet you. I'm part",
+        "start": 31.05,
+        "duration": 2.1
+    },
+    {
+        "text": "of the Azure AI platform team.",
+        "start": 33.15,
+        "duration": 2.34
+    },
+    {
+        "text": "My role is to job the go to market and",
+        "start": 35.49,
+        "duration": 2.84
+    },
+    {
+        "text": "also adoption of some of the Azure AI services.",
+        "start": 38.33,
+        "duration": 2.85
+    },
+    {
+        "text": "One of them is TTS avatar.",
+        "start": 41.18,
+        "duration": 2.775
+    },
+    {
+        "text": "I also do document intelligence as well as Azure Computer Vision.",
+        "start": 43.955,
+        "duration": 3.1
+    },
+    {
+        "text": ">> Oh, that's amazing. I put your slides up.",
+        "start": 47.055,
+        "duration": 2.975
+    },
+    {
+        "text": "Why don't you tell us about Azure AI speech TTS avatar.",
+        "start": 50.03,
+        "duration": 2.7
+    },
+    {
+        "text": ">> Yeah, absolutely. Yeah, first of all,",
+        "start": 52.73,
+        "duration": 3.1
+    },
+    {
+        "text": "I mean like many of you have",
+        "start": 55.83,
+        "duration": 1.34
+    },
+    {
+        "text": "already heard about the Avatar for a long time.",
+        "start": 57.17,
+        "duration": 4.375
+    },
+    {
+        "text": "Usually the avatar will fall",
+        "start": 61.545,
+        "duration": 2.525
+    },
+    {
+        "text": "into three different categories or three different buckets.",
+        "start": 64.07,
+        "duration": 3.18
+    },
+    {
+        "text": "The first bucket is the cartoon type of avatars,",
+        "start": 67.25,
+        "duration": 3.91
+    },
+    {
+        "text": "and this is usually the 2D or two dimensional.",
+        "start": 71.16,
+        "duration": 3.16
+    },
+    {
+        "text": "If some of you have already used Microsoft Teams,",
+        "start": 74.32,
+        "duration": 3.88
+    },
+    {
+        "text": "we allow you to create the avatars.",
+        "start": 78.2,
+        "duration": 3.72
+    },
+    {
+        "text": "This is the Microsoft Mesh technology.",
+        "start": 81.92,
+        "duration": 3.155
+    },
+    {
+        "text": "Then the second category is the 3D, Meta human.",
+        "start": 85.075,
+        "duration": 4.235
+    },
+    {
+        "text": "Some of the 3D will look more like",
+        "start": 89.31,
+        "duration": 2.29
+    },
+    {
+        "text": "a cartoons and some of them will look very much like a humans,",
+        "start": 91.6,
+        "duration": 4.335
+    },
+    {
+        "text": "some look really sophisticated.",
+        "start": 95.935,
+        "duration": 3.385
+    },
+    {
+        "text": "Then the third bucket is two dimensional real human avatar.",
+        "start": 99.32,
+        "duration": 4.8
+    },
+    {
+        "text": "This is where our Azure",
+        "start": 104.12,
+        "duration": 2.97
+    },
+    {
+        "text": "AI speech TTS avatar product will fall under.",
+        "start": 107.09,
+        "duration": 4.85
+    },
+    {
+        "text": ">> Just for clarification, this particular service",
+        "start": 112.56,
+        "duration": 3.17
+    },
+    {
+        "text": "falls all the way to the right",
+        "start": 115.73,
+        "duration": 1.46
+    },
+    {
+        "text": "where real-like human 2D models.",
+        "start": 117.19,
+        "duration": 4.125
+    },
+    {
+        "text": ">> Absolutely.",
+        "start": 121.315,
+        "duration": 1.17
+    },
+    {
+        "text": ">> All right, let's keep going.",
+        "start": 122.485,
+        "duration": 1.375
+    },
+    {
+        "text": ">> All right. Before I introduce the service,",
+        "start": 123.86,
+        "duration": 3.41
+    },
+    {
+        "text": "I just want to take you from the back,",
+        "start": 127.27,
+        "duration": 2.8
+    },
+    {
+        "text": "like a scene perspective,",
+        "start": 130.07,
+        "duration": 1.48
+    },
+    {
+        "text": "how usually the avatar can be created.",
+        "start": 131.55,
+        "duration": 2.145
+    },
+    {
+        "text": "What is the workflow. First of all,",
+        "start": 133.695,
+        "duration": 2.695
+    },
+    {
+        "text": "you have a body text that you want the Avatar to speak.",
+        "start": 136.39,
+        "duration": 3.87
+    },
+    {
+        "text": "It could be just like a natural language text or",
+        "start": 140.26,
+        "duration": 3.55
+    },
+    {
+        "text": "could be in a speech synthesis markup language.",
+        "start": 143.81,
+        "duration": 3.865
+    },
+    {
+        "text": "It's pretty much like a markup language.",
+        "start": 147.675,
+        "duration": 2.76
+    },
+    {
+        "text": "Then the text will come into a module called the Text Analyzer.",
+        "start": 150.435,
+        "duration": 4.1
+    },
+    {
+        "text": "What the Text Analyzer does,",
+        "start": 154.535,
+        "duration": 2.685
+    },
+    {
+        "text": "it is basically putting the text into phonetic sequences.",
+        "start": 157.22,
+        "duration": 4.1
+    },
+    {
+        "text": "The phonetic sequences can be further fit into the downstream.",
+        "start": 161.32,
+        "duration": 5.015
+    },
+    {
+        "text": "The next step is doing the audio synthesis.",
+        "start": 166.335,
+        "duration": 3.21
+    },
+    {
+        "text": "This is where our text to speech and also customer neural voice,",
+        "start": 169.545,
+        "duration": 4.195
+    },
+    {
+        "text": "like a model, will come in to actually do the audio synthesis.",
+        "start": 173.74,
+        "duration": 4.085
+    },
+    {
+        "text": "Once the audio part is finished,",
+        "start": 177.825,
+        "duration": 2.195
+    },
+    {
+        "text": "the next step is doing the human appearance.",
+        "start": 180.02,
+        "duration": 4.015
+    },
+    {
+        "text": "That's where the real avatar piece will come in.",
+        "start": 184.035,
+        "duration": 3.525
+    },
+    {
+        "text": "Behind the scene it is using the service that",
+        "start": 187.56,
+        "duration": 2.38
+    },
+    {
+        "text": "I'm going to introduce in a couple of seconds.",
+        "start": 189.94,
+        "duration": 3.355
+    },
+    {
+        "text": ">> Just for clarity,",
+        "start": 193.295,
+        "duration": 1.725
+    },
+    {
+        "text": "this is like two different models.",
+        "start": 195.02,
+        "duration": 1.88
+    },
+    {
+        "text": "One is text to speech with customer voice.",
+        "start": 196.9,
+        "duration": 2.44
+    },
+    {
+        "text": "We've done some shows on that.",
+        "start": 199.34,
+        "duration": 1.24
+    },
+    {
+        "text": "But then is it mapping the face to the actual words as well?",
+        "start": 200.58,
+        "duration": 5.23
+    },
+    {
+        "text": ">> Yeah, absolutely. I mean,",
+        "start": 205.81,
+        "duration": 1.57
+    },
+    {
+        "text": "we have a technology called the Lip Sync.",
+        "start": 207.38,
+        "duration": 2.93
+    },
+    {
+        "text": "Basically we make sure that the lip will",
+        "start": 210.31,
+        "duration": 1.99
+    },
+    {
+        "text": "actually sync with the language of the avatar will be speaking.",
+        "start": 212.3,
+        "duration": 2.585
+    },
+    {
+        "text": ">> This is amazing. Can you show us how it works?",
+        "start": 214.885,
+        "duration": 1.995
+    },
+    {
+        "text": ">> The service, the official name is called",
+        "start": 216.88,
+        "duration": 2.02
+    },
+    {
+        "text": "Azure AI Speech Text to Speech Avatar Service.",
+        "start": 218.9,
+        "duration": 4.78
+    },
+    {
+        "text": "This is under our Azure AI Speech portfolio.",
+        "start": 223.68,
+        "duration": 3.595
+    },
+    {
+        "text": "We have two different offerings.",
+        "start": 227.275,
+        "duration": 2.845
+    },
+    {
+        "text": "The first offering is called the Pre-Built Avatar,",
+        "start": 230.12,
+        "duration": 2.535
+    },
+    {
+        "text": "and then the second offering is called a Custom Avatar.",
+        "start": 232.655,
+        "duration": 3.33
+    },
+    {
+        "text": "Pre-Built Avatar basically,",
+        "start": 235.985,
+        "duration": 2.22
+    },
+    {
+        "text": "we have a couple of",
+        "start": 238.205,
+        "duration": 1.635
+    },
+    {
+        "text": "Pre-Built Avatar already ready for you to use out of the box.",
+        "start": 239.84,
+        "duration": 3.41
+    },
+    {
+        "text": "Then a Custom Avatar is where you",
+        "start": 243.25,
+        "duration": 2.1
+    },
+    {
+        "text": "can actually build your own Avatar.",
+        "start": 245.35,
+        "duration": 2.155
+    },
+    {
+        "text": "Usually we require like 10 minutes or more videos from you,",
+        "start": 247.505,
+        "duration": 4.815
+    },
+    {
+        "text": "and we do have instructions for you how to record of",
+        "start": 252.32,
+        "duration": 4.2
+    },
+    {
+        "text": "those videos to make sure it has the best results.",
+        "start": 256.52,
+        "duration": 5.11
+    },
+    {
+        "text": "The Avatar is triggered by two different ways.",
+        "start": 261.63,
+        "duration": 3.55
+    },
+    {
+        "text": "One is the text inputs,",
+        "start": 265.18,
+        "duration": 1.56
+    },
+    {
+        "text": "the other is audio input.",
+        "start": 266.74,
+        "duration": 2.14
+    },
+    {
+        "text": "If you prefer not to use your microphone,",
+        "start": 268.88,
+        "duration": 2.98
+    },
+    {
+        "text": "you can just like simply type",
+        "start": 271.86,
+        "duration": 1.56
+    },
+    {
+        "text": "the text and then fit into the Avatar.",
+        "start": 273.42,
+        "duration": 2.54
+    },
+    {
+        "text": "Like I mentioned, behind the scene is using like",
+        "start": 275.96,
+        "duration": 2.88
+    },
+    {
+        "text": "our a high quality neural text",
+        "start": 278.84,
+        "duration": 4.485
+    },
+    {
+        "text": "to speech model as well as the customer neural voice model.",
+        "start": 283.325,
+        "duration": 4.515
+    },
+    {
+        "text": "Avatar operate in two different modes.",
+        "start": 287.84,
+        "duration": 3.34
+    },
+    {
+        "text": "One is the batch mode,",
+        "start": 291.18,
+        "duration": 1.5
+    },
+    {
+        "text": "the other is the real time streaming modes.",
+        "start": 292.68,
+        "duration": 3.075
+    },
+    {
+        "text": "For the real time, think that like two way communication,",
+        "start": 295.755,
+        "duration": 5.985
+    },
+    {
+        "text": "while batch mode is a one way communication",
+        "start": 301.74,
+        "duration": 2.38
+    },
+    {
+        "text": "where the Avatar will speak to you,",
+        "start": 304.12,
+        "duration": 3.03
+    },
+    {
+        "text": "you cannot interact with the Avatar.",
+        "start": 307.15,
+        "duration": 2.095
+    },
+    {
+        "text": "If you think about the real time Avatar,",
+        "start": 309.245,
+        "duration": 2.835
+    },
+    {
+        "text": "it's best used for the customer service.",
+        "start": 312.08,
+        "duration": 2.205
+    },
+    {
+        "text": "The live chat board scenario.",
+        "start": 314.285,
+        "duration": 1.805
+    },
+    {
+        "text": "For example, you can build a chatbot website with",
+        "start": 316.09,
+        "duration": 3.89
+    },
+    {
+        "text": "the Avatar like a user interface",
+        "start": 319.98,
+        "duration": 2.84
+    },
+    {
+        "text": "and like or virtual sales in a live commercial environment.",
+        "start": 322.82,
+        "duration": 3.73
+    },
+    {
+        "text": "AI teachers who teaches online at the same time",
+        "start": 326.55,
+        "duration": 3.13
+    },
+    {
+        "text": "can also answer questions through the Avatar.",
+        "start": 329.68,
+        "duration": 3.32
+    },
+    {
+        "text": "Then you can even build like",
+        "start": 333.0,
+        "duration": 1.44
+    },
+    {
+        "text": "a virtual HR to answer questions from employees.",
+        "start": 334.44,
+        "duration": 4.015
+    },
+    {
+        "text": "Then the batch mode which is like one week communication.",
+        "start": 338.455,
+        "duration": 4.12
+    },
+    {
+        "text": "Think of that's a training video,",
+        "start": 342.575,
+        "duration": 2.47
+    },
+    {
+        "text": "you have a training video of an hour,",
+        "start": 345.045,
+        "duration": 2.115
+    },
+    {
+        "text": "the Avatar will be conducting training video.",
+        "start": 347.16,
+        "duration": 2.38
+    },
+    {
+        "text": "Then also like you could use a batch mode for a conference speech.",
+        "start": 349.54,
+        "duration": 4.865
+    },
+    {
+        "text": "Then for any leaders like CEOs like for example doing a town hall.",
+        "start": 354.405,
+        "duration": 4.23
+    },
+    {
+        "text": "Then you could also use",
+        "start": 358.635,
+        "duration": 1.89
+    },
+    {
+        "text": "the batch mode for like advertisement purpose as well.",
+        "start": 360.525,
+        "duration": 2.92
+    },
+    {
+        "text": ">> Tell me a bit about using this responsibly.",
+        "start": 363.445,
+        "duration": 3.26
+    },
+    {
+        "text": ">> We take the Microsoft responsible AI principles very seriously.",
+        "start": 366.705,
+        "duration": 4.755
+    },
+    {
+        "text": "Because you can think of many use cases.",
+        "start": 371.46,
+        "duration": 2.32
+    },
+    {
+        "text": "Sometimes some of the use cases could be used in the wrong hands.",
+        "start": 373.78,
+        "duration": 4.975
+    },
+    {
+        "text": "We do have like a gating process.",
+        "start": 378.755,
+        "duration": 3.31
+    },
+    {
+        "text": "The two offerings that are pre-built versus a Custom Avatar,",
+        "start": 382.065,
+        "duration": 4.115
+    },
+    {
+        "text": "you do not need a gating form to use the Pre-Built Avatar.",
+        "start": 386.18,
+        "duration": 3.535
+    },
+    {
+        "text": "But if you want to build your Custom Avatar,",
+        "start": 389.715,
+        "duration": 2.525
+    },
+    {
+        "text": "we do require, so you go",
+        "start": 392.24,
+        "duration": 2.04
+    },
+    {
+        "text": "to like a online form and then fill that out.",
+        "start": 394.28,
+        "duration": 2.9
+    },
+    {
+        "text": "Once you do, I mean we're going to review",
+        "start": 397.18,
+        "duration": 2.18
+    },
+    {
+        "text": "like use cases and then we'll get back to you.",
+        "start": 399.36,
+        "duration": 3.09
+    },
+    {
+        "text": ">> I'm so glad just if we could spend a second on this.",
+        "start": 402.45,
+        "duration": 2.31
+    },
+    {
+        "text": "I'm glad you're like, hold on Seth,",
+        "start": 404.76,
+        "duration": 3.61
+    },
+    {
+        "text": "we got to do this",
+        "start": 408.37,
+        "duration": 1.14
+    },
+    {
+        "text": "responsibly because I was like, all right, let's do this.",
+        "start": 409.51,
+        "duration": 4.04
+    },
+    {
+        "text": "What you're saying is that nobody can just upload videos of",
+        "start": 413.55,
+        "duration": 4.46
+    },
+    {
+        "text": "people randomly and then have them say stuff.",
+        "start": 418.01,
+        "duration": 3.91
+    },
+    {
+        "text": ">> That's right.",
+        "start": 421.92,
+        "duration": 0.33
+    },
+    {
+        "text": ">> You have to go through an entire process",
+        "start": 422.25,
+        "duration": 2.37
+    },
+    {
+        "text": "and it's vetted and if people violate the terms,",
+        "start": 424.62,
+        "duration": 3.47
+    },
+    {
+        "text": "is it removed or tell me about that a little bit.",
+        "start": 428.09,
+        "duration": 2.88
+    },
+    {
+        "text": ">> Yeah. First of all,",
+        "start": 430.97,
+        "duration": 3.92
+    },
+    {
+        "text": "we have a list of approved use cases like I mentioned earlier.",
+        "start": 434.89,
+        "duration": 3.715
+    },
+    {
+        "text": "For the live chatbot the customer services",
+        "start": 438.605,
+        "duration": 2.365
+    },
+    {
+        "text": "or like a streaming scenario,",
+        "start": 440.97,
+        "duration": 2.62
+    },
+    {
+        "text": "like a town hall learning.",
+        "start": 443.59,
+        "duration": 1.12
+    },
+    {
+        "text": "I mean, so if",
+        "start": 444.71,
+        "duration": 1.78
+    },
+    {
+        "text": "the use cases like the user has four into both categories,",
+        "start": 446.49,
+        "duration": 4.32
+    },
+    {
+        "text": "we can approve all those use cases.",
+        "start": 450.81,
+        "duration": 2.18
+    },
+    {
+        "text": "But if it's not, it means we cannot approve.",
+        "start": 452.99,
+        "duration": 2.52
+    },
+    {
+        "text": "Then of course, that means ongoing basis,",
+        "start": 455.51,
+        "duration": 2.26
+    },
+    {
+        "text": "we have to make sure that you actually",
+        "start": 457.77,
+        "duration": 1.74
+    },
+    {
+        "text": "comply what you show in the application form.",
+        "start": 459.51,
+        "duration": 3.62
+    },
+    {
+        "text": ">> Yeah. That makes sense. Now I'm excited.",
+        "start": 463.13,
+        "duration": 2.95
+    },
+    {
+        "text": "Thank you for taking through the journey.",
+        "start": 466.08,
+        "duration": 1.77
+    },
+    {
+        "text": "I'm excited to see how it works.",
+        "start": 467.85,
+        "duration": 1.845
+    },
+    {
+        "text": ">> There are two demos I'm going to show.",
+        "start": 469.695,
+        "duration": 1.86
+    },
+    {
+        "text": "Here you can see there like many of",
+        "start": 471.555,
+        "duration": 1.775
+    },
+    {
+        "text": "the capabilities from like a speech studio.",
+        "start": 473.33,
+        "duration": 2.9
+    },
+    {
+        "text": "So what I want to show you,",
+        "start": 476.23,
+        "duration": 1.7
+    },
+    {
+        "text": "one is the batch mode,",
+        "start": 477.93,
+        "duration": 2.115
+    },
+    {
+        "text": "which is at the very end text to speech Avatar.",
+        "start": 480.045,
+        "duration": 4.32
+    },
+    {
+        "text": "If I click this, here you can see.",
+        "start": 484.365,
+        "duration": 3.9
+    },
+    {
+        "text": "Now it's already loaded.",
+        "start": 488.265,
+        "duration": 2.025
+    },
+    {
+        "text": "We have a couple of those Pre-Built Avatar.",
+        "start": 490.29,
+        "duration": 3.2
+    },
+    {
+        "text": "Over time, we're going to add more like",
+        "start": 493.49,
+        "duration": 3.06
+    },
+    {
+        "text": "a gender and also ethnic diversities",
+        "start": 496.55,
+        "duration": 2.46
+    },
+    {
+        "text": "to our Pre-built Avatar selection.",
+        "start": 499.01,
+        "duration": 2.86
+    },
+    {
+        "text": "For now, I'm going to select one of",
+        "start": 501.87,
+        "duration": 2.28
+    },
+    {
+        "text": "the avatars to show how you can just build something very quickly.",
+        "start": 504.15,
+        "duration": 4.135
+    },
+    {
+        "text": "I'm going to select the second one, Lisa graceful-sitting.",
+        "start": 508.285,
+        "duration": 3.665
+    },
+    {
+        "text": "Here you can see Lisa graceful-sitting right here.",
+        "start": 511.95,
+        "duration": 3.9
+    },
+    {
+        "text": "There are a couple of menus here.",
+        "start": 515.85,
+        "duration": 3.26
+    },
+    {
+        "text": "You can basically switch to speech synthesis markup language mode.",
+        "start": 519.11,
+        "duration": 5.06
+    },
+    {
+        "text": "Now, I mean, I'll just use the pure text mode.",
+        "start": 524.17,
+        "duration": 2.42
+    },
+    {
+        "text": "I'm going to enter something very simple.",
+        "start": 526.59,
+        "duration": 4.25
+    },
+    {
+        "text": ">> Here, we can see it. Hello, my name is Lisa.",
+        "start": 530.84,
+        "duration": 2.885
+    },
+    {
+        "text": "Welcome to the Microsoft AI Show.",
+        "start": 533.725,
+        "duration": 1.83
+    },
+    {
+        "text": "It's a pleasure talking to all of you.",
+        "start": 535.555,
+        "duration": 2.13
+    },
+    {
+        "text": "Once I do that, I'll just click this button, Preview video.",
+        "start": 537.685,
+        "duration": 4.095
+    },
+    {
+        "text": "What's behind the scene after I click this button was space here,",
+        "start": 541.78,
+        "duration": 3.72
+    },
+    {
+        "text": "this is sending the text to the back end",
+        "start": 545.5,
+        "duration": 3.39
+    },
+    {
+        "text": "and then using the preview the avatar for easy access.",
+        "start": 548.89,
+        "duration": 3.6
+    },
+    {
+        "text": "Here you can see sometimes it take eight seconds or 10 seconds.",
+        "start": 552.49,
+        "duration": 3.42
+    },
+    {
+        "text": "It also depends on the length of the text.",
+        "start": 555.91,
+        "duration": 2.655
+    },
+    {
+        "text": "Let me just play the video here.",
+        "start": 558.565,
+        "duration": 2.82
+    },
+    {
+        "text": ">> Hello, my name is Lisa.",
+        "start": 561.385,
+        "duration": 2.01
+    },
+    {
+        "text": "Welcome to the Microsoft AI Show.",
+        "start": 563.395,
+        "duration": 2.805
+    },
+    {
+        "text": "It's a pleasure talking to all of you.",
+        "start": 566.2,
+        "duration": 3.175
+    },
+    {
+        "text": ">> You can see that Lisa",
+        "start": 569.375,
+        "duration": 3.685
+    },
+    {
+        "text": "the avatar was speaking using the text I just typed here.",
+        "start": 573.06,
+        "duration": 3.72
+    },
+    {
+        "text": "You may notice in-between,",
+        "start": 576.78,
+        "duration": 2.76
+    },
+    {
+        "text": "Lisa actually had a gesture.",
+        "start": 579.54,
+        "duration": 2.52
+    },
+    {
+        "text": "What about you want to add",
+        "start": 582.06,
+        "duration": 2.13
+    },
+    {
+        "text": "additional gestures? Wouldn't it be nice?",
+        "start": 584.19,
+        "duration": 2.685
+    },
+    {
+        "text": "When Lisa was introducing herself.",
+        "start": 586.875,
+        "duration": 2.585
+    },
+    {
+        "text": "Wouldn't it be nice that Lisa actually waves her hand.",
+        "start": 589.46,
+        "duration": 3.605
+    },
+    {
+        "text": "If I put my cursor here,",
+        "start": 593.065,
+        "duration": 2.58
+    },
+    {
+        "text": "then here you can see there's an insert gesture.",
+        "start": 595.645,
+        "duration": 3.93
+    },
+    {
+        "text": "When I click, if I can scroll down a little bit,",
+        "start": 599.575,
+        "duration": 3.45
+    },
+    {
+        "text": "so you can see we have like a variety of",
+        "start": 603.025,
+        "duration": 2.16
+    },
+    {
+        "text": "gestures that means for you to select.",
+        "start": 605.185,
+        "duration": 2.7
+    },
+    {
+        "text": "I'm just going to select one of the gestures like a wave here.",
+        "start": 607.885,
+        "duration": 4.425
+    },
+    {
+        "text": "After I click that, you can see there is like",
+        "start": 612.31,
+        "duration": 2.79
+    },
+    {
+        "text": "a marker basically inserted in between the text.",
+        "start": 615.1,
+        "duration": 4.02
+    },
+    {
+        "text": "Now I can just do the same thing.",
+        "start": 619.12,
+        "duration": 1.89
+    },
+    {
+        "text": "I'm going to click \"Preview video\".",
+        "start": 621.01,
+        "duration": 3.165
+    },
+    {
+        "text": "If we wait for another 10 seconds,",
+        "start": 624.175,
+        "duration": 2.655
+    },
+    {
+        "text": "so the avatar video will be ready.",
+        "start": 626.83,
+        "duration": 4.18
+    },
+    {
+        "text": ">> That was really fast. I was going to be like,",
+        "start": 632.19,
+        "duration": 2.56
+    },
+    {
+        "text": "let me say something so that it doesn't look",
+        "start": 634.75,
+        "duration": 1.74
+    },
+    {
+        "text": "like it's taking so long and then boom it's done.",
+        "start": 636.49,
+        "duration": 1.95
+    },
+    {
+        "text": "What you're saying is that the SSML,",
+        "start": 638.44,
+        "duration": 2.565
+    },
+    {
+        "text": "because I know we glossed over it allows you to",
+        "start": 641.005,
+        "duration": 2.865
+    },
+    {
+        "text": "inject different things into the switch,",
+        "start": 643.87,
+        "duration": 3.81
+    },
+    {
+        "text": "including gestures and then also",
+        "start": 647.68,
+        "duration": 2.19
+    },
+    {
+        "text": "voice intonation from what I understand. Is that right?",
+        "start": 649.87,
+        "duration": 2.955
+    },
+    {
+        "text": ">> Absolutely.",
+        "start": 652.825,
+        "duration": 1.35
+    },
+    {
+        "text": ">> All right.",
+        "start": 654.175,
+        "duration": 1.17
+    },
+    {
+        "text": ">> Let me now play the new after video.",
+        "start": 655.345,
+        "duration": 4.095
+    },
+    {
+        "text": ">> Hello, my name is Lisa.",
+        "start": 659.44,
+        "duration": 2.085
+    },
+    {
+        "text": "Welcome to the Microsoft AI Show.",
+        "start": 661.525,
+        "duration": 2.82
+    },
+    {
+        "text": "It's a pleasure talking to all of you.",
+        "start": 664.345,
+        "duration": 2.785
+    },
+    {
+        "text": ">> Now you can see Lisa actually waves in her introduction.",
+        "start": 667.13,
+        "duration": 5.77
+    },
+    {
+        "text": "This is just like a very simple example.",
+        "start": 672.9,
+        "duration": 2.91
+    },
+    {
+        "text": "Everything you see here is for the UI,",
+        "start": 675.81,
+        "duration": 2.505
+    },
+    {
+        "text": "so we built this UI for you to just a test it out.",
+        "start": 678.315,
+        "duration": 3.705
+    },
+    {
+        "text": "You can also select the different languages and",
+        "start": 682.02,
+        "duration": 3.18
+    },
+    {
+        "text": "also different voices specific to the language.",
+        "start": 685.2,
+        "duration": 3.44
+    },
+    {
+        "text": "Also here we provide the code for the developers.",
+        "start": 688.64,
+        "duration": 3.86
+    },
+    {
+        "text": "We have some Python code to snippet.",
+        "start": 692.5,
+        "duration": 3.105
+    },
+    {
+        "text": "Then also there's a link to",
+        "start": 695.605,
+        "duration": 1.755
+    },
+    {
+        "text": "the GitHub page that you can further look into.",
+        "start": 697.36,
+        "duration": 4.65
+    },
+    {
+        "text": "That's basically the batch mode, a demo show.",
+        "start": 702.01,
+        "duration": 3.99
+    },
+    {
+        "text": "Seth, are you ready for the next one,",
+        "start": 706.0,
+        "duration": 2.04
+    },
+    {
+        "text": "which is the AI?",
+        "start": 708.04,
+        "duration": 1.665
+    },
+    {
+        "text": ">> The batch mode makes sense to me and it's",
+        "start": 709.705,
+        "duration": 2.235
+    },
+    {
+        "text": "ridiculously fast and so that almost felt live to me.",
+        "start": 711.94,
+        "duration": 2.94
+    },
+    {
+        "text": "But I'm interested to see what you have cooking up for",
+        "start": 714.88,
+        "duration": 3.42
+    },
+    {
+        "text": "live mode because that feels harder to do. But what do you got?",
+        "start": 718.3,
+        "duration": 5.085
+    },
+    {
+        "text": ">> Absolutely. Let me go back to the speech studio.",
+        "start": 723.385,
+        "duration": 4.095
+    },
+    {
+        "text": "Here, you can see there's a menu here.",
+        "start": 727.48,
+        "duration": 3.375
+    },
+    {
+        "text": "It's a live chat avatar.",
+        "start": 730.855,
+        "duration": 1.65
+    },
+    {
+        "text": "This is basically the UI experience we built for the user",
+        "start": 732.505,
+        "duration": 3.45
+    },
+    {
+        "text": "to experience how to interact with the avatars in real time.",
+        "start": 735.955,
+        "duration": 4.53
+    },
+    {
+        "text": "There are two types here.",
+        "start": 740.485,
+        "duration": 1.71
+    },
+    {
+        "text": "The first type is basically",
+        "start": 742.195,
+        "duration": 1.14
+    },
+    {
+        "text": "a sample video we have already pre-recorded.",
+        "start": 743.335,
+        "duration": 3.675
+    },
+    {
+        "text": "In this case, it's basically using",
+        "start": 747.01,
+        "duration": 2.88
+    },
+    {
+        "text": "a friendly speaking style and also to be concise,",
+        "start": 749.89,
+        "duration": 2.865
+    },
+    {
+        "text": "within like 25 words.",
+        "start": 752.755,
+        "duration": 2.28
+    },
+    {
+        "text": "Here, so I'm just going to the live mode.",
+        "start": 755.035,
+        "duration": 3.48
+    },
+    {
+        "text": "Let's try something light.",
+        "start": 758.515,
+        "duration": 1.695
+    },
+    {
+        "text": ">> This is in the studio right now.",
+        "start": 760.21,
+        "duration": 2.01
+    },
+    {
+        "text": "People can try this out.",
+        "start": 762.22,
+        "duration": 1.74
+    },
+    {
+        "text": ">> Absolutely. After I click on \"Try on your own\",",
+        "start": 763.96,
+        "duration": 3.975
+    },
+    {
+        "text": "it take a couple seconds for the avatar to load.",
+        "start": 767.935,
+        "duration": 3.705
+    },
+    {
+        "text": "Just like a warning, there's always a risk of doing live demos.",
+        "start": 771.64,
+        "duration": 5.685
+    },
+    {
+        "text": "Let's see how this works.",
+        "start": 777.325,
+        "duration": 2.16
+    },
+    {
+        "text": "There are two ways you can interact with the avatar,",
+        "start": 779.485,
+        "duration": 3.0
+    },
+    {
+        "text": "one is through the microphone here,",
+        "start": 782.485,
+        "duration": 1.965
+    },
+    {
+        "text": "the other is through this chat panel.",
+        "start": 784.45,
+        "duration": 2.25
+    },
+    {
+        "text": "You can just type the text into it.",
+        "start": 786.7,
+        "duration": 2.73
+    },
+    {
+        "text": "This chat panel also shows you the entire conversation history,",
+        "start": 789.43,
+        "duration": 4.875
+    },
+    {
+        "text": "like when you interact with the avatar.",
+        "start": 794.305,
+        "duration": 2.875
+    },
+    {
+        "text": "Later I will show you what the setting menu means.",
+        "start": 797.18,
+        "duration": 3.805
+    },
+    {
+        "text": "Now let me just click the microphone and then ask a couple of",
+        "start": 800.985,
+        "duration": 3.555
+    },
+    {
+        "text": "questions. How are you today?",
+        "start": 804.54,
+        "duration": 4.51
+    },
+    {
+        "text": ">> I'm doing well. Thank you.",
+        "start": 810.09,
+        "duration": 3.235
+    },
+    {
+        "text": "How can I assist you today?",
+        "start": 813.325,
+        "duration": 2.995
+    },
+    {
+        "text": ">> Can you tell me what is a Microsoft AI Show?",
+        "start": 818.01,
+        "duration": 4.49
+    },
+    {
+        "text": ">> The Microsoft AI Show is a web series that covers",
+        "start": 823.25,
+        "duration": 4.12
+    },
+    {
+        "text": "the latest developments and news",
+        "start": 827.37,
+        "duration": 1.875
+    },
+    {
+        "text": "in the field of artificial intelligence.",
+        "start": 829.245,
+        "duration": 2.54
+    },
+    {
+        "text": ">> That's true.",
+        "start": 831.785,
+        "duration": 2.055
+    },
+    {
+        "text": ">> Who is the host of the Microsoft AI Show?",
+        "start": 834.72,
+        "duration": 4.64
+    },
+    {
+        "text": ">> Seth Juarez is the host of the Microsoft AI Show.",
+        "start": 840.12,
+        "duration": 4.97
+    },
+    {
+        "text": ">> Seth, looks like the avatar knows about you.",
+        "start": 845.28,
+        "duration": 2.84
+    },
+    {
+        "text": ">> Oh my goodness.",
+        "start": 848.12,
+        "duration": 0.29
+    },
+    {
+        "text": ">> Let me see, how much she actually knows about you.",
+        "start": 848.41,
+        "duration": 4.03
+    },
+    {
+        "text": "Can you tell us more about the host of Microsoft AI Show?",
+        "start": 852.69,
+        "duration": 5.42
+    },
+    {
+        "text": ">> Sure. Seth Juarez is a seasoned AI expert,",
+        "start": 859.5,
+        "duration": 4.915
+    },
+    {
+        "text": "software engineer and presenter.",
+        "start": 864.415,
+        "duration": 2.625
+    },
+    {
+        "text": "He has a PhD in education in the field of learning technology,",
+        "start": 867.04,
+        "duration": 4.62
+    },
+    {
+        "text": "and is passionate about using technology to improve education.",
+        "start": 871.66,
+        "duration": 4.275
+    },
+    {
+        "text": "He is a regular speaker at",
+        "start": 875.935,
+        "duration": 2.175
+    },
+    {
+        "text": "tech conferences and also hosts the Channel 9 show Level Up,",
+        "start": 878.11,
+        "duration": 3.9
+    },
+    {
+        "text": "where he interviews software engineers,",
+        "start": 882.01,
+        "duration": 2.1
+    },
+    {
+        "text": "data scientists, and other tech experts.",
+        "start": 884.11,
+        "duration": 3.61
+    },
+    {
+        "text": ">> Seth, I'm not sure if everything she",
+        "start": 888.66,
+        "duration": 2.56
+    },
+    {
+        "text": "said was true, but it's amazing.",
+        "start": 891.22,
+        "duration": 2.19
+    },
+    {
+        "text": ">> Not everything. Now that I'm seeing this.",
+        "start": 893.41,
+        "duration": 2.655
+    },
+    {
+        "text": "This using GPT 3.5 turbo in the back end somehow?",
+        "start": 896.065,
+        "duration": 4.56
+    },
+    {
+        "text": ">> This is using the ChatGPT in the back end.",
+        "start": 900.625,
+        "duration": 3.645
+    },
+    {
+        "text": ">> What's cool is that it's pretty close.",
+        "start": 904.27,
+        "duration": 3.93
+    },
+    {
+        "text": "But as I'm thinking about this, I'm like,",
+        "start": 908.2,
+        "duration": 2.085
+    },
+    {
+        "text": "of course it got some things right,",
+        "start": 910.285,
+        "duration": 1.53
+    },
+    {
+        "text": "it got some things wrong.",
+        "start": 911.815,
+        "duration": 1.44
+    },
+    {
+        "text": "But the reality is that if you've seen other shows,",
+        "start": 913.255,
+        "duration": 2.85
+    },
+    {
+        "text": "you can probably hook up some pretty sophisticated retrieval,",
+        "start": 916.105,
+        "duration": 3.165
+    },
+    {
+        "text": "augmented generation things in the back end so that it",
+        "start": 919.27,
+        "duration": 3.03
+    },
+    {
+        "text": "actually responds with grounded responses.",
+        "start": 922.3,
+        "duration": 3.3
+    },
+    {
+        "text": "But just this alone is pretty cool.",
+        "start": 925.6,
+        "duration": 2.61
+    },
+    {
+        "text": "Is there like a code?",
+        "start": 928.21,
+        "duration": 1.41
+    },
+    {
+        "text": "How does this work?",
+        "start": 929.62,
+        "duration": 2.62
+    },
+    {
+        "text": ">> Once I do the demo,",
+        "start": 932.37,
+        "duration": 2.425
+    },
+    {
+        "text": "I will show you the reference architecture,",
+        "start": 934.795,
+        "duration": 2.505
+    },
+    {
+        "text": "how you can do something similar.",
+        "start": 937.3,
+        "duration": 4.515
+    },
+    {
+        "text": "Also, Seth, back to your point,",
+        "start": 941.815,
+        "duration": 2.4
+    },
+    {
+        "text": "right now it's purely using chat GPT",
+        "start": 944.215,
+        "duration": 2.715
+    },
+    {
+        "text": "and we have a service Azure OpenAI on your data,",
+        "start": 946.93,
+        "duration": 3.225
+    },
+    {
+        "text": "which means you can ground the answers using your data,",
+        "start": 950.155,
+        "duration": 4.08
+    },
+    {
+        "text": "enterprise data, the user data.",
+        "start": 954.235,
+        "duration": 2.085
+    },
+    {
+        "text": "You're absolutely right. You can use",
+        "start": 956.32,
+        "duration": 3.105
+    },
+    {
+        "text": "the avatar as the user interface and",
+        "start": 959.425,
+        "duration": 2.115
+    },
+    {
+        "text": "then along with Azure OpenAI on your data.",
+        "start": 961.54,
+        "duration": 2.835
+    },
+    {
+        "text": "Are you ready to try a couple of other questions.",
+        "start": 964.375,
+        "duration": 3.285
+    },
+    {
+        "text": ">> Let's do it. I'm already blown away. This is cool.",
+        "start": 967.66,
+        "duration": 3.55
+    },
+    {
+        "text": ">> Can you tell us when was",
+        "start": 971.97,
+        "duration": 3.49
+    },
+    {
+        "text": "the first episode of Microsoft AI Show?",
+        "start": 975.46,
+        "duration": 3.55
+    },
+    {
+        "text": ">> The first episode of the Microsoft AI Show",
+        "start": 979.83,
+        "duration": 3.445
+    },
+    {
+        "text": "was published on July 24, 2017.",
+        "start": 983.275,
+        "duration": 4.11
+    },
+    {
+        "text": ">> I don't know, Seth, was that right?",
+        "start": 987.385,
+        "duration": 2.775
+    },
+    {
+        "text": ">> That feels right.",
+        "start": 990.16,
+        "duration": 1.665
+    },
+    {
+        "text": "I've been doing this show for a really long time.",
+        "start": 991.825,
+        "duration": 5.28
+    },
+    {
+        "text": "But 2017, '18, '19, '20,",
+        "start": 997.105,
+        "duration": 2.625
+    },
+    {
+        "text": "'21, so six years? Mi God.",
+        "start": 999.73,
+        "duration": 3.33
+    },
+    {
+        "text": "Maybe, that could really,",
+        "start": 1003.06,
+        "duration": 2.22
+    },
+    {
+        "text": "literally be the case.",
+        "start": 1005.28,
+        "duration": 1.125
+    },
+    {
+        "text": "I'll have to go look. But again,",
+        "start": 1006.405,
+        "duration": 1.575
+    },
+    {
+        "text": "it's just using ChatGPT.",
+        "start": 1007.98,
+        "duration": 1.845
+    },
+    {
+        "text": ">> That's right.",
+        "start": 1009.825,
+        "duration": 1.59
+    },
+    {
+        "text": ">> This is awesome. I know I'm pushing here,",
+        "start": 1011.415,
+        "duration": 4.185
+    },
+    {
+        "text": "but can I see what this looks",
+        "start": 1015.6,
+        "duration": 2.58
+    },
+    {
+        "text": "like to get started on the flavor of doing these kind of apps?",
+        "start": 1018.18,
+        "duration": 3.225
+    },
+    {
+        "text": ">> This is basically a representation,",
+        "start": 1021.405,
+        "duration": 2.985
+    },
+    {
+        "text": "how you can implement something like I just showed.",
+        "start": 1024.39,
+        "duration": 4.2
+    },
+    {
+        "text": "At the front end, you can use",
+        "start": 1028.59,
+        "duration": 2.97
+    },
+    {
+        "text": "the microphone or using a text input.",
+        "start": 1031.56,
+        "duration": 3.18
+    },
+    {
+        "text": "Then for the UI there is a orchestrating layer.",
+        "start": 1034.74,
+        "duration": 3.795
+    },
+    {
+        "text": "Basically orchestrating between the back end services",
+        "start": 1038.535,
+        "duration": 3.24
+    },
+    {
+        "text": "from like Azure AI.",
+        "start": 1041.775,
+        "duration": 1.815
+    },
+    {
+        "text": "There is a speech to text service.",
+        "start": 1043.59,
+        "duration": 2.67
+    },
+    {
+        "text": "Basically transcribe what I just said into text and",
+        "start": 1046.26,
+        "duration": 3.84
+    },
+    {
+        "text": "then feeding into the back end which",
+        "start": 1050.1,
+        "duration": 1.77
+    },
+    {
+        "text": "in this case is actually ChatGPT.",
+        "start": 1051.87,
+        "duration": 2.13
+    },
+    {
+        "text": "Then the ChatGPT will respond back.",
+        "start": 1054.0,
+        "duration": 2.64
+    },
+    {
+        "text": "By the way, we also have the options how to",
+        "start": 1056.64,
+        "duration": 2.52
+    },
+    {
+        "text": "limit the responses from ChatGPT.",
+        "start": 1059.16,
+        "duration": 2.61
+    },
+    {
+        "text": "Sometimes you want verbose responses,",
+        "start": 1061.77,
+        "duration": 2.98
+    },
+    {
+        "text": "sometimes you just want concise responses.",
+        "start": 1064.75,
+        "duration": 2.91
+    },
+    {
+        "text": "Then once the output is back to a texture to speech module,",
+        "start": 1067.66,
+        "duration": 4.65
+    },
+    {
+        "text": "you can see here the avatar.",
+        "start": 1072.31,
+        "duration": 1.975
+    },
+    {
+        "text": "Basically it's inside the text to speech module,",
+        "start": 1074.285,
+        "duration": 3.045
+    },
+    {
+        "text": "basically making sure that means the avatar lip sync.",
+        "start": 1077.33,
+        "duration": 4.285
+    },
+    {
+        "text": "That means we sync with the language the avatar",
+        "start": 1081.615,
+        "duration": 3.175
+    },
+    {
+        "text": "will be speaking and then get all the way back to the UI.",
+        "start": 1084.79,
+        "duration": 3.2
+    },
+    {
+        "text": "This is like a very high level,",
+        "start": 1087.99,
+        "duration": 2.54
+    },
+    {
+        "text": "like a reference architecture.",
+        "start": 1090.53,
+        "duration": 2.08
+    },
+    {
+        "text": ">> This is amazing.",
+        "start": 1092.61,
+        "duration": 4.01
+    },
+    {
+        "text": "You blew my mind and I know I kept asking you for code,",
+        "start": 1096.75,
+        "duration": 4.21
+    },
+    {
+        "text": "but I think we're going to do another episode where we",
+        "start": 1100.96,
+        "duration": 2.66
+    },
+    {
+        "text": "actually get into actual code level stuff.",
+        "start": 1103.62,
+        "duration": 3.3
+    },
+    {
+        "text": "Where can people go to find out",
+        "start": 1106.92,
+        "duration": 1.34
+    },
+    {
+        "text": "more if they want to get started with this?",
+        "start": 1108.26,
+        "duration": 2.28
+    },
+    {
+        "text": ">> Folks can just go to our Azure documentation site.",
+        "start": 1111.41,
+        "duration": 4.825
+    },
+    {
+        "text": "We have a lot of different documentations.",
+        "start": 1116.235,
+        "duration": 2.865
+    },
+    {
+        "text": "We also have a block post that we can post online as well.",
+        "start": 1119.1,
+        "duration": 3.34
+    },
+    {
+        "text": "That block post was basically like",
+        "start": 1122.44,
+        "duration": 2.04
+    },
+    {
+        "text": "we announced three weeks ago during ignites.",
+        "start": 1124.48,
+        "duration": 2.575
+    },
+    {
+        "text": "Also, if you have any questions,",
+        "start": 1127.055,
+        "duration": 1.865
+    },
+    {
+        "text": "anyone has any questions,",
+        "start": 1128.92,
+        "duration": 1.32
+    },
+    {
+        "text": "definitely reach out to us directly through",
+        "start": 1130.24,
+        "duration": 2.72
+    },
+    {
+        "text": "this e-mail address, which is avatarvoice@Microsoft.com.",
+        "start": 1132.96,
+        "duration": 4.185
+    },
+    {
+        "text": ">> Avatarvoice@Microsoft.com.",
+        "start": 1137.145,
+        "duration": 2.715
+    },
+    {
+        "text": ">> Thank you so much for being with us, Cenyu.",
+        "start": 1139.86,
+        "duration": 2.19
+    },
+    {
+        "text": ">> Absolutely. Thank you so much, Seth.",
+        "start": 1142.05,
+        "duration": 2.01
+    },
+    {
+        "text": "It's a pleasure being here.",
+        "start": 1144.06,
+        "duration": 1.605
+    },
+    {
+        "text": ">> Awesome. Thank you so much for watching.",
+        "start": 1145.665,
+        "duration": 2.175
+    },
+    {
+        "text": "We are learning all about",
+        "start": 1147.84,
+        "duration": 1.71
+    },
+    {
+        "text": "AI solutions with TTS avatar and Azure OpenAI.",
+        "start": 1149.55,
+        "duration": 3.465
+    },
+    {
+        "text": "Cenyu, thank you so much for watching and",
+        "start": 1153.015,
+        "duration": 1.205
+    },
+    {
+        "text": "hopefully we'll see you next time. Take care.",
+        "start": 1154.22,
+        "duration": 1.7
+    },
+    {
+        "text": ">> Thank you.",
+        "start": 1155.92,
+        "duration": 1.3
+    }
+]

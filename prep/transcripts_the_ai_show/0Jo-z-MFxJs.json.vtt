@@ -1,0 +1,2842 @@
+[
+    {
+        "text": ">> You're not going to miss this episode of the AI show.",
+        "start": 0.0,
+        "duration": 2.28
+    },
+    {
+        "text": "We talk all about fine tuning with Alicia Frame.",
+        "start": 2.28,
+        "duration": 2.88
+    },
+    {
+        "text": "Make sure you tune in.",
+        "start": 5.16,
+        "duration": 2.44
+    },
+    {
+        "text": "Hello and welcome to this episode of the AI show.",
+        "start": 12.76,
+        "duration": 2.88
+    },
+    {
+        "text": "We're talking all about fine tuning to fine or not to fine tune.",
+        "start": 15.64,
+        "duration": 3.8
+    },
+    {
+        "text": "That is the question with Alicia Frame.",
+        "start": 19.44,
+        "duration": 1.88
+    },
+    {
+        "text": "How are you doing my friend?",
+        "start": 21.32,
+        "duration": 0.66
+    },
+    {
+        "text": "Why don't you tell us who you are and what you do?",
+        "start": 21.98,
+        "duration": 1.52
+    },
+    {
+        "text": ">> I'm good. I'm Alicia Frame.",
+        "start": 23.5,
+        "duration": 2.24
+    },
+    {
+        "text": "I'm the Product Manager for",
+        "start": 25.74,
+        "duration": 1.56
+    },
+    {
+        "text": "Azure Open AI Service looking after fine tuning.",
+        "start": 27.3,
+        "duration": 3.665
+    },
+    {
+        "text": "All day, every day, fine tuning.",
+        "start": 30.965,
+        "duration": 2.97
+    },
+    {
+        "text": ">> That is amazing. Listen,",
+        "start": 33.935,
+        "duration": 2.125
+    },
+    {
+        "text": "I get this question all the time,",
+        "start": 36.06,
+        "duration": 2.66
+    },
+    {
+        "text": "but I thought we'd go through each little step so",
+        "start": 38.72,
+        "duration": 2.34
+    },
+    {
+        "text": "folks get a clear understanding",
+        "start": 41.06,
+        "duration": 1.36
+    },
+    {
+        "text": "of what it is and maybe how to do it.",
+        "start": 42.42,
+        "duration": 1.44
+    },
+    {
+        "text": "But let's just start off with what is fine",
+        "start": 43.86,
+        "duration": 2.2
+    },
+    {
+        "text": "tuning as compared to other things?",
+        "start": 46.06,
+        "duration": 3.13
+    },
+    {
+        "text": ">> Fine tuning is a way of customizing a large language model,",
+        "start": 49.19,
+        "duration": 5.15
+    },
+    {
+        "text": "but there are other ways and I think this is",
+        "start": 54.34,
+        "duration": 2.26
+    },
+    {
+        "text": "where people sometimes get confused.",
+        "start": 56.6,
+        "duration": 2.665
+    },
+    {
+        "text": "The way that I think of it as",
+        "start": 59.265,
+        "duration": 1.975
+    },
+    {
+        "text": "your fine tuning is one way to customize.",
+        "start": 61.24,
+        "duration": 3.42
+    },
+    {
+        "text": "If you want to add your data, there's two tracks.",
+        "start": 64.66,
+        "duration": 2.7
+    },
+    {
+        "text": "One is adding information into your prompt,",
+        "start": 67.36,
+        "duration": 3.08
+    },
+    {
+        "text": "which is information that you're giving",
+        "start": 70.44,
+        "duration": 1.8
+    },
+    {
+        "text": "to the model to answer a question.",
+        "start": 72.24,
+        "duration": 2.32
+    },
+    {
+        "text": "The other track is changing the model itself.",
+        "start": 74.56,
+        "duration": 4.385
+    },
+    {
+        "text": "Rag, prompt engineering, retrieval-based techniques,",
+        "start": 78.945,
+        "duration": 3.695
+    },
+    {
+        "text": "those all mess with your prompt,",
+        "start": 82.64,
+        "duration": 2.03
+    },
+    {
+        "text": "fine tuning is actually retraining the model.",
+        "start": 84.67,
+        "duration": 3.47
+    },
+    {
+        "text": "Changing the weights of the model to make it perform differently.",
+        "start": 88.14,
+        "duration": 3.64
+    },
+    {
+        "text": "To teach it a new skill,",
+        "start": 91.78,
+        "duration": 1.14
+    },
+    {
+        "text": "to teach it new information to change how it acts.",
+        "start": 92.92,
+        "duration": 3.37
+    },
+    {
+        "text": ">> I see. When we say add your data to actually do LM,",
+        "start": 96.29,
+        "duration": 6.51
+    },
+    {
+        "text": "it's a little confusing because for",
+        "start": 102.8,
+        "duration": 1.52
+    },
+    {
+        "text": "some reason a lot of people are saying that is",
+        "start": 104.32,
+        "duration": 2.04
+    },
+    {
+        "text": "that training adding different weights",
+        "start": 106.36,
+        "duration": 1.94
+    },
+    {
+        "text": "to the model and so that's not the case?",
+        "start": 108.3,
+        "duration": 1.72
+    },
+    {
+        "text": "You're doing a prompt thing but you",
+        "start": 110.02,
+        "duration": 2.28
+    },
+    {
+        "text": "can also do a fine tuning thing. Did I get that right?",
+        "start": 112.3,
+        "duration": 2.695
+    },
+    {
+        "text": ">> Yeah, I think the brand name \"Add your data\" can be a little",
+        "start": 114.995,
+        "duration": 3.825
+    },
+    {
+        "text": "confusing for folks because in that case what",
+        "start": 118.82,
+        "duration": 1.92
+    },
+    {
+        "text": "we're talking about is adding your data to the prompt.",
+        "start": 120.74,
+        "duration": 2.515
+    },
+    {
+        "text": ">> Got it.",
+        "start": 123.255,
+        "duration": 0.57
+    },
+    {
+        "text": ">> Fine tuning is adding your data to",
+        "start": 123.825,
+        "duration": 2.215
+    },
+    {
+        "text": "the model and it operates differently.",
+        "start": 126.04,
+        "duration": 2.6
+    },
+    {
+        "text": "It has different outcomes,",
+        "start": 128.64,
+        "duration": 1.3
+    },
+    {
+        "text": "so two different tracks,",
+        "start": 129.94,
+        "duration": 1.72
+    },
+    {
+        "text": "both customize your model,",
+        "start": 131.66,
+        "duration": 2.04
+    },
+    {
+        "text": "and in the end, you probably need both of them together.",
+        "start": 133.7,
+        "duration": 2.8
+    },
+    {
+        "text": ">> Oh, interesting. Here's the question though,",
+        "start": 136.5,
+        "duration": 2.34
+    },
+    {
+        "text": "because I have been going around,",
+        "start": 138.84,
+        "duration": 1.4
+    },
+    {
+        "text": "and if I'm wrong, you throw the flag at me.",
+        "start": 140.24,
+        "duration": 2.16
+    },
+    {
+        "text": "I've been going around saying that for the majority of use cases,",
+        "start": 142.4,
+        "duration": 3.5
+    },
+    {
+        "text": "it's probably enough to fix",
+        "start": 145.9,
+        "duration": 2.54
+    },
+    {
+        "text": "your prompt and then send it to the LLM.",
+        "start": 148.44,
+        "duration": 3.12
+    },
+    {
+        "text": "The question that I have for you is when is it",
+        "start": 151.56,
+        "duration": 2.42
+    },
+    {
+        "text": "appropriate to use fine tuning",
+        "start": 153.98,
+        "duration": 2.44
+    },
+    {
+        "text": "and is that statement that I made correct?",
+        "start": 156.42,
+        "duration": 2.045
+    },
+    {
+        "text": ">> Username is usually correct.",
+        "start": 158.465,
+        "duration": 2.5
+    },
+    {
+        "text": "Most of the time you can",
+        "start": 160.965,
+        "duration": 2.155
+    },
+    {
+        "text": "get what you need with prompt engineering.",
+        "start": 163.12,
+        "duration": 2.18
+    },
+    {
+        "text": "You can add more information into your prompt.",
+        "start": 165.3,
+        "duration": 2.42
+    },
+    {
+        "text": "You can add few shot examples and get the outcome you want.",
+        "start": 167.72,
+        "duration": 3.66
+    },
+    {
+        "text": "No matter what I would always recommend,",
+        "start": 171.38,
+        "duration": 2.38
+    },
+    {
+        "text": "you want to start with",
+        "start": 173.76,
+        "duration": 1.4
+    },
+    {
+        "text": "prompt engineering because you want to know how far you can get",
+        "start": 175.16,
+        "duration": 3.56
+    },
+    {
+        "text": "with the base model with prompt engineering so you know",
+        "start": 178.72,
+        "duration": 2.88
+    },
+    {
+        "text": "if fine tuning is actually making it any better or not.",
+        "start": 181.6,
+        "duration": 3.28
+    },
+    {
+        "text": "When fine tuning comes in and",
+        "start": 184.88,
+        "duration": 2.08
+    },
+    {
+        "text": "when you make the choice of like, oh,",
+        "start": 186.96,
+        "duration": 1.82
+    },
+    {
+        "text": "I really do need to fine tune here,",
+        "start": 188.78,
+        "duration": 2.13
+    },
+    {
+        "text": "is two different areas.",
+        "start": 190.91,
+        "duration": 1.99
+    },
+    {
+        "text": "One is you need to teach the model a new skill.",
+        "start": 192.9,
+        "duration": 3.205
+    },
+    {
+        "text": "You want the model to just do one thing but do it really",
+        "start": 196.105,
+        "duration": 3.585
+    },
+    {
+        "text": "well and it's not really able to do it without a lot of guidance.",
+        "start": 199.69,
+        "duration": 3.53
+    },
+    {
+        "text": "Or you want to change",
+        "start": 203.22,
+        "duration": 1.78
+    },
+    {
+        "text": "the behavior of the model and I'll show this in a demo.",
+        "start": 205.0,
+        "duration": 2.915
+    },
+    {
+        "text": "The other case when you might choose to fine tune",
+        "start": 207.915,
+        "duration": 2.885
+    },
+    {
+        "text": "is if you want to lower your latency,",
+        "start": 210.8,
+        "duration": 2.74
+    },
+    {
+        "text": "use a cheaper model where you want to",
+        "start": 213.54,
+        "duration": 2.18
+    },
+    {
+        "text": "switch out one model for another.",
+        "start": 215.72,
+        "duration": 2.44
+    },
+    {
+        "text": "Instead of GPT-4,",
+        "start": 218.16,
+        "duration": 1.515
+    },
+    {
+        "text": "use fine tune 35 Turbo.",
+        "start": 219.675,
+        "duration": 2.3
+    },
+    {
+        "text": "Or hey, you've written a beautiful prompt but it's really long,",
+        "start": 221.975,
+        "duration": 4.865
+    },
+    {
+        "text": "it's causing a lot of latency and you want to move",
+        "start": 226.84,
+        "duration": 2.52
+    },
+    {
+        "text": "a lot of those instructions directly into the model.",
+        "start": 229.36,
+        "duration": 2.94
+    },
+    {
+        "text": "Reduce latency, reduce inference costs.",
+        "start": 232.3,
+        "duration": 2.64
+    },
+    {
+        "text": "That's another use case for fine tuning.",
+        "start": 234.94,
+        "duration": 2.215
+    },
+    {
+        "text": ">> I see. It feels like it,",
+        "start": 237.155,
+        "duration": 4.685
+    },
+    {
+        "text": "because these models are super general.",
+        "start": 241.84,
+        "duration": 2.015
+    },
+    {
+        "text": "But if you want to narrow the scope of the model a little bit,",
+        "start": 243.855,
+        "duration": 4.3
+    },
+    {
+        "text": "usually there's a smell,",
+        "start": 248.155,
+        "duration": 2.025
+    },
+    {
+        "text": "a code smell when I was a dabb.",
+        "start": 250.18,
+        "duration": 1.875
+    },
+    {
+        "text": "Is that a good smell to",
+        "start": 252.055,
+        "duration": 2.505
+    },
+    {
+        "text": "be if I want to know or is it a MI off model?",
+        "start": 254.56,
+        "duration": 3.245
+    },
+    {
+        "text": ">> No, that's like a really good example of like",
+        "start": 257.805,
+        "duration": 2.575
+    },
+    {
+        "text": "so GPT-4 does a lot of things super,",
+        "start": 260.38,
+        "duration": 3.15
+    },
+    {
+        "text": "super well but maybe all I need is a model that classifies",
+        "start": 263.53,
+        "duration": 4.02
+    },
+    {
+        "text": "things according to my rules quickly and at a low cost.",
+        "start": 267.55,
+        "duration": 5.38
+    },
+    {
+        "text": "GPT-4 is overkill for that.",
+        "start": 272.93,
+        "duration": 2.365
+    },
+    {
+        "text": "I can train Turbo using a fine tuning data",
+        "start": 275.295,
+        "duration": 3.195
+    },
+    {
+        "text": "set to just do that one thing and do it well.",
+        "start": 278.49,
+        "duration": 3.695
+    },
+    {
+        "text": "That go from broad generalist model",
+        "start": 282.185,
+        "duration": 3.425
+    },
+    {
+        "text": "to single skill is a really good like,",
+        "start": 285.61,
+        "duration": 2.94
+    },
+    {
+        "text": "oh maybe fine tuning for this one.",
+        "start": 288.55,
+        "duration": 2.545
+    },
+    {
+        "text": ">> Got it. The other thing you said is that",
+        "start": 291.095,
+        "duration": 2.195
+    },
+    {
+        "text": "if you find that your prompt is",
+        "start": 293.29,
+        "duration": 2.14
+    },
+    {
+        "text": "overflowing a little bit",
+        "start": 295.43,
+        "duration": 1.41
+    },
+    {
+        "text": "because there's only a certain amount of space in the prompts,",
+        "start": 296.84,
+        "duration": 3.49
+    },
+    {
+        "text": "that's another good indication that",
+        "start": 300.33,
+        "duration": 1.78
+    },
+    {
+        "text": "maybe it's appropriate to fine tune.",
+        "start": 302.11,
+        "duration": 2.275
+    },
+    {
+        "text": ">> Yeah, sometimes you'll hear people talk about fine tuning",
+        "start": 304.385,
+        "duration": 2.905
+    },
+    {
+        "text": "and they'll say fine tune when you want to show,",
+        "start": 307.29,
+        "duration": 2.94
+    },
+    {
+        "text": "not tell the model what to do.",
+        "start": 310.23,
+        "duration": 2.18
+    },
+    {
+        "text": "This is like you have a lot of edge cases,",
+        "start": 312.41,
+        "duration": 1.78
+    },
+    {
+        "text": "a lot of samples and you're",
+        "start": 314.19,
+        "duration": 1.72
+    },
+    {
+        "text": "starting with prompt engineering and you add",
+        "start": 315.91,
+        "duration": 2.05
+    },
+    {
+        "text": "example 1 and you're like not",
+        "start": 317.96,
+        "duration": 1.85
+    },
+    {
+        "text": "quite add Example 2, still not there.",
+        "start": 319.81,
+        "duration": 2.425
+    },
+    {
+        "text": "You keep adding and then you run out of space,",
+        "start": 322.235,
+        "duration": 2.515
+    },
+    {
+        "text": "there's too many edge cases.",
+        "start": 324.75,
+        "duration": 1.69
+    },
+    {
+        "text": "Too many behaviors where you're trying to show the model what",
+        "start": 326.44,
+        "duration": 2.79
+    },
+    {
+        "text": "to do and that's a good fine tuning.",
+        "start": 329.23,
+        "duration": 3.02
+    },
+    {
+        "text": "Move those instructions into the model.",
+        "start": 332.25,
+        "duration": 2.09
+    },
+    {
+        "text": "You see that a lot with natural language to",
+        "start": 334.34,
+        "duration": 2.81
+    },
+    {
+        "text": "SQL use cases or",
+        "start": 337.15,
+        "duration": 2.015
+    },
+    {
+        "text": "classic example is like teaching the model to play chess.",
+        "start": 339.165,
+        "duration": 4.07
+    },
+    {
+        "text": "I can give you 1,000 examples of what I want you to do,",
+        "start": 343.235,
+        "duration": 4.375
+    },
+    {
+        "text": "but I have trouble verbalizing that in a few hundred characters.",
+        "start": 347.61,
+        "duration": 6.21
+    },
+    {
+        "text": ">> That makes sense. Let's talk a little bit about how it's",
+        "start": 353.82,
+        "duration": 3.69
+    },
+    {
+        "text": "done because I'm a data scientist,",
+        "start": 357.51,
+        "duration": 4.28
+    },
+    {
+        "text": "not as much as you, but my sense is that these models are so big.",
+        "start": 361.79,
+        "duration": 3.8
+    },
+    {
+        "text": "Are you fine tuning the entire model?",
+        "start": 365.59,
+        "duration": 3.96
+    },
+    {
+        "text": "What is it that's actually going on so people get a sense of that?",
+        "start": 369.55,
+        "duration": 3.87
+    },
+    {
+        "text": ">> We do not offer full fine tuning.",
+        "start": 373.42,
+        "duration": 2.67
+    },
+    {
+        "text": "When we say fine tuning,",
+        "start": 376.09,
+        "duration": 2.44
+    },
+    {
+        "text": "fine tuning means a lot of different things.",
+        "start": 378.53,
+        "duration": 2.54
+    },
+    {
+        "text": "What we offer on Azure Open AI is supervised fine tuning.",
+        "start": 381.07,
+        "duration": 5.17
+    },
+    {
+        "text": "The way we go about that is LORA or low rank approximation.",
+        "start": 386.24,
+        "duration": 5.7
+    },
+    {
+        "text": "With LORA Fine Tuning,",
+        "start": 391.94,
+        "duration": 1.79
+    },
+    {
+        "text": "you're really only adjusting",
+        "start": 393.73,
+        "duration": 1.62
+    },
+    {
+        "text": "a very small subset of the weights for your use case.",
+        "start": 395.35,
+        "duration": 3.46
+    },
+    {
+        "text": "You're not going in and retraining the model from scratch.",
+        "start": 398.81,
+        "duration": 3.16
+    },
+    {
+        "text": "This makes it a lot more cost efficient,",
+        "start": 401.97,
+        "duration": 2.3
+    },
+    {
+        "text": "a lot easier to deploy,",
+        "start": 404.27,
+        "duration": 2.18
+    },
+    {
+        "text": "lots of optimizations involved in doing that.",
+        "start": 406.45,
+        "duration": 3.375
+    },
+    {
+        "text": ">> I see. You're basically optimizing a subset of",
+        "start": 409.825,
+        "duration": 3.955
+    },
+    {
+        "text": "the internal model weights with your particular data.",
+        "start": 413.78,
+        "duration": 3.86
+    },
+    {
+        "text": "That way it learns new pathways, etc.",
+        "start": 417.64,
+        "duration": 2.27
+    },
+    {
+        "text": "and that's what's going on.",
+        "start": 419.91,
+        "duration": 1.32
+    },
+    {
+        "text": ">> Yeah, and I think that goes back to,",
+        "start": 421.23,
+        "duration": 1.91
+    },
+    {
+        "text": "there's many types of fine tuning.",
+        "start": 423.14,
+        "duration": 1.96
+    },
+    {
+        "text": "Supervised fine tuning is example-based.",
+        "start": 425.1,
+        "duration": 2.945
+    },
+    {
+        "text": "You provide the model with",
+        "start": 428.045,
+        "duration": 2.365
+    },
+    {
+        "text": "here's the input and here's the output I expect,",
+        "start": 430.41,
+        "duration": 3.4
+    },
+    {
+        "text": "and you provide it hundreds,",
+        "start": 433.81,
+        "duration": 1.95
+    },
+    {
+        "text": "hopefully thousands of examples of",
+        "start": 435.76,
+        "duration": 1.78
+    },
+    {
+        "text": "that and that's how you train the model.",
+        "start": 437.54,
+        "duration": 2.36
+    },
+    {
+        "text": "Fully supervised other techniques,",
+        "start": 439.9,
+        "duration": 2.82
+    },
+    {
+        "text": "continual pre-training, RLHF operate differently.",
+        "start": 442.72,
+        "duration": 3.98
+    },
+    {
+        "text": "But for this it's very much around",
+        "start": 446.7,
+        "duration": 2.26
+    },
+    {
+        "text": "teaching the model to do one thing well.",
+        "start": 448.96,
+        "duration": 3.91
+    },
+    {
+        "text": ">> I remember when I was doing",
+        "start": 453.62,
+        "duration": 2.08
+    },
+    {
+        "text": "my research in computational linguistics,",
+        "start": 455.7,
+        "duration": 2.82
+    },
+    {
+        "text": "there was this theory called PAC learning theory that taught",
+        "start": 458.52,
+        "duration": 4.2
+    },
+    {
+        "text": "us how many examples we",
+        "start": 462.72,
+        "duration": 1.92
+    },
+    {
+        "text": "needed to give the model for it to be successful.",
+        "start": 464.64,
+        "duration": 2.445
+    },
+    {
+        "text": "Is my sense is that that's not the case for these models?",
+        "start": 467.085,
+        "duration": 4.05
+    },
+    {
+        "text": ">> No. The rule of thumb,",
+        "start": 471.135,
+        "duration": 2.61
+    },
+    {
+        "text": "one is the pipeline will fail if you have fewer than 10 examples.",
+        "start": 473.745,
+        "duration": 4.155
+    },
+    {
+        "text": "I'll just error out and that does not mean 10 is enough,",
+        "start": 477.9,
+        "duration": 4.305
+    },
+    {
+        "text": "10 is not enough.",
+        "start": 482.205,
+        "duration": 1.71
+    },
+    {
+        "text": "My experience is always better.",
+        "start": 483.915,
+        "duration": 4.71
+    },
+    {
+        "text": "The more sophisticated the model,",
+        "start": 488.625,
+        "duration": 2.34
+    },
+    {
+        "text": "the fewer examples you tend to need.",
+        "start": 490.965,
+        "duration": 2.49
+    },
+    {
+        "text": "I have fine-tune GPT-4 versus",
+        "start": 493.455,
+        "duration": 2.925
+    },
+    {
+        "text": "3.5 Turbo versus Babbage and Davinci.",
+        "start": 496.38,
+        "duration": 3.945
+    },
+    {
+        "text": "Smarter model fewer examples.",
+        "start": 500.325,
+        "duration": 3.525
+    },
+    {
+        "text": "Complexity of the task at hand",
+        "start": 503.85,
+        "duration": 2.94
+    },
+    {
+        "text": "also requires different numbers of examples.",
+        "start": 506.79,
+        "duration": 3.465
+    },
+    {
+        "text": "But there's no you want to teach it NL to SQL",
+        "start": 510.255,
+        "duration": 3.915
+    },
+    {
+        "text": "that requires 257 examples for 3.5 Turbo.",
+        "start": 514.17,
+        "duration": 4.35
+    },
+    {
+        "text": "You basically what you're going to do",
+        "start": 518.52,
+        "duration": 1.74
+    },
+    {
+        "text": "is get together a good sized data set,",
+        "start": 520.26,
+        "duration": 2.865
+    },
+    {
+        "text": "fine-tune, evaluate, and iterate.",
+        "start": 523.125,
+        "duration": 3.165
+    },
+    {
+        "text": "I have a demo later on where I'll show you in",
+        "start": 526.29,
+        "duration": 2.175
+    },
+    {
+        "text": "fine-tuning two different models to do the same thing,",
+        "start": 528.465,
+        "duration": 3.315
+    },
+    {
+        "text": "but one of those models takes a lot more data to",
+        "start": 531.78,
+        "duration": 3.12
+    },
+    {
+        "text": "get something vaguely plausible than the other.",
+        "start": 534.9,
+        "duration": 3.81
+    },
+    {
+        "text": ">> Then the last question before we go to,",
+        "start": 538.71,
+        "duration": 2.355
+    },
+    {
+        "text": "can you show us how it works.",
+        "start": 541.065,
+        "duration": 2.115
+    },
+    {
+        "text": "When the model is fine-tuned,",
+        "start": 543.18,
+        "duration": 2.61
+    },
+    {
+        "text": "I work with a lot of",
+        "start": 545.79,
+        "duration": 1.38
+    },
+    {
+        "text": "enterprises and I talk to their risk people and the other.",
+        "start": 547.17,
+        "duration": 4.53
+    },
+    {
+        "text": "When folks are fine-tuning the model,",
+        "start": 551.7,
+        "duration": 2.13
+    },
+    {
+        "text": "is it fine-tuning an aggregate model that",
+        "start": 553.83,
+        "duration": 2.94
+    },
+    {
+        "text": "everyone has access to or is it completely private to the user?",
+        "start": 556.77,
+        "duration": 3.75
+    },
+    {
+        "text": "I think I know the answer to this,",
+        "start": 560.52,
+        "duration": 1.8
+    },
+    {
+        "text": "but I want to let you weigh in on it.",
+        "start": 562.32,
+        "duration": 1.98
+    },
+    {
+        "text": ">> Private to the user.",
+        "start": 564.3,
+        "duration": 1.5
+    },
+    {
+        "text": "When you fine-tune your model,",
+        "start": 565.8,
+        "duration": 2.025
+    },
+    {
+        "text": "it is all in your own secure workspace.",
+        "start": 567.825,
+        "duration": 3.105
+    },
+    {
+        "text": "We don't have access to your data,",
+        "start": 570.93,
+        "duration": 2.01
+    },
+    {
+        "text": "to your weights, to any of that.",
+        "start": 572.94,
+        "duration": 2.295
+    },
+    {
+        "text": "When you finish fine-tuning,",
+        "start": 575.235,
+        "duration": 2.13
+    },
+    {
+        "text": "what you get is basically the new weights",
+        "start": 577.365,
+        "duration": 3.225
+    },
+    {
+        "text": "for inferencing using your customized model, using your data.",
+        "start": 580.59,
+        "duration": 4.62
+    },
+    {
+        "text": "When you deploy that, what you're deploying are your new weights.",
+        "start": 585.21,
+        "duration": 4.23
+    },
+    {
+        "text": "You have your own custom model",
+        "start": 589.44,
+        "duration": 3.745
+    },
+    {
+        "text": "that is in its own secure environment.",
+        "start": 593.185,
+        "duration": 2.335
+    },
+    {
+        "text": "It's isolated, you're",
+        "start": 595.52,
+        "duration": 1.08
+    },
+    {
+        "text": "not sharing your secret sauce with everybody else.",
+        "start": 596.6,
+        "duration": 5.54
+    },
+    {
+        "text": ">> That makes sense. Then I",
+        "start": 602.14,
+        "duration": 2.57
+    },
+    {
+        "text": "thought I was a live but then the",
+        "start": 604.71,
+        "duration": 1.05
+    },
+    {
+        "text": "other one just came into my head.",
+        "start": 605.76,
+        "duration": 1.53
+    },
+    {
+        "text": "I've been telling folks that content safety is built in",
+        "start": 607.29,
+        "duration": 3.03
+    },
+    {
+        "text": "into all Azure open AI things and that",
+        "start": 610.32,
+        "duration": 3.45
+    },
+    {
+        "text": "traps things coming in and going out to make sure",
+        "start": 613.77,
+        "duration": 2.73
+    },
+    {
+        "text": "that blocking things that are",
+        "start": 616.5,
+        "duration": 1.71
+    },
+    {
+        "text": "sensitive across five different areas.",
+        "start": 618.21,
+        "duration": 2.31
+    },
+    {
+        "text": "Is that still the case?",
+        "start": 620.52,
+        "duration": 1.41
+    },
+    {
+        "text": "Once you fine-tune the model? Can you tell us about that?",
+        "start": 621.93,
+        "duration": 2.115
+    },
+    {
+        "text": ">> It's super important for fine-tuning.",
+        "start": 624.045,
+        "duration": 2.49
+    },
+    {
+        "text": "It's definitely still the case.",
+        "start": 626.535,
+        "duration": 1.77
+    },
+    {
+        "text": "One of the risks that you've probably heard about,",
+        "start": 628.305,
+        "duration": 2.295
+    },
+    {
+        "text": "if you've googled fine-tuning,",
+        "start": 630.6,
+        "duration": 1.74
+    },
+    {
+        "text": "read articles about it,",
+        "start": 632.34,
+        "duration": 1.395
+    },
+    {
+        "text": "is a lot of people are concerned",
+        "start": 633.735,
+        "duration": 1.605
+    },
+    {
+        "text": "that fine-tuning can inadvertently fine-tune out safety.",
+        "start": 635.34,
+        "duration": 3.99
+    },
+    {
+        "text": "Or a bad actor could fine-tune a model to be evil.",
+        "start": 639.33,
+        "duration": 4.89
+    },
+    {
+        "text": "We don't want to help people do that,",
+        "start": 644.22,
+        "duration": 2.685
+    },
+    {
+        "text": "we don't want to condone that.",
+        "start": 646.905,
+        "duration": 1.59
+    },
+    {
+        "text": "Content safety is applied to all of the outputs from your model.",
+        "start": 648.495,
+        "duration": 4.515
+    },
+    {
+        "text": "You have the same moderation to make sure that nothing is",
+        "start": 653.01,
+        "duration": 3.24
+    },
+    {
+        "text": "unsafe or harmful and that you're only getting the good stuff.",
+        "start": 656.25,
+        "duration": 4.125
+    },
+    {
+        "text": ">> Awesome. Well, I thought",
+        "start": 660.375,
+        "duration": 1.65
+    },
+    {
+        "text": "now that you've given us all the details,",
+        "start": 662.025,
+        "duration": 1.695
+    },
+    {
+        "text": "can you show us how this is done?",
+        "start": 663.72,
+        "duration": 1.35
+    },
+    {
+        "text": "People can get a sense for what the data looks",
+        "start": 665.07,
+        "duration": 1.44
+    },
+    {
+        "text": "like and what the process looks like.",
+        "start": 666.51,
+        "duration": 2.04
+    },
+    {
+        "text": ">> Let me share my screen.",
+        "start": 668.55,
+        "duration": 2.25
+    },
+    {
+        "text": "Here you see Azure Open AI Studio.",
+        "start": 670.8,
+        "duration": 2.7
+    },
+    {
+        "text": "This is a super simple UI for",
+        "start": 673.5,
+        "duration": 2.28
+    },
+    {
+        "text": "interacting with everything we offer on Azure Open AI.",
+        "start": 675.78,
+        "duration": 3.255
+    },
+    {
+        "text": "It's also possible to do fine-tuning",
+        "start": 679.035,
+        "duration": 2.445
+    },
+    {
+        "text": "via the Rest API or the Python SDK.",
+        "start": 681.48,
+        "duration": 3.225
+    },
+    {
+        "text": "It's just not as interesting to watch for a demo.",
+        "start": 684.705,
+        "duration": 3.165
+    },
+    {
+        "text": "What I'm going to walk through is just fine-tuning",
+        "start": 687.87,
+        "duration": 2.67
+    },
+    {
+        "text": "can cook in show demo style.",
+        "start": 690.54,
+        "duration": 1.98
+    },
+    {
+        "text": "I want to fine-tune, I go to models and you",
+        "start": 692.52,
+        "duration": 3.72
+    },
+    {
+        "text": "do have to be in a region that supports",
+        "start": 696.24,
+        "duration": 1.59
+    },
+    {
+        "text": "fine-tuning so North Central,",
+        "start": 697.83,
+        "duration": 1.68
+    },
+    {
+        "text": "US, and Sweden Central.",
+        "start": 699.51,
+        "duration": 2.34
+    },
+    {
+        "text": "Fine-tuning a model is actually super easy.",
+        "start": 701.85,
+        "duration": 2.805
+    },
+    {
+        "text": "All I do is I click create a custom model.",
+        "start": 704.655,
+        "duration": 3.21
+    },
+    {
+        "text": "I choose the base model that I want.",
+        "start": 707.865,
+        "duration": 2.715
+    },
+    {
+        "text": "For this, I'm going to choose 3.5 Turbo.",
+        "start": 710.58,
+        "duration": 3.06
+    },
+    {
+        "text": "There's three models you can fine-tune.",
+        "start": 713.64,
+        "duration": 2.395
+    },
+    {
+        "text": "Babbage and Davinci are completion models,",
+        "start": 716.035,
+        "duration": 2.89
+    },
+    {
+        "text": "simple models, low cost options, not as capable.",
+        "start": 718.925,
+        "duration": 5.175
+    },
+    {
+        "text": "Then Turbo is a model,",
+        "start": 724.1,
+        "duration": 3.21
+    },
+    {
+        "text": "this is a more general purpose model, more sophisticated.",
+        "start": 727.31,
+        "duration": 3.39
+    },
+    {
+        "text": "You do have to provide chat format data,",
+        "start": 730.7,
+        "duration": 2.71
+    },
+    {
+        "text": "but for this I'm going to just choose Turbo.",
+        "start": 733.41,
+        "duration": 2.79
+    },
+    {
+        "text": "I'm going to call it cool demo, great names.",
+        "start": 736.2,
+        "duration": 5.69
+    },
+    {
+        "text": "Next thing I do is I'm going to data set,",
+        "start": 741.89,
+        "duration": 2.37
+    },
+    {
+        "text": "you can upload a dataset.",
+        "start": 744.26,
+        "duration": 1.545
+    },
+    {
+        "text": "I happen to have a bunch of stuff already loaded.",
+        "start": 745.805,
+        "duration": 3.255
+    },
+    {
+        "text": "I'm going to choose a dataset, emoji training.",
+        "start": 749.06,
+        "duration": 3.475
+    },
+    {
+        "text": "I will talk through what I'm actually",
+        "start": 752.535,
+        "duration": 1.365
+    },
+    {
+        "text": "doing once we kick off running.",
+        "start": 753.9,
+        "duration": 2.53
+    },
+    {
+        "text": "Choose a training dataset,",
+        "start": 756.47,
+        "duration": 2.44
+    },
+    {
+        "text": "choose a validation dataset.",
+        "start": 758.91,
+        "duration": 3.06
+    },
+    {
+        "text": "This is actually optional,",
+        "start": 761.97,
+        "duration": 1.47
+    },
+    {
+        "text": "you don't have to provide it,",
+        "start": 763.44,
+        "duration": 1.635
+    },
+    {
+        "text": "but it makes it much easier to tell if",
+        "start": 765.075,
+        "duration": 1.635
+    },
+    {
+        "text": "fine-tuning made the model better or worse.",
+        "start": 766.71,
+        "duration": 2.55
+    },
+    {
+        "text": "Advanced options, this is if you",
+        "start": 769.26,
+        "duration": 2.46
+    },
+    {
+        "text": "want to put your data science hat on.",
+        "start": 771.72,
+        "duration": 2.28
+    },
+    {
+        "text": "Right now you can just change the number of epochs,",
+        "start": 774.0,
+        "duration": 2.7
+    },
+    {
+        "text": "which is basically how long will",
+        "start": 776.7,
+        "duration": 1.86
+    },
+    {
+        "text": "it take for me to fine-tune my model?",
+        "start": 778.56,
+        "duration": 2.385
+    },
+    {
+        "text": "How many passes over the data do I do?",
+        "start": 780.945,
+        "duration": 3.06
+    },
+    {
+        "text": "I don't want to change that so then I can review.",
+        "start": 784.005,
+        "duration": 3.465
+    },
+    {
+        "text": "I see base model training validation file and",
+        "start": 787.47,
+        "duration": 3.36
+    },
+    {
+        "text": "actually kicking off training is as simple as start training job.",
+        "start": 790.83,
+        "duration": 3.84
+    },
+    {
+        "text": ">> Before you keep going,",
+        "start": 794.67,
+        "duration": 1.785
+    },
+    {
+        "text": "I thought I'd ask a couple of questions.",
+        "start": 796.455,
+        "duration": 1.815
+    },
+    {
+        "text": "If you see me look at side, I'm looking at the screen here.",
+        "start": 798.27,
+        "duration": 2.55
+    },
+    {
+        "text": "There was a couple of different model options.",
+        "start": 800.82,
+        "duration": 3.465
+    },
+    {
+        "text": "Is it written down anywhere when you should use which?",
+        "start": 804.285,
+        "duration": 3.48
+    },
+    {
+        "text": ">> It's written down in our docs.",
+        "start": 807.765,
+        "duration": 2.01
+    },
+    {
+        "text": "The rule of thumb is Babbage and Davinci, our completion models.",
+        "start": 809.775,
+        "duration": 6.0
+    },
+    {
+        "text": "Given a phrase, what's the next phrase,",
+        "start": 815.775,
+        "duration": 3.12
+    },
+    {
+        "text": "what's the next Word?",
+        "start": 818.895,
+        "duration": 1.47
+    },
+    {
+        "text": "Turbo is a chat model,",
+        "start": 820.365,
+        "duration": 1.665
+    },
+    {
+        "text": "so it's a conversational interaction.",
+        "start": 822.03,
+        "duration": 2.4
+    },
+    {
+        "text": "I could say, hey,",
+        "start": 824.43,
+        "duration": 2.925
+    },
+    {
+        "text": "what did you think of the demo?",
+        "start": 827.355,
+        "duration": 1.545
+    },
+    {
+        "text": "It would respond with an answer",
+        "start": 828.9,
+        "duration": 2.28
+    },
+    {
+        "text": "instead of the next most likely Word.",
+        "start": 831.18,
+        "duration": 2.76
+    },
+    {
+        "text": "I see. It's the use case that makes a difference.",
+        "start": 833.94,
+        "duration": 4.35
+    },
+    {
+        "text": "But what about the size?",
+        "start": 838.29,
+        "duration": 1.395
+    },
+    {
+        "text": "Are the sizes equivalent?",
+        "start": 839.685,
+        "duration": 1.53
+    },
+    {
+        "text": "I know we don't know much about some of the models,",
+        "start": 841.215,
+        "duration": 2.355
+    },
+    {
+        "text": "but are the sizes the same?",
+        "start": 843.57,
+        "duration": 1.575
+    },
+    {
+        "text": "Does that really change what do you decide to do?",
+        "start": 845.145,
+        "duration": 3.225
+    },
+    {
+        "text": ">> Babbage and Davinci are GPT three base models.",
+        "start": 848.37,
+        "duration": 3.615
+    },
+    {
+        "text": "If folks have fine-tuned with us before,",
+        "start": 851.985,
+        "duration": 2.325
+    },
+    {
+        "text": "we used to offer Ata, Babbage,",
+        "start": 854.31,
+        "duration": 3.075
+    },
+    {
+        "text": "Curie and Davinci one as fine tunable model.",
+        "start": 857.385,
+        "duration": 3.615
+    },
+    {
+        "text": "Simple GPT-3 base completion models.",
+        "start": 861.0,
+        "duration": 2.925
+    },
+    {
+        "text": "Now we offer Babbage-002 Davinci-002,",
+        "start": 863.925,
+        "duration": 4.125
+    },
+    {
+        "text": "next generation of the same models.",
+        "start": 868.05,
+        "duration": 2.22
+    },
+    {
+        "text": "They are smaller, we don't say exactly how big they are,",
+        "start": 870.27,
+        "duration": 2.34
+    },
+    {
+        "text": "but they are smaller models relative to Turbo.",
+        "start": 872.61,
+        "duration": 3.18
+    },
+    {
+        "text": ">> The next question I have is regarding the data.",
+        "start": 875.79,
+        "duration": 4.035
+    },
+    {
+        "text": "What does the data look like?",
+        "start": 879.825,
+        "duration": 2.34
+    },
+    {
+        "text": ">> This is where I said I was going to explain what",
+        "start": 882.165,
+        "duration": 1.605
+    },
+    {
+        "text": "I'm actually doing with fine-tuning.",
+        "start": 883.77,
+        "duration": 2.115
+    },
+    {
+        "text": "For this example, what I'm doing is we",
+        "start": 885.885,
+        "duration": 2.445
+    },
+    {
+        "text": "talked about I want to teach the model a new skill.",
+        "start": 888.33,
+        "duration": 2.835
+    },
+    {
+        "text": "The skill I want to teach my model,",
+        "start": 891.165,
+        "duration": 2.055
+    },
+    {
+        "text": "and we can argue if this is a skill or not,",
+        "start": 893.22,
+        "duration": 2.4
+    },
+    {
+        "text": "is to only respond to my input with",
+        "start": 895.62,
+        "duration": 4.245
+    },
+    {
+        "text": "an appropriate emoji formatted as it would be formatted in teams.",
+        "start": 899.865,
+        "duration": 4.755
+    },
+    {
+        "text": "If we take a look at this,",
+        "start": 904.62,
+        "duration": 1.75
+    },
+    {
+        "text": "you've got an example data set for a Turbo model.",
+        "start": 906.37,
+        "duration": 5.36
+    },
+    {
+        "text": "This is chat formatted.",
+        "start": 911.73,
+        "duration": 1.54
+    },
+    {
+        "text": "What you have is you have the in the system message.",
+        "start": 913.27,
+        "duration": 5.075
+    },
+    {
+        "text": "You're a chatbot, you only respond with emojis.",
+        "start": 918.345,
+        "duration": 2.525
+    },
+    {
+        "text": "Then I have my input message,",
+        "start": 920.87,
+        "duration": 3.36
+    },
+    {
+        "text": "I just passed my driving test.",
+        "start": 924.23,
+        "duration": 2.42
+    },
+    {
+        "text": "Then what I would consider the appropriate emoji response,",
+        "start": 926.65,
+        "duration": 4.04
+    },
+    {
+        "text": "in this case it's pretty and it's formatted in",
+        "start": 930.69,
+        "duration": 2.64
+    },
+    {
+        "text": "the parentheses emoji name because",
+        "start": 933.33,
+        "duration": 2.58
+    },
+    {
+        "text": "that's how Microsoft recognizes",
+        "start": 935.91,
+        "duration": 2.42
+    },
+    {
+        "text": "emojis and teams and that's how I generated my dataset.",
+        "start": 938.33,
+        "duration": 3.34
+    },
+    {
+        "text": "For this what you can see,",
+        "start": 941.67,
+        "duration": 1.62
+    },
+    {
+        "text": "I think this file might have 600 examples,",
+        "start": 943.29,
+        "duration": 4.28
+    },
+    {
+        "text": "but they're all formatted as prompt in response.",
+        "start": 947.57,
+        "duration": 5.23
+    },
+    {
+        "text": ">> I see. It's actually in the same format that you would,",
+        "start": 952.8,
+        "duration": 6.265
+    },
+    {
+        "text": "it's the same thing you would post to the service effectively.",
+        "start": 959.065,
+        "duration": 3.49
+    },
+    {
+        "text": ">> Exactly. It's exactly the same.",
+        "start": 962.555,
+        "duration": 2.44
+    },
+    {
+        "text": "Then so if you look at like the same file",
+        "start": 964.995,
+        "duration": 2.655
+    },
+    {
+        "text": "formatted for a model like Babbage or Davinci,",
+        "start": 967.65,
+        "duration": 3.195
+    },
+    {
+        "text": "this probably looks familiar to you in",
+        "start": 970.845,
+        "duration": 1.945
+    },
+    {
+        "text": "terms of prompt completion format.",
+        "start": 972.79,
+        "duration": 2.16
+    },
+    {
+        "text": "You have prompt and then you complete it with",
+        "start": 974.95,
+        "duration": 3.24
+    },
+    {
+        "text": "this emoji and you do need a stop character.",
+        "start": 978.19,
+        "duration": 4.315
+    },
+    {
+        "text": ">> That's amazing. It's actually simpler than I had envisioned,",
+        "start": 982.505,
+        "duration": 5.76
+    },
+    {
+        "text": "but people keep telling me that this stuff is harder than it is.",
+        "start": 988.265,
+        "duration": 6.955
+    },
+    {
+        "text": "But this is really simple.",
+        "start": 995.22,
+        "duration": 1.695
+    },
+    {
+        "text": "Why is it hard to do this if it's this easy to set up?",
+        "start": 996.915,
+        "duration": 4.47
+    },
+    {
+        "text": ">> It's deceptively easy to set up.",
+        "start": 1001.385,
+        "duration": 2.76
+    },
+    {
+        "text": "Where it gets hard is if you mess up your data,",
+        "start": 1004.145,
+        "duration": 3.625
+    },
+    {
+        "text": "you will still get a fine-tuned model,",
+        "start": 1007.77,
+        "duration": 2.585
+    },
+    {
+        "text": "it'll just be terrible.",
+        "start": 1010.355,
+        "duration": 1.365
+    },
+    {
+        "text": "When we go back to the cooking show and",
+        "start": 1011.72,
+        "duration": 2.01
+    },
+    {
+        "text": "we look at the models that have been fine-tuned,",
+        "start": 1013.73,
+        "duration": 2.22
+    },
+    {
+        "text": "I have an example where I took",
+        "start": 1015.95,
+        "duration": 2.08
+    },
+    {
+        "text": "my fine-tuning training set right",
+        "start": 1018.03,
+        "duration": 1.96
+    },
+    {
+        "text": "where we have the appropriate response.",
+        "start": 1019.99,
+        "duration": 2.44
+    },
+    {
+        "text": "I passed my driving test and I",
+        "start": 1022.43,
+        "duration": 2.68
+    },
+    {
+        "text": "basically knocked the responses off by one,",
+        "start": 1025.11,
+        "duration": 3.02
+    },
+    {
+        "text": "so the response no longer make a ton of sense,",
+        "start": 1028.13,
+        "duration": 3.915
+    },
+    {
+        "text": "so we have I passed my driving test,",
+        "start": 1032.045,
+        "duration": 2.415
+    },
+    {
+        "text": "and what is the response?",
+        "start": 1034.46,
+        "duration": 2.26
+    },
+    {
+        "text": ">> We can still fine tune a model with this.",
+        "start": 1039.25,
+        "duration": 3.055
+    },
+    {
+        "text": "We'll still get an output,",
+        "start": 1042.305,
+        "duration": 1.59
+    },
+    {
+        "text": "but you'll see bad data in equals bad fine tuned model.",
+        "start": 1043.895,
+        "duration": 5.175
+    },
+    {
+        "text": ">> I see.",
+        "start": 1049.07,
+        "duration": 0.885
+    },
+    {
+        "text": ">> It's not like the act of fine tuning itself is hard,",
+        "start": 1049.955,
+        "duration": 3.48
+    },
+    {
+        "text": "what's hard is getting the right data to",
+        "start": 1053.435,
+        "duration": 2.385
+    },
+    {
+        "text": "make the model better and not worse.",
+        "start": 1055.82,
+        "duration": 2.88
+    },
+    {
+        "text": ">> Awesome. Can we go to the baking show?",
+        "start": 1058.7,
+        "duration": 1.62
+    },
+    {
+        "text": "Because obviously when you're getting to",
+        "start": 1060.32,
+        "duration": 1.92
+    },
+    {
+        "text": "this other part and you're going to bring up your screen.",
+        "start": 1062.24,
+        "duration": 3.585
+    },
+    {
+        "text": "Another question I have is how long does this take?",
+        "start": 1065.825,
+        "duration": 2.34
+    },
+    {
+        "text": "Because my sense is that it would be a pretty boring show if",
+        "start": 1068.165,
+        "duration": 2.475
+    },
+    {
+        "text": "we said start fine tuning and",
+        "start": 1070.64,
+        "duration": 1.74
+    },
+    {
+        "text": "we all just put like elevator music on.",
+        "start": 1072.38,
+        "duration": 2.01
+    },
+    {
+        "text": ">> We're not going to sit here and watch it. We can see.",
+        "start": 1074.39,
+        "duration": 3.66
+    },
+    {
+        "text": "What we see here is this is",
+        "start": 1078.05,
+        "duration": 2.85
+    },
+    {
+        "text": "the job I kicked off before it's pending.",
+        "start": 1080.9,
+        "duration": 2.85
+    },
+    {
+        "text": "We can check on it and see what it's doing.",
+        "start": 1083.75,
+        "duration": 2.55
+    },
+    {
+        "text": "Training started, but it's probably going to be an hour,",
+        "start": 1086.3,
+        "duration": 4.14
+    },
+    {
+        "text": "an hour and a half until that one finishes.",
+        "start": 1090.44,
+        "duration": 2.04
+    },
+    {
+        "text": "That will be really boring.",
+        "start": 1092.48,
+        "duration": 1.71
+    },
+    {
+        "text": "We can take a look at one that I did earlier.",
+        "start": 1094.19,
+        "duration": 3.225
+    },
+    {
+        "text": "When your job is finished, you'll see succeeded.",
+        "start": 1097.415,
+        "duration": 3.18
+    },
+    {
+        "text": "We can click on it and you'll get",
+        "start": 1100.595,
+        "duration": 2.595
+    },
+    {
+        "text": "some metrics about how did fine tuning go.",
+        "start": 1103.19,
+        "duration": 3.48
+    },
+    {
+        "text": "We can see over time,",
+        "start": 1106.67,
+        "duration": 2.16
+    },
+    {
+        "text": "training loss went down.",
+        "start": 1108.83,
+        "duration": 1.77
+    },
+    {
+        "text": "I can see training token accuracy.",
+        "start": 1110.6,
+        "duration": 3.06
+    },
+    {
+        "text": "This one takes a wild plot,",
+        "start": 1113.66,
+        "duration": 1.53
+    },
+    {
+        "text": "sometimes switch to loss,",
+        "start": 1115.19,
+        "duration": 2.685
+    },
+    {
+        "text": "you can get some basic statistics about how did it go.",
+        "start": 1117.875,
+        "duration": 3.525
+    },
+    {
+        "text": "Then I can see, this took one and a quarter hours to train.",
+        "start": 1121.4,
+        "duration": 4.635
+    },
+    {
+        "text": "This is the example dataset we were just looking at.",
+        "start": 1126.035,
+        "duration": 3.105
+    },
+    {
+        "text": "I can see all the different steps,",
+        "start": 1129.14,
+        "duration": 3.36
+    },
+    {
+        "text": "it had to retry a couple times,",
+        "start": 1132.5,
+        "duration": 2.19
+    },
+    {
+        "text": "but then it finished and then my model was available.",
+        "start": 1134.69,
+        "duration": 3.075
+    },
+    {
+        "text": "If I want to go check out my model,",
+        "start": 1137.765,
+        "duration": 2.505
+    },
+    {
+        "text": "I just go over to deployments.",
+        "start": 1140.27,
+        "duration": 2.94
+    },
+    {
+        "text": "You can see these are all the models that I have fine tuned,",
+        "start": 1143.21,
+        "duration": 3.21
+    },
+    {
+        "text": "and some base models that I already deployed.",
+        "start": 1146.42,
+        "duration": 2.415
+    },
+    {
+        "text": "I just click Create a New Deployment.",
+        "start": 1148.835,
+        "duration": 2.265
+    },
+    {
+        "text": "Creating a new deployment basically makes",
+        "start": 1151.1,
+        "duration": 1.95
+    },
+    {
+        "text": "that model available to inference against.",
+        "start": 1153.05,
+        "duration": 2.58
+    },
+    {
+        "text": ">> I see.",
+        "start": 1155.63,
+        "duration": 0.99
+    },
+    {
+        "text": ">> I choose a model and I've got",
+        "start": 1156.62,
+        "duration": 2.28
+    },
+    {
+        "text": "my base models at the top and then at the bottom,",
+        "start": 1158.9,
+        "duration": 3.285
+    },
+    {
+        "text": "all the fine tuned models I've already set up show up.",
+        "start": 1162.185,
+        "duration": 3.675
+    },
+    {
+        "text": "I'm going to choose one that I don't already have deployed.",
+        "start": 1165.86,
+        "duration": 3.94
+    },
+    {
+        "text": "Then I can call it demo deployment.",
+        "start": 1169.89,
+        "duration": 4.27
+    },
+    {
+        "text": "What'll happen is, assuming I haven't run out of quota,",
+        "start": 1174.16,
+        "duration": 4.32
+    },
+    {
+        "text": "you'll see it under",
+        "start": 1178.48,
+        "duration": 1.98
+    },
+    {
+        "text": "the deployment list and eventually it'll deploy.",
+        "start": 1180.46,
+        "duration": 2.64
+    },
+    {
+        "text": "This usually takes about 5-10 minutes",
+        "start": 1183.1,
+        "duration": 2.86
+    },
+    {
+        "text": "to be deployed and then once it's deployed,",
+        "start": 1185.96,
+        "duration": 2.25
+    },
+    {
+        "text": "we can go interact with that model and see how it responds.",
+        "start": 1188.21,
+        "duration": 4.395
+    },
+    {
+        "text": ">> You can interact with a model in",
+        "start": 1192.605,
+        "duration": 1.845
+    },
+    {
+        "text": "the playground just like you would any other model.",
+        "start": 1194.45,
+        "duration": 2.565
+    },
+    {
+        "text": ">> Just like you would with the base model.",
+        "start": 1197.015,
+        "duration": 2.49
+    },
+    {
+        "text": ">> That's awesome. In my mind,",
+        "start": 1199.505,
+        "duration": 2.85
+    },
+    {
+        "text": "if I want to distill down the process,",
+        "start": 1202.355,
+        "duration": 2.61
+    },
+    {
+        "text": "the first thing is and I know I want to see you play with it too.",
+        "start": 1204.965,
+        "duration": 3.48
+    },
+    {
+        "text": "The first thing is you've got to gather some data.",
+        "start": 1208.445,
+        "duration": 2.025
+    },
+    {
+        "text": "It's got to be appropriately shaped for the type of model,",
+        "start": 1210.47,
+        "duration": 3.39
+    },
+    {
+        "text": "whether completion or chat.",
+        "start": 1213.86,
+        "duration": 1.425
+    },
+    {
+        "text": "Once you start to fine tuning job,",
+        "start": 1215.285,
+        "duration": 1.995
+    },
+    {
+        "text": "you've got to wait for an hour or wherever,",
+        "start": 1217.28,
+        "duration": 1.53
+    },
+    {
+        "text": "however long your dataset is.",
+        "start": 1218.81,
+        "duration": 1.485
+    },
+    {
+        "text": "You've got to look at metrics,",
+        "start": 1220.295,
+        "duration": 1.185
+    },
+    {
+        "text": "make sure it's done the right thing.",
+        "start": 1221.48,
+        "duration": 1.14
+    },
+    {
+        "text": "Because if it's diverging on the loss, then we have a problem.",
+        "start": 1222.62,
+        "duration": 2.55
+    },
+    {
+        "text": "You don't want to use that model and then you have to deploy",
+        "start": 1225.17,
+        "duration": 2.55
+    },
+    {
+        "text": "that model as a last step. Did I get that right?",
+        "start": 1227.72,
+        "duration": 2.955
+    },
+    {
+        "text": ">> Yeah. Then maybe one step after now you've deployed your model.",
+        "start": 1230.675,
+        "duration": 4.185
+    },
+    {
+        "text": "Now let's talk to the model and see if it's better or worse.",
+        "start": 1234.86,
+        "duration": 5.025
+    },
+    {
+        "text": ">> Let's do it.",
+        "start": 1239.885,
+        "duration": 1.485
+    },
+    {
+        "text": ">> This is a deployment I set up earlier.",
+        "start": 1241.37,
+        "duration": 3.0
+    },
+    {
+        "text": "If any of you have used AI Studio before,",
+        "start": 1244.37,
+        "duration": 3.735
+    },
+    {
+        "text": "this is what it looks like.",
+        "start": 1248.105,
+        "duration": 1.305
+    },
+    {
+        "text": "I've got my assistant set up on the side,",
+        "start": 1249.41,
+        "duration": 2.34
+    },
+    {
+        "text": "I've got my chat session and I've got",
+        "start": 1251.75,
+        "duration": 2.49
+    },
+    {
+        "text": "my configuration where I can toggle between different base models.",
+        "start": 1254.24,
+        "duration": 3.825
+    },
+    {
+        "text": "What I have here is I have turbo,",
+        "start": 1258.065,
+        "duration": 2.445
+    },
+    {
+        "text": "which is just the off the shelf fine tuned model.",
+        "start": 1260.51,
+        "duration": 3.42
+    },
+    {
+        "text": "I have my fine tuned emoji chat bot model,",
+        "start": 1263.93,
+        "duration": 2.715
+    },
+    {
+        "text": "which we have fine tuned to respond with an appropriate emoji.",
+        "start": 1266.645,
+        "duration": 4.035
+    },
+    {
+        "text": "Then we have our bad emoji part,",
+        "start": 1270.68,
+        "duration": 1.71
+    },
+    {
+        "text": "where we've chosen a dubious data set to find.",
+        "start": 1272.39,
+        "duration": 3.27
+    },
+    {
+        "text": "Let's start with turbo.",
+        "start": 1275.66,
+        "duration": 2.475
+    },
+    {
+        "text": "This is the system message that was in the fine tuning dataset.",
+        "start": 1278.135,
+        "duration": 4.335
+    },
+    {
+        "text": "You're a chat bot, you only respond with emojis.",
+        "start": 1282.47,
+        "duration": 2.745
+    },
+    {
+        "text": "This is what it does with no guidance whatsoever.",
+        "start": 1285.215,
+        "duration": 6.12
+    },
+    {
+        "text": "You can see this is not the format I want,",
+        "start": 1291.335,
+        "duration": 3.0
+    },
+    {
+        "text": "but it does respond to emoji.",
+        "start": 1294.335,
+        "duration": 2.7
+    },
+    {
+        "text": "How do you feel about fine tuning?",
+        "start": 1297.035,
+        "duration": 5.635
+    },
+    {
+        "text": "I don't know what that means, but",
+        "start": 1303.79,
+        "duration": 2.605
+    },
+    {
+        "text": "this is how turbo feels about it.",
+        "start": 1306.395,
+        "duration": 1.59
+    },
+    {
+        "text": "This is the base model.",
+        "start": 1307.985,
+        "duration": 1.485
+    },
+    {
+        "text": "Now what we're going to do is we're going to switch to",
+        "start": 1309.47,
+        "duration": 2.52
+    },
+    {
+        "text": "the fine tuned model with the dataset that we just looked at.",
+        "start": 1311.99,
+        "duration": 3.165
+    },
+    {
+        "text": "This is emoji chat bot.",
+        "start": 1315.155,
+        "duration": 2.215
+    },
+    {
+        "text": "I'm going to cut the number of messages in the past that are",
+        "start": 1317.37,
+        "duration": 3.13
+    },
+    {
+        "text": "included and we have the same system messages before.",
+        "start": 1320.5,
+        "duration": 3.855
+    },
+    {
+        "text": "That's important if you don't have",
+        "start": 1324.355,
+        "duration": 1.635
+    },
+    {
+        "text": "the system message used in fine tuning,",
+        "start": 1325.99,
+        "duration": 2.405
+    },
+    {
+        "text": "you won't get your expected response.",
+        "start": 1328.395,
+        "duration": 2.645
+    },
+    {
+        "text": "But now let's all cross our fingers because this is",
+        "start": 1331.04,
+        "duration": 2.91
+    },
+    {
+        "text": "live and see how it responds.",
+        "start": 1333.95,
+        "duration": 3.085
+    },
+    {
+        "text": "Well, it is red.",
+        "start": 1337.035,
+        "duration": 1.84
+    },
+    {
+        "text": "In my appropriately formatted, formatted message.",
+        "start": 1338.875,
+        "duration": 3.765
+    },
+    {
+        "text": "I've changed the behavior of the model.",
+        "start": 1342.64,
+        "duration": 2.205
+    },
+    {
+        "text": "It now knows to respond in a different way and it is",
+        "start": 1344.845,
+        "duration": 3.285
+    },
+    {
+        "text": "responding mostly appropriately. Let's try.",
+        "start": 1348.13,
+        "duration": 3.805
+    },
+    {
+        "text": "How do you feel about fine tuning?",
+        "start": 1351.935,
+        "duration": 5.755
+    },
+    {
+        "text": "It feels a little bit about it.",
+        "start": 1363.52,
+        "duration": 2.335
+    },
+    {
+        "text": "Fine. It is responding in the right format,",
+        "start": 1365.855,
+        "duration": 4.95
+    },
+    {
+        "text": "but these could be better responses.",
+        "start": 1370.805,
+        "duration": 3.795
+    },
+    {
+        "text": "Let's try the bad emoji bot.",
+        "start": 1374.6,
+        "duration": 3.21
+    },
+    {
+        "text": "This one has been trained with garble data.",
+        "start": 1377.81,
+        "duration": 2.82
+    },
+    {
+        "text": "We could say, this generally makes sense.",
+        "start": 1380.63,
+        "duration": 2.865
+    },
+    {
+        "text": "If I say hello it says wave, cool.",
+        "start": 1383.495,
+        "duration": 3.42
+    },
+    {
+        "text": "Let's go to bad emoji bot.",
+        "start": 1386.915,
+        "duration": 2.635
+    },
+    {
+        "text": "Lets see, hello again. Thank you.",
+        "start": 1391.06,
+        "duration": 7.85
+    },
+    {
+        "text": ">> Oh man, that's awesome.",
+        "start": 1399.94,
+        "duration": 3.67
+    },
+    {
+        "text": ">> This is like the data looked fine,",
+        "start": 1403.61,
+        "duration": 3.21
+    },
+    {
+        "text": "but now it's pretty garbled.",
+        "start": 1406.82,
+        "duration": 2.82
+    },
+    {
+        "text": "Are you okay?",
+        "start": 1409.64,
+        "duration": 2.565
+    },
+    {
+        "text": "This is not a good model.",
+        "start": 1412.205,
+        "duration": 2.31
+    },
+    {
+        "text": "What might that mean?",
+        "start": 1414.515,
+        "duration": 2.535
+    },
+    {
+        "text": "We garbled our dataset.",
+        "start": 1417.05,
+        "duration": 1.755
+    },
+    {
+        "text": "We've made the model worse.",
+        "start": 1418.805,
+        "duration": 2.25
+    },
+    {
+        "text": "It's pretty easy to accidentally make your model worse.",
+        "start": 1421.055,
+        "duration": 3.45
+    },
+    {
+        "text": ">> I see, it may even be a situation and now I",
+        "start": 1424.505,
+        "duration": 3.285
+    },
+    {
+        "text": "understand why the last step is to actually try it out it.",
+        "start": 1427.79,
+        "duration": 4.63
+    },
+    {
+        "text": "If you don't do the last step, which is test it,",
+        "start": 1433.69,
+        "duration": 3.205
+    },
+    {
+        "text": "that your loss will look good,",
+        "start": 1436.895,
+        "duration": 1.845
+    },
+    {
+        "text": "your validation loss will look good.",
+        "start": 1438.74,
+        "duration": 1.47
+    },
+    {
+        "text": "But it's still not the right thing.",
+        "start": 1440.21,
+        "duration": 1.665
+    },
+    {
+        "text": ">> I think we can probably actually go in and look",
+        "start": 1441.875,
+        "duration": 2.775
+    },
+    {
+        "text": "at evaluation on this model.",
+        "start": 1444.65,
+        "duration": 2.4
+    },
+    {
+        "text": ">> Let's do it.",
+        "start": 1447.05,
+        "duration": 0.945
+    },
+    {
+        "text": ">> Let's see. The only problem is it's little.",
+        "start": 1447.995,
+        "duration": 3.825
+    },
+    {
+        "text": "Here's bad emoji bot, this looks fine.",
+        "start": 1451.82,
+        "duration": 5.11
+    },
+    {
+        "text": "Nothing that makes me say like,",
+        "start": 1457.45,
+        "duration": 3.055
+    },
+    {
+        "text": "something has gone horribly wrong here. This looks fine.",
+        "start": 1460.505,
+        "duration": 4.485
+    },
+    {
+        "text": "It's only when you go to talk to the model and it just says Pop,",
+        "start": 1464.99,
+        "duration": 4.71
+    },
+    {
+        "text": "that you're like something has gone wrong.",
+        "start": 1469.7,
+        "duration": 3.645
+    },
+    {
+        "text": ">> Well, this is awesome.",
+        "start": 1473.345,
+        "duration": 2.01
+    },
+    {
+        "text": "Alicia, we're almost out of time.",
+        "start": 1475.355,
+        "duration": 2.385
+    },
+    {
+        "text": "Where can people go to find out more?",
+        "start": 1477.74,
+        "duration": 2.805
+    },
+    {
+        "text": ">> I think I shared some links ahead of time.",
+        "start": 1480.545,
+        "duration": 2.865
+    },
+    {
+        "text": "Let me start sharing my screen.",
+        "start": 1483.41,
+        "duration": 1.86
+    },
+    {
+        "text": "The easiest place to go is in our docs,",
+        "start": 1485.27,
+        "duration": 2.88
+    },
+    {
+        "text": "we have a tutorial and a how to guide that show you how to get",
+        "start": 1488.15,
+        "duration": 3.24
+    },
+    {
+        "text": "started with some nice easy to follow examples.",
+        "start": 1491.39,
+        "duration": 4.155
+    },
+    {
+        "text": "They are toy examples.",
+        "start": 1495.545,
+        "duration": 1.755
+    },
+    {
+        "text": "Ten examples.",
+        "start": 1497.3,
+        "duration": 1.8
+    },
+    {
+        "text": "It shows you the process and we've got a blog outlining it.",
+        "start": 1499.1,
+        "duration": 6.495
+    },
+    {
+        "text": "Really just get your hands dirty and find out how it works.",
+        "start": 1505.595,
+        "duration": 3.555
+    },
+    {
+        "text": ">> That's amazing. I put the links below.",
+        "start": 1509.15,
+        "duration": 1.95
+    },
+    {
+        "text": "I short link them for us.",
+        "start": 1511.1,
+        "duration": 1.86
+    },
+    {
+        "text": "The tutorial you can find here.",
+        "start": 1512.96,
+        "duration": 2.07
+    },
+    {
+        "text": "Make sure you go take a look at that and then",
+        "start": 1515.03,
+        "duration": 1.68
+    },
+    {
+        "text": "the blog is here also.",
+        "start": 1516.71,
+        "duration": 1.95
+    },
+    {
+        "text": "If you're interested in the Azure Opening Eye Service,",
+        "start": 1518.66,
+        "duration": 2.385
+    },
+    {
+        "text": "you can go take a look at that right here.",
+        "start": 1521.045,
+        "duration": 2.595
+    },
+    {
+        "text": "Then finally, if you want to sign up,",
+        "start": 1523.64,
+        "duration": 1.5
+    },
+    {
+        "text": "you can do that here.",
+        "start": 1525.14,
+        "duration": 1.455
+    },
+    {
+        "text": "Well, anything else that you want to add to finish up?",
+        "start": 1526.595,
+        "duration": 2.82
+    },
+    {
+        "text": ">> The one thing that I didn't show,",
+        "start": 1529.415,
+        "duration": 1.875
+    },
+    {
+        "text": "but I do have a demo of,",
+        "start": 1531.29,
+        "duration": 1.275
+    },
+    {
+        "text": "is you can also fine tune",
+        "start": 1532.565,
+        "duration": 1.635
+    },
+    {
+        "text": "a smaller model to have the same behavior as the bigger model.",
+        "start": 1534.2,
+        "duration": 5.07
+    },
+    {
+        "text": "The demo I showed was using turbo.",
+        "start": 1539.27,
+        "duration": 2.925
+    },
+    {
+        "text": "It's an expensive model to fine tune.",
+        "start": 1542.195,
+        "duration": 2.31
+    },
+    {
+        "text": "Expensive to deploy, comparatively expensive for inference.",
+        "start": 1544.505,
+        "duration": 4.2
+    },
+    {
+        "text": "With a sufficient dataset,",
+        "start": 1548.705,
+        "duration": 2.265
+    },
+    {
+        "text": "I can actually fine tune babbage",
+        "start": 1550.97,
+        "duration": 1.77
+    },
+    {
+        "text": "your Davinci to have that same behavior of just do",
+        "start": 1552.74,
+        "duration": 3.21
+    },
+    {
+        "text": "one thing really well and all it will respond with",
+        "start": 1555.95,
+        "duration": 2.655
+    },
+    {
+        "text": "is your completion emoji.",
+        "start": 1558.605,
+        "duration": 3.375
+    },
+    {
+        "text": "But it's that idea of if you take a less sophisticated model,",
+        "start": 1561.98,
+        "duration": 4.86
+    },
+    {
+        "text": "but it only does one thing",
+        "start": 1566.84,
+        "duration": 1.695
+    },
+    {
+        "text": "totally feasible and a great use case for fine tuning.",
+        "start": 1568.535,
+        "duration": 3.12
+    },
+    {
+        "text": ">> Well, that's awesome. Hopefully that",
+        "start": 1571.655,
+        "duration": 2.205
+    },
+    {
+        "text": "is in the blog that people can take a look at?",
+        "start": 1573.86,
+        "duration": 2.7
+    },
+    {
+        "text": ">> It's not, but I should write a separate blog about it.",
+        "start": 1576.56,
+        "duration": 2.91
+    },
+    {
+        "text": ">> We'll make sure to point that and if not,",
+        "start": 1579.47,
+        "duration": 1.35
+    },
+    {
+        "text": "we can have you back on and we can take a look at that",
+        "start": 1580.82,
+        "duration": 1.74
+    },
+    {
+        "text": "in more detail because this is awesome.",
+        "start": 1582.56,
+        "duration": 1.95
+    },
+    {
+        "text": "Thank you so much for spending some time with us Alicia.",
+        "start": 1584.51,
+        "duration": 2.28
+    },
+    {
+        "text": ">> Thank you for having me.",
+        "start": 1586.79,
+        "duration": 1.44
+    },
+    {
+        "text": ">> Awesome. Thank you so much for watching my friends going",
+        "start": 1588.23,
+        "duration": 2.475
+    },
+    {
+        "text": "all about fine tuning to fine tune or not to fine tune.",
+        "start": 1590.705,
+        "duration": 2.61
+    },
+    {
+        "text": "That is the question here on the AIO show.",
+        "start": 1593.315,
+        "duration": 2.31
+    },
+    {
+        "text": "Thank you so much for watching and",
+        "start": 1595.625,
+        "duration": 1.125
+    },
+    {
+        "text": "hopefully we'll see you next time. Take care.",
+        "start": 1596.75,
+        "duration": 1.53
+    },
+    {
+        "text": "[MUSIC].",
+        "start": 1598.28,
+        "duration": 10.69
+    }
+]
